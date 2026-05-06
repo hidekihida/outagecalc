@@ -4,10 +4,9 @@
 <div class="layout-topbar" style="min-width: 1500px">
   <span class="px-2">{{ lastestVersion }}</span>
   <button pButton class="p-button-text p-button-info" (click)="showUpdateDialog()">
-    <i *ngIf="showUnreadVersion > 0" class="pi pi-bell text-xl" severity="danger" pBadge value="{{ showUnreadVersion }}"></i>
-    <i *ngIf="showUnreadVersion === 0" class="pi pi-bell text-xl" severity="danger"></i>
+    <i *ngIf="showUnreadVersion > 0" class="pi pi-info-circle text-xl" severity="danger" pBadge value="{{ showUnreadVersion }}"></i>
+    <i *ngIf="showUnreadVersion === 0" class="pi pi-info-circle text-xl"></i>
   </button>
-  <button pButton class="pl-2 p-button-text p-button-info p-button-raised" (click)="showReferenceDialog()">Referências</button>
 
   <div class="router-link px-3" style="position: relative; top: -5px">
     <p-tabMenu [model]="items" [activeItem]="activeItem">
