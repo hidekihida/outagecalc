@@ -59,3 +59,7 @@ $gutter: 1rem; //for primeflex grid system
   background-color: black !important;
   color: white !important;
 }
+/* Remove padding do container para a calculadora ocupar tela cheia */
+.layout-main-container {
+  padding: 3.5rem 0 0 0 !important;
+}
