@@ -71,7 +71,7 @@
               <p-splitButton
                 styleClass="p-button-help"
                 icon="pi pi-download"
-                label="Carregar"
+                label="Importar"
                 (onClick)="loadPreset()"
                 [disabled]="!selectedPreset || isInProcessingPreset"
                 [model]="loadBtnItems"
@@ -131,7 +131,7 @@
               type="button"
               class="p-button-warning"
               pButton
-              label="Promover Classe"
+              label="Resetar"
               [disabled]="!canPromote || isInProcessingPreset"
               (click)="onJobPromotionClick()"
             ></button>
@@ -566,7 +566,7 @@
               scrollHeight="350px"
               [(ngModel)]="model.ammo"
               (onChange)="onSelectItem('ammo', $event.value)"
-              placeholder="Munição"
+              placeholder="Elemento"
               [disabled]="!model.weapon"
             >
               <ng-template let-item pTemplate="selectedItem">
@@ -688,7 +688,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headUpper'"
-          [placeholder]="'Superior'"
+          [placeholder]="'Topo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headUpperList"
@@ -715,7 +715,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headUpper'"
-          [placeholder]="'Superior'"
+          [placeholder]="'Topo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headUpperList"
@@ -743,7 +743,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headMiddle'"
-          [placeholder]="'Médio'"
+          [placeholder]="'Meio'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headMiddleList"
@@ -769,7 +769,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headMiddle'"
-          [placeholder]="'Médio'"
+          [placeholder]="'Meio'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headMiddleList"
@@ -796,7 +796,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headLower'"
-          [placeholder]="'Inferior'"
+          [placeholder]="'Baixo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headLowerList"
@@ -817,7 +817,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'headLower'"
-          [placeholder]="'Inferior'"
+          [placeholder]="'Baixo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="headLowerList"
@@ -895,7 +895,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'garment'"
-          [placeholder]="'Manto'"
+          [placeholder]="'Capa'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="garmentList"
@@ -922,7 +922,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'garment'"
-          [placeholder]="'Manto'"
+          [placeholder]="'Capa'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="garmentList"
@@ -950,7 +950,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'boot'"
-          [placeholder]="'Bota'"
+          [placeholder]="'Calçado'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="bootList"
@@ -999,7 +999,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'accRight'"
-          [placeholder]="'Acessório Dir.'"
+          [placeholder]="'Acessório Direito'"
           [overlayLabel]="'Right'"
           [items]="items"
           [mapEnchant]="mapEnchant"
@@ -1027,7 +1027,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'accRight'"
-          [placeholder]="'Acessório Dir.'"
+          [placeholder]="'Acessório Direito'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="accRightList"
@@ -1055,7 +1055,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'accLeft'"
-          [placeholder]="'Acessório Esq.'"
+          [placeholder]="'Acessório Esquerdo'"
           [overlayLabel]="'Left'"
           [items]="items"
           [mapEnchant]="mapEnchant"
@@ -1082,7 +1082,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'accLeft'"
-          [placeholder]="'Acessório Esq.'"
+          [placeholder]="'Acessório Esquerdo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="accLeftList"
@@ -1139,7 +1139,7 @@
             [(ngModel)]="model.pet"
             [showClear]="true"
             (onChange)="onSelectItem('pet', $event.value)"
-            placeholder="Mascote"
+            placeholder="Pet"
           >
             <ng-template let-item pTemplate="selectedItem">
               <div class="flex gap-1 item_template" *ngIf="model.pet">
@@ -1905,7 +1905,7 @@
         </div>
       </p-accordionTab>
 
-      <p-accordionTab header="Resumo de Bônus / Multiplicadores">
+      <p-accordionTab header="Bônus de Habilidades / Multiplicadores">
         <app-misc-detail
           [elementTable]="elementTable"
           [raceTable]="raceTable"
