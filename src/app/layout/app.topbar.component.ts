@@ -24,7 +24,7 @@ export class AppTopBarComponent implements OnInit, OnDestroy {
       },
     },
     {
-      label: 'Predefinições Compartilhadas',
+      label: 'Builds',
       icon: 'pi pi-fw pi-list',
       routerLink: ['/shared-presets'],
     },
