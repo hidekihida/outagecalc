@@ -2,16 +2,12 @@
 <p-confirmDialog [position]="'top'"></p-confirmDialog>
 
 <div class="layout-topbar" style="min-width: 1500px">
-  <!-- <a class="layout-topbar-logo" routerLink="">
-        <img src="assets/layout/images/{{layoutService.config.colorScheme === 'light' ? 'logo-dark' : 'logo-white'}}.svg" alt="logo">
-        <span>SAKAI</span>
-      </a> -->
   <span class="px-2">{{ lastestVersion }}</span>
   <button pButton class="p-button-text p-button-info" (click)="showUpdateDialog()">
     <i *ngIf="showUnreadVersion > 0" class="pi pi-bell text-xl" severity="danger" pBadge value="{{ showUnreadVersion }}"></i>
     <i *ngIf="showUnreadVersion === 0" class="pi pi-bell text-xl" severity="danger"></i>
   </button>
-  <button pButton class="pl-2 p-button-text p-button-info p-button-raised" (click)="showReferenceDialog()">References</button>
+  <button pButton class="pl-2 p-button-text p-button-info p-button-raised" (click)="showReferenceDialog()">Referências</button>
 
   <div class="router-link px-3" style="position: relative; top: -5px">
     <p-tabMenu [model]="items" [activeItem]="activeItem">
@@ -21,53 +17,13 @@
             <span [class]="item.icon"></span>
             <span> {{ item.label }}</span>
           </div>
-          <span *ngIf="item.isNew" class="p-tag p-tag-warning ml-2">NEW</span>
+          <span *ngIf="item.isNew" class="p-tag p-tag-warning ml-2">NOVO</span>
         </a>
       </ng-template>
     </p-tabMenu>
   </div>
-  <!-- <div class="grid router_link">
-    <div class="col-fixed">
-      <a routerLink="/" routerLinkActive="/">Calculator</a>
-    </div>
-    <div class="col-fixed router_active">
-      <a routerLink="/shared-presets" routerLinkActive="/shared-presets">Shared Presets</a>
-    </div>
-  </div> -->
-
-  <!-- <i (click)="showDialog()" class="pi pi-bell text-3xl" pBadge value="2"></i> -->
-
-  <!-- <button #menubutton class="p-link layout-menu-button layout-topbar-button" (click)="layoutService.onMenuToggle()">
-        <i class="pi pi-bars"></i>
-    </button> -->
-
-  <!-- <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button" (click)="layoutService.showProfileSidebar()">
-        <i class="pi pi-ellipsis-v"></i>
-    </button> -->
-  <!-- <span
-    >*** HP/SP ตรง/ไม่ตรงยังไงแจ้งที่ปุ่ม<span style="color: var(--red-300)">Report</span>ทีนะครับว่า
-    <span style="color: var(--red-300)">คลาส, เลเวล, จ็อบ, VIT, INT</span>เท่าไหร่ เช็คแล้วเหมือนตรงแค่คลาสหลักที่เวล
-    ไม่เกิน175</span
-  > -->
 
   <div #topbarmenu class="layout-topbar-menu" [ngClass]="{ 'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible }">
-    <!-- <button class="p-link layout-topbar-button">
-            <i class="pi pi-calendar"></i>
-            <span>Calendar</span>
-        </button>
-        <button class="p-link layout-topbar-button">
-            <i class="pi pi-user"></i>
-            <span>Profile</span>
-        </button>
-        <button class="p-link layout-topbar-button" [routerLink]="'/documentation'">
-            <i class="pi pi-cog"></i>
-            <span>Settings</span>
-        </button> -->
-
-    <a class="flex align-items-center gap-2 px-2 mx-2 my-1 youtube-link" target="_blank" href="{{ env.youtubeVideoUrl }}">
-      <i class="pi pi-youtube text-4xl text-red-500"></i>
-      <span class="text-xl text-white-alpha-90">วิธีใช้งาน</span>
-    </a>
     <a #survey [hidden]="true" href="{{ env.surveyUrl }}" target="_blank" rel="noreferrer noopener"> </a>
     <a #tracking [hidden]="true" href="{{ env.issueTrackingUrl }}" target="_blank" rel="noreferrer noopener"> </a>
     <div class="flex align-items-center">
@@ -76,7 +32,7 @@
         icon="pi pi-exclamation-triangle"
         pButton
         pRipple
-        label="Request / Report"
+        label="Reportar / Sugestão"
         (click)="survey.click()"
       ></button>
       <button
@@ -84,10 +40,10 @@
         icon="pi pi-exclamation-triangle"
         pButton
         pRipple
-        label="Issues Tracking"
+        label="Rastreamento de Problemas"
         (click)="tracking.click()"
       ></button>
-      <button class="font-bold p-button-primary p-button-rounded p-button-raised" icon="pi pi-heart" pButton pRipple label="Support" (click)="showDialog()"></button>
+      <button class="font-bold p-button-primary p-button-rounded p-button-raised" icon="pi pi-heart" pButton pRipple label="Apoiar" (click)="showDialog()"></button>
     </div>
     <div *ngIf="!!username" class="ml-3 flex align-items-center">
       <p-chip label="{{ username }}" icon="pi pi-google" class="chip-profile" styleClass="text-xl"></p-chip>
@@ -98,14 +54,15 @@
         <i class="pi pi-sign-out text-xl"></i>
       </button>
     </div>
-    <a *ngIf="!username" class="font-bold p-button-secondary" icon="pi pi-google" pButton pRipple label="Login" href="{{ env.roBackendUrl + '/auth/google' }}"></a>
+    <a *ngIf="!username" class="font-bold p-button-secondary" icon="pi pi-google" pButton pRipple label="Entrar" href="{{ env.roBackendUrl + '/auth/google' }}"></a>
   </div>
-  <p-dialog header="Support" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visible" [style]="{ 'min-width': '300px' }">
+
+  <p-dialog header="Apoiar" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visible" [style]="{ 'min-width': '300px' }">
     <div class="card flex flex-column align-items-center gap-2 flex-wrap">
       <div>
         <img src="assets/demo/images/others/qr.jpg" alt="QR" style="width: 300px" />
       </div>
-      <div class="font-bold" style="background-color: var(--surface-0); color: var(--green-400)">ขอบคุณครับบบบ</div>
+      <div class="font-bold" style="background-color: var(--surface-0); color: var(--green-400)">Obrigado!</div>
       <div>
         <a href="https://web.facebook.com/zfehu.oivgwhy" target="_blank" rel="noreferrer noopener">
           <p-chip label="Tong Aphisit" icon="pi pi-facebook"></p-chip>
@@ -114,14 +71,13 @@
     </div>
   </p-dialog>
 
-  <p-dialog header="ข้อมูลเพิ่มเติม" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visibleInfo" [style]="{ width: '50vw' }">
+  <p-dialog header="Informações Adicionais" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visibleInfo" [style]="{ width: '50vw' }">
     <div class="card flex flex-column align-items-center gap-2 flex-wrap">
       <ul>
         <li *ngFor="let info of infos">{{ info }}</li>
       </ul>
-
       <div>
-        แจ้งปัญหา IB
+        Reportar problema IB
         <a href="https://web.facebook.com/zfehu.oivgwhy" target="_blank" rel="noreferrer noopener">
           <p-chip label="Tong Aphisit" icon="pi pi-facebook"></p-chip>
         </a>
@@ -140,11 +96,7 @@
   >
     <ng-template pTemplate="header">
       <div class="flex">
-        <span class="text-xl mr-3 font-medium">CHANGELOG</span>
-        <a class="flex align-items-center gap-2 px-2 youtube-link" target="_blank" href="{{ env.youtubeVideoUrl }}">
-          <i class="pi pi-youtube text-4xl text-red-500"></i>
-          <span class="text-xl text-white-alpha-90">วิธีใช้งาน</span>
-        </a>
+        <span class="text-xl mr-3 font-medium">REGISTRO DE ALTERAÇÕES</span>
       </div>
     </ng-template>
 
@@ -171,10 +123,10 @@
     </div>
   </p-dialog>
 
-  <p-dialog header="References" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visibleReference" [style]="{ width: '50vw', height: '70vh' }">
+  <p-dialog header="Referências" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visibleReference" [style]="{ width: '50vw', height: '70vh' }">
     <ul>
       <li *ngFor="let reference of references">
-        <span class="">[ by {{ reference.writer }} ]</span>
+        <span class="">[ por {{ reference.writer }} ]</span>
         <span class="mx-2">{{ reference.label }}</span>
         <a href="{{ reference.link }}" target="_blank" rel="noreferrer noopener">Link</a>
       </li>
