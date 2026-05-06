@@ -7,7 +7,7 @@
           class="p-button-help"
           pButton
           icon="pi pi-download"
-          label="Load"
+          label="Carregar"
           [disabled]="!selectedCloudPreset"
           (click)="onLoadPresetClick()"
         ></button>
@@ -18,7 +18,7 @@
           class="p-button-danger"
           pButton
           icon="pi pi-trash"
-          label="Delete"
+          label="Excluir"
           [disabled]="!selectedCloudPreset"
           (click)="deletePreset()"
         ></button>
@@ -99,7 +99,7 @@
           class="p-button-help"
           pButton
           icon="pi pi-download"
-          label="Load"
+          label="Carregar"
           [disabled]="!selectedPreset"
           (click)="onLoadPresetClick()"
         ></button>
@@ -110,7 +110,7 @@
           class="p-button-danger"
           pButton
           icon="pi pi-trash"
-          label="Delete"
+          label="Excluir"
           [disabled]="!selectedPreset"
           (click)="deletePreset()"
         ></button>
@@ -170,7 +170,7 @@
             class="p-button-info"
             pButton
             icon="pi pi-send"
-            label="Share"
+            label="Compartilhar"
             [disabled]="!selectedCloudPreset || !sharedName.value || isSharedPreset"
             (click)="sharePreset(sharedName.value); sharedName.value = ''"
           ></button>
@@ -178,7 +178,7 @@
       </div>
       <div class="col-12 text-lg font-semibold" *ngIf="isSharedPreset">
         Shared name: <span class="text-primary-300"> {{ presetInfo?.publishName }} </span>
-        <button type="button" class="p-button-warning" pButton label="Cancel" (click)="unsharePreset()"></button>
+        <button type="button" class="p-button-warning" pButton label="Cancelar" (click)="unsharePreset()"></button>
       </div>
       <!-- <div class="col-12">
         <div class="grid p-fluid grid-nogutter" *ngIf="isSharedPreset">
