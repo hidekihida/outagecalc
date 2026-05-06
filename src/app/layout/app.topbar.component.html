@@ -27,34 +27,7 @@
     <a #survey [hidden]="true" href="{{ env.surveyUrl }}" target="_blank" rel="noreferrer noopener"> </a>
     <a #tracking [hidden]="true" href="{{ env.issueTrackingUrl }}" target="_blank" rel="noreferrer noopener"> </a>
     <div class="flex align-items-center">
-      <button
-        class="font-bold p-button-danger p-button-rounded p-button-raised"
-        icon="pi pi-exclamation-triangle"
-        pButton
-        pRipple
-        label="Reportar / Sugestão"
-        (click)="survey.click()"
-      ></button>
-      <button
-        class="font-bold p-button-info p-button-rounded p-button-raised"
-        icon="pi pi-exclamation-triangle"
-        pButton
-        pRipple
-        label="Rastreamento de Problemas"
-        (click)="tracking.click()"
-      ></button>
-      <button class="font-bold p-button-primary p-button-rounded p-button-raised" icon="pi pi-heart" pButton pRipple label="Apoiar" (click)="showDialog()"></button>
-    </div>
     <div *ngIf="!!username" class="ml-3 flex align-items-center">
-      <p-chip label="{{ username }}" icon="pi pi-google" class="chip-profile" styleClass="text-xl"></p-chip>
-      <button class="p-link layout-topbar-button mx-0 icon-user" (click)="showMyProfile()">
-        <i class="pi pi-user"></i>
-      </button>
-      <button pButton class="p-button-text p-button-danger" (click)="logout()">
-        <i class="pi pi-sign-out text-xl"></i>
-      </button>
-    </div>
-    <a *ngIf="!username" class="font-bold p-button-secondary" icon="pi pi-google" pButton pRipple label="Entrar" href="{{ env.roBackendUrl + '/auth/google' }}"></a>
   </div>
 
   <p-dialog header="Apoiar" [draggable]="false" [resizable]="false" [modal]="true" [(visible)]="visible" [style]="{ 'min-width': '300px' }">
