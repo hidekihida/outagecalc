@@ -24,11 +24,6 @@ export class AppTopBarComponent implements OnInit, OnDestroy {
       },
     },
     {
-      label: 'Builds',
-      icon: 'pi pi-fw pi-list',
-      routerLink: ['/shared-presets'],
-    },
-    {
       label: 'Ranking de Itens',
       icon: 'pi pi-fw pi-sort-amount-down',
       routerLink: ['/preset-summary'],
