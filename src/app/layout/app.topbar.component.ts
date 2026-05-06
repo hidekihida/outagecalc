@@ -1057,7 +1057,7 @@ export class AppTopBarComponent implements OnInit, OnDestroy {
   unreadVersion = this.updates.findIndex((a) => a.v === this.localVersion);
   showUnreadVersion = this.unreadVersion === -1 ? this.updates.length + 1 : this.unreadVersion;
 
-  visibleUpdate = this.lastestVersion !== this.localVersion;
+  visibleUpdate = false;
 
   username: string;
 
