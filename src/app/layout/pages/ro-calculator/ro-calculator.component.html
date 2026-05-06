@@ -532,7 +532,7 @@
               [(ngModel)]="model.propertyAtk"
               [disabled]="!model.weapon"
               [showClear]="true"
-              placeholder="Elemento"
+              placeholder="เคลือบ"
               scrollHeight="300px"
               (onChange)="onPropertyAtkChange()"
             >
@@ -659,7 +659,7 @@
       <div class="col-12" [hidden]="!model.weapon || hiddenMap.shield || !!model.leftWeapon">
         <app-equipment
           [itemType]="'shield'"
-          [placeholder]="'Escudo'"
+          [placeholder]="'Shield'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="shieldList"
@@ -974,7 +974,7 @@
       <div class="col-12">
         <app-equipment
           [itemType]="'Boot'"
-          [placeholder]="'Calçado'"
+          [placeholder]="'boot'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="bootList"
@@ -1000,7 +1000,7 @@
         <app-equipment
           [itemType]="'accRight'"
           [placeholder]="'Acessório Direito'"
-          [overlayLabel]="'Right'"
+          [overlayLabel]="'Direito'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="accRightList"
@@ -1056,7 +1056,7 @@
         <app-equipment
           [itemType]="'accLeft'"
           [placeholder]="'Acessório Esquerdo'"
-          [overlayLabel]="'Left'"
+          [overlayLabel]="'Esquerdo'"
           [items]="items"
           [mapEnchant]="mapEnchant"
           [itemList]="accLeftList"
@@ -1111,7 +1111,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeUpper'"
-            [placeholder]="'Visual Topo'"
+            [placeholder]="'Fantasia Superior'"
             [itemList]="costumeUpperList"
             [(itemId)]="model.costumeUpper"
             (selectItemChange)="onSelectItem('costumeUpper', $event.itemId)"
@@ -1120,7 +1120,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantUpper'"
-            [placeholder]="'Pedra Topo'"
+            [placeholder]="'Encant. Superior'"
             [itemList]="costumeEnhUpperList"
             [(itemId)]="model.costumeEnchantUpper"
             (selectItemChange)="onSelectItem('costumeEnchantUpper', $event.itemId)"
@@ -1162,7 +1162,7 @@
         <div class="col-4">
           <app-equipment-cos-enchant
             [itemType]="'costumeMiddle'"
-            [placeholder]="'Visual Meio'"
+            [placeholder]="'Fantasia Médio'"
             [itemList]="costumeMiddleList"
             [(itemId)]="model.costumeMiddle"
             (selectItemChange)="onSelectItem('costumeMiddle', $event.itemId)"
@@ -1171,7 +1171,7 @@
         <div class="col-4">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantMiddle'"
-            [placeholder]="'Pedra Meio'"
+            [placeholder]="'Encant. Médio'"
             [itemList]="costumeEnhMiddleList"
             [(itemId)]="model.costumeEnchantMiddle"
             (selectItemChange)="onSelectItem('costumeEnchantMiddle', $event.itemId)"
@@ -1184,7 +1184,7 @@
         <div class="col-4">
           <app-equipment-cos-enchant
             [itemType]="'costumeLower'"
-            [placeholder]="'Visual Baixo'"
+            [placeholder]="'Fantasia Inferior'"
             [itemList]="costumeLowerList"
             [(itemId)]="model.costumeLower"
             (selectItemChange)="onSelectItem('costumeLower', $event.itemId)"
@@ -1193,7 +1193,7 @@
         <div class="col-4">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantLower'"
-            [placeholder]="'Pedra Baixo'"
+            [placeholder]="'Encant. Inferior'"
             [itemList]="costumeEnhLowerList"
             [(itemId)]="model.costumeEnchantLower"
             (selectItemChange)="onSelectItem('costumeEnchantLower', $event.itemId)"
@@ -1206,7 +1206,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeGarment'"
-            [placeholder]="'Visual Capa'"
+            [placeholder]="'Fantasia Manto'"
             [itemList]="costumeGarmentList"
             [(itemId)]="model.costumeGarment"
             (selectItemChange)="onSelectItem('costumeGarment', $event.itemId)"
@@ -1215,7 +1215,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantGarment'"
-            [placeholder]="'Pedra Capa'"
+            [placeholder]="'Encant. Manto'"
             [itemList]="costumeEnhGarmentList"
             [(itemId)]="model.costumeEnchantGarment"
             (selectItemChange)="onSelectItem('costumeEnchantGarment', $event.itemId)"
@@ -1224,7 +1224,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantGarment2'"
-            [placeholder]="'Pedra Capa 2'"
+            [placeholder]="'Encant. Manto 2'"
             [itemList]="costumeEnhGarment2List"
             [(itemId)]="model.costumeEnchantGarment2"
             (selectItemChange)="onSelectItem('costumeEnchantGarment2', $event.itemId)"
@@ -1233,7 +1233,7 @@
         <div class="col-3">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantGarment4'"
-            [placeholder]="'Pedra Capa 3'"
+            [placeholder]="'Encant. Manto 4'"
             [itemList]="costumeEnhGarment4List"
             [(itemId)]="model.costumeEnchantGarment4"
             (selectItemChange)="onSelectItem('costumeEnchantGarment4', $event.itemId)"
@@ -1245,7 +1245,7 @@
         <div class="col-4 item_label_compare" *ngIf="showCompareItemMap.costumeEnchantUpper">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantUpper'"
-            [placeholder]="'Pedra Topo'"
+            [placeholder]="'Encant. Superior'"
             [itemList]="costumeEnhUpperList"
             [(itemId)]="model2.costumeEnchantUpper"
             (selectItemChange)="onCompareItemChange()"
@@ -1254,7 +1254,7 @@
         <div class="col-4 item_label_compare" *ngIf="showCompareItemMap.costumeEnchantMiddle">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantMiddle'"
-            [placeholder]="'Pedra Meio'"
+            [placeholder]="'Encant. Médio'"
             [itemList]="costumeEnhMiddleList"
             [(itemId)]="model2.costumeEnchantMiddle"
             (selectItemChange)="onCompareItemChange()"
@@ -1263,7 +1263,7 @@
         <div class="col-4 item_label_compare" *ngIf="showCompareItemMap.costumeEnchantLower">
           <app-equipment-cos-enchant
             [itemType]="'costumeEnchantLower'"
-            [placeholder]="'Pedra Baixo'"
+            [placeholder]="'Encant. Inferior'"
             [itemList]="costumeEnhLowerList"
             [(itemId)]="model2.costumeEnchantLower"
             (selectItemChange)="onCompareItemChange()"
@@ -1273,7 +1273,7 @@
           <div class="col-4" *ngIf="showCompareItemMap.costumeEnchantGarment">
             <app-equipment-cos-enchant
               [itemType]="'costumeEnchantGarment'"
-              [placeholder]="'Pedra Capa'"
+              [placeholder]="'Encant. Manto'"
               [itemList]="costumeEnhGarmentList"
               [(itemId)]="model2.costumeEnchantGarment"
               (selectItemChange)="onCompareItemChange()"
@@ -1282,7 +1282,7 @@
           <div class="col-4" *ngIf="showCompareItemMap.costumeEnchantGarment2">
             <app-equipment-cos-enchant
               [itemType]="'costumeEnchantGarment2'"
-              [placeholder]="'Pedra Capa 2'"
+              [placeholder]="'Encant. Manto 2'"
               [itemList]="costumeEnhGarment2List"
               [(itemId)]="model2.costumeEnchantGarment2"
               (selectItemChange)="onCompareItemChange()"
@@ -1291,7 +1291,7 @@
           <div class="col-4" *ngIf="showCompareItemMap.costumeEnchantGarment4">
             <app-equipment-cos-enchant
               [itemType]="'costumeEnchantGarment4'"
-              [placeholder]="'Pedra Capa 3'"
+              [placeholder]="'Encant. Manto 4'"
               [itemList]="costumeEnhGarment4List"
               [(itemId)]="model2.costumeEnchantGarment4"
               (selectItemChange)="onCompareItemChange()"
@@ -1308,7 +1308,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowWeapon'"
-            [placeholder]="'Manopla Sombria'"
+            [placeholder]="'Sombra Arma'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowWeaponList"
@@ -1329,7 +1329,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowShield'"
-            [placeholder]="'Escudo Sombrio'"
+            [placeholder]="'Sombra Escudo'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowShieldList"
@@ -1350,7 +1350,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowArmor'"
-            [placeholder]="'Malha Sombria'"
+            [placeholder]="'Sombra Armadura'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowArmorList"
@@ -1371,7 +1371,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowBoot'"
-            [placeholder]="'Greva Sombria'"
+            [placeholder]="'Sombra Bota'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowBootList"
@@ -1392,7 +1392,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowEarring'"
-            [placeholder]="'Brinco Sombrio'"
+            [placeholder]="'Sombra Brinco'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowEarringList"
@@ -1413,7 +1413,7 @@
         <div class="col-12 item_label_shadow">
           <app-equipment-shadow
             [itemType]="'shadowPendant'"
-            [placeholder]="'Colar Sombrio'"
+            [placeholder]="'Sombra Pingente'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowPendantList"
@@ -1433,7 +1433,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowWeapon">
           <app-equipment-shadow
             [itemType]="'shadowWeapon'"
-            [placeholder]="'Manopla Sombria'"
+            [placeholder]="'Sombra Arma'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowWeaponList"
@@ -1451,7 +1451,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowShield">
           <app-equipment-shadow
             [itemType]="'shadowShield'"
-            [placeholder]="'Escudo Sombrio'"
+            [placeholder]="'Sombra Escudo'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowShieldList"
@@ -1469,7 +1469,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowArmor">
           <app-equipment-shadow
             [itemType]="'shadowArmor'"
-            [placeholder]="'Armadura Sombria'"
+            [placeholder]="'Sombra Armadura'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowArmorList"
@@ -1487,7 +1487,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowBoot">
           <app-equipment-shadow
             [itemType]="'shadowBoot'"
-            [placeholder]="'Greva Sombria'"
+            [placeholder]="'Sombra Bota'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowBootList"
@@ -1505,7 +1505,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowEarring">
           <app-equipment-shadow
             [itemType]="'shadowEarring'"
-            [placeholder]="'Brinco Sombrio'"
+            [placeholder]="'Sombra Brinco'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowEarringList"
@@ -1523,7 +1523,7 @@
         <div class="col-12 item_label_compare" *ngIf="showCompareItemMap.shadowPendant">
           <app-equipment-shadow
             [itemType]="'shadowPendant'"
-            [placeholder]="'Colar Sombrio'"
+            [placeholder]="'Sombra Pingente'"
             [items]="items"
             [mapEnchant]="mapEnchant"
             [itemList]="shadowPendantList"
@@ -1601,7 +1601,7 @@
         </div>
       </p-accordionTab>
 
-      <p-accordionTab header="Skills ***กดอัพสกิลด้วยนะ เพราะไอเทมบางชิ้นต้องอัพสกิลถึงจะได้ bonus" class="select_skill">
+      <p-accordionTab header="Habilidades / Bônus" class="select_skill">
         <div class="grid grid-nogutter">
           <!--  Buffs -->
           <div class="col-4">
