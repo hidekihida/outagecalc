@@ -171912,16 +171912,36 @@
       "all"
     ],
     "script": {
-      "hpPercent": ["7"],
-      "spPercent": ["7"],
-      "atkPercent": ["2---1"],
-      "matkPercent": ["2---1"],
-      "p_size_all": ["7===5"],
-      "m_size_all": ["7===5"],
-      "range": ["9===10"],
-      "melee": ["9===10"],
-      "m_my_element_all": ["9===10"],
-      "fct": ["11===0.5"]
+      "hpPercent": [
+        "7"
+      ],
+      "spPercent": [
+        "7"
+      ],
+      "atkPercent": [
+        "2---1"
+      ],
+      "matkPercent": [
+        "2---1"
+      ],
+      "p_size_all": [
+        "7===5"
+      ],
+      "m_size_all": [
+        "7===5"
+      ],
+      "range": [
+        "9===10"
+      ],
+      "melee": [
+        "9===10"
+      ],
+      "m_my_element_all": [
+        "9===10"
+      ],
+      "fct": [
+        "11===0.5"
+      ]
     }
   },
   "480000": {
@@ -177325,6 +177345,67 @@
       "matkPercent": [
         "GRADE[me==A]===10"
       ]
+    }
+  },
+  "480812": {
+    "id": 480812,
+    "aegisName": "WM_Physical_LT",
+    "name": "Manto Branco Físico [1]",
+    "unidName": "Manto Branco",
+    "resName": null,
+    "description": "Capa usada pela Ordem dos Cavaleiros Brancos, o famoso exército de Glastheim.\n--------------------------\nA cada 3 refinos:\nDano físico contra todos os tamanhos +3%.\nA cada 5 refinos:\nDano físico a distância +5%.\nDano físico corpo a corpo +5%.\n--------------------------\nRefino +9 ou mais:\nATQ +50.\nPrecisão perfeita +10.\nRefino +11 ou mais:\nHP e SP máx. +10%.\nPós-conjuração -15%.\n--------------------------\nTipo: Capa\nDEF: 45 DEFM: 10\nPeso: 50\nNível necessário: 170\nClasses: Todas",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 45,
+    "weight": 50,
+    "requiredLevel": 170,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "p_size_all": ["3---3"],
+      "range": ["5---5"],
+      "melee": ["5---5"],
+      "atk": ["9===50"],
+      "perfectHit": ["9===10"],
+      "hpPercent": ["11===10"],
+      "spPercent": ["11===10"],
+      "acd": ["11===15"]
+    }
+  },
+  "480813": {
+    "id": 480813,
+    "aegisName": "WM_Magical_LT",
+    "name": "Manto Branco Mágico [1]",
+    "unidName": "Manto Branco",
+    "resName": null,
+    "description": "Capa usada pela Ordem dos Cavaleiros Brancos, o famoso exército de Glastheim.\n--------------------------\nA cada 3 refinos:\nDano mágico contra todos os tamanhos +3%.\nA cada 5 refinos:\nDano mágico de todas as propriedades +5%.\n--------------------------\nRefino +9 ou mais:\nATQM +50.\nConjuração variável -10%.\nRefino +11 ou mais:\nHP e SP máx. +10%.\nPós-conjuração -15%.\n--------------------------\nTipo: Capa\nDEF: 45 DEFM: 10\nPeso: 50\nNível necessário: 170\nClasses: Todas",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 45,
+    "weight": 50,
+    "requiredLevel": 170,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "m_size_all": ["3---3"],
+      "m_my_element_all": ["5---5"],
+      "matk": ["9===50"],
+      "vct": ["9===10"],
+      "hpPercent": ["11===10"],
+      "spPercent": ["11===10"],
+      "acd": ["11===15"]
     }
   },
   "490004": {
