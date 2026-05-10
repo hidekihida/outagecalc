@@ -171894,24 +171894,35 @@
   "470416": {
     "id": 470416,
     "aegisName": "Samba_Shoes2",
-    "name": "Sandália de Samba",
+    "name": "Sandália de Samba [1]",
     "unidName": "Sandália de Samba",
     "resName": null,
-    "description": "Sandália de Samba [1]",
-    "slots": 0,
+    "description": "Sandálias usadas para sambar. Parecem estar novinhas em folha!\n--------------------------\nHP e SP máx. +7%.\nA cada 2 refinos:\nATQ da arma +1%.\nDano mágico +1%.\n--------------------------\nRefino +7 ou mais:\nDano físico e mágico contra todos os Tamanhos +5%.\nRefino +9 ou mais:\nDano físico a distância +10%.\nDano físico corpo a corpo +10%.\nDano mágico de todas as propriedades +10%.\nRefino +11 ou mais:\nConjuração fixa -0,5 segundos.\n--------------------------\n[Durante o Evento]\nATQ e ATQM +40.\nRevive com HP e SP recuperados.\nAnula o consumo de Gemas em habilidades.\n--------------------------\nTipo: Calçado\nDEF: 20 DEFM: 0\nPeso: 20\nNível necessário: 100\nClasses: Todas",
+    "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 516,
     "itemLevel": null,
     "attack": 0,
-    "defense": 0,
-    "weight": 0,
+    "defense": 20,
+    "weight": 20,
     "requiredLevel": 100,
     "location": null,
     "compositionPos": null,
     "usableClass": [
       "all"
     ],
-    "script": {}
+    "script": {
+      "hpPercent": ["7"],
+      "spPercent": ["7"],
+      "atkPercent": ["2---1"],
+      "matkPercent": ["2---1"],
+      "p_size_all": ["7===5"],
+      "m_size_all": ["7===5"],
+      "range": ["9===10"],
+      "melee": ["9===10"],
+      "m_my_element_all": ["9===10"],
+      "fct": ["11===0.5"]
+    }
   },
   "480000": {
     "id": 480000,
