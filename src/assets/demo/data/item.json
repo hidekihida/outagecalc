@@ -26507,7 +26507,7 @@
   "19474": {
     "id": 19474,
     "aegisName": "S_Circlet_Of_Time_RK",
-    "name": "Temporal Circlet (Rune Knight) [1]",
+    "name": "Diadema Temporal Rúnico [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MHP +250\nทุก ๆ การอัพเกรด 3 ขั้น MSP +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Dragon Breath, Dragon Breath - WATER 15%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Rune Knight^000000",
@@ -26548,7 +26548,7 @@
   "19475": {
     "id": 19475,
     "aegisName": "S_Circlet_Of_Time_LG",
-    "name": "Temporal Circlet (Royal Guard) [1]",
+    "name": "Diadema Temporal Real [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Banishing Point, Cannon Spear 15%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11, ATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Royal Guard^000000",
@@ -26589,7 +26589,7 @@
   "19476": {
     "id": 19476,
     "aegisName": "S_Circlet_Of_Time_NC",
-    "name": "Temporal Circlet (Mechanic) [1]",
+    "name": "Diadema Temporal Mecânico [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Arm Cannon, Knuckle Boost 10%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Mechanic^000000",
@@ -26630,7 +26630,7 @@
   "19477": {
     "id": 19477,
     "aegisName": "S_Circlet_Of_Time_GN",
-    "name": "Temporal Circlet (Genetic) [1]",
+    "name": "Diadema Temporal Químico [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Spore Explosion, Cart Tornado Attack 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 2%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Genetic^000000",
@@ -26671,7 +26671,7 @@
   "19478": {
     "id": 19478,
     "aegisName": "S_Circlet_Of_Time_GC",
-    "name": "Temporal Circlet (Guillotine Cross) [1]",
+    "name": "Diadema Temporal Mortal [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Rolling Cutter, Counter Slash 20%\nทุก ๆ การอัพเกรด 4 ขั้น ATK +2%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Guillotine Cross^000000",
@@ -26712,7 +26712,7 @@
   "19479": {
     "id": 19479,
     "aegisName": "S_Circlet_Of_Time_SC",
-    "name": "Temporal Circlet (Shadow Chaser) [1]",
+    "name": "Diadema Temporal Renegado [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Fatal Manance, Feint Bomb 30%\nทุก ๆ การอัพเกรด 4 ขั้น ATK +2%\nเมื่ออัพเกรดถึงขั้น 11, ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Shadow Chaser^000000",
@@ -26753,7 +26753,7 @@
   "19480": {
     "id": 19480,
     "aegisName": "S_Circlet_Of_Time_AB",
-    "name": "Temporal Circlet (Arch Bishop) [1]",
+    "name": "Diadema Temporal Sagrado [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ลดระยะเวลาร่ายแบบแปรผัน 3%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Adoramus 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Holy 7%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Arch Bishop^000000",
@@ -26791,7 +26791,7 @@
   "19481": {
     "id": 19481,
     "aegisName": "S_Circlet_Of_Time_SR",
-    "name": "Temporal Circlet (Sura) [1]",
+    "name": "Diadema Temporal Lutador [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น MHP +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Knuckle Arrow 20% และสกิล Tiger Cannon 10%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11, ATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
@@ -26832,7 +26832,7 @@
   "19482": {
     "id": 19482,
     "aegisName": "S_Circlet_Of_Time_WL",
-    "name": "Temporal Circlet (Warlock) [1]",
+    "name": "Diadema Temporal Arcano [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ลดระยะเวลาร่ายแบบแปรผัน 3%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Chain Lightning, Jack Frost 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Wind, Water 5%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Warlock^000000",
@@ -26876,7 +26876,7 @@
   "19483": {
     "id": 19483,
     "aegisName": "S_Circlet_Of_Time_SO",
-    "name": "Temporal Circlet (Sorcerer) [1]",
+    "name": "Diadema Temporal Mágico [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ลดระยะเวลาร่ายแบบแปรผัน 3%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Psychic Wave, Diamond Dust 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Neutral, Water 5%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sorcerer^000000",
@@ -26920,7 +26920,7 @@
   "19484": {
     "id": 19484,
     "aegisName": "S_Circlet_Of_Time_RA",
-    "name": "Temporal Circlet (Ranger) [1]",
+    "name": "Diadema Temporal Atirador [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น Critical Damage +5%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Arrow Storm, Aimed Bolt 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11 ลด Cooldown สกิล Arrow Storm 1 วินาที\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Ranger^000000",
@@ -26961,7 +26961,7 @@
   "19485": {
     "id": 19485,
     "aegisName": "S_Circlet_Of_Time_WM",
-    "name": "Temporal Circlet (Wanderer&Minstrel) [1]",
+    "name": "Diadema Temporal Musical [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ลดระยะเวลาร่ายแบบแปรผัน 5%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Reverberation, Metalic Sound 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Neutral 7%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Minstrel, Wanderer^000000",
@@ -27003,7 +27003,7 @@
   "19486": {
     "id": 19486,
     "aegisName": "S_Circlet_Of_Time_SJ",
-    "name": "Temporal Circlet (Star Emperor) [1]",
+    "name": "Diadema Temporal Estelar [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Falling Stars 30%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 2%\nเมื่ออัพเกรดถึงขั้น 11, ATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Star Emperor^000000",
@@ -27041,7 +27041,7 @@
   "19487": {
     "id": 19487,
     "aegisName": "S_Circlet_Of_Time_SP",
-    "name": "Temporal Circlet (Soul Reaper) [1]",
+    "name": "Diadema Temporal Xamânico [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ลดระยะเวลาร่ายแบบแปรผัน 5%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Curse Explosion, Eswhoo 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Shadow 7%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Soul Reaper^000000",
@@ -27082,7 +27082,7 @@
   "19488": {
     "id": 19488,
     "aegisName": "S_Circlet_Of_Time_RL",
-    "name": "Temporal Circlet (Rebellion) [1]",
+    "name": "Diadema Temporal Rebelde [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Round Trip, Vanishing Buster 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Rebellion^000000",
@@ -27123,7 +27123,7 @@
   "19489": {
     "id": 19489,
     "aegisName": "S_Circlet_Of_Time_OB",
-    "name": "Temporal Circlet (Oboro) [1]",
+    "name": "Diadema Temporal Oboro [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น MATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Wind Blade, Freezing Spear 30%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางเวทมนตร์ธาตุ Wind, Water 5%\nเมื่ออัพเกรดถึงขั้น 11, MATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Kagerou, Oboro^000000",
@@ -27168,7 +27168,7 @@
   "19490": {
     "id": 19490,
     "aegisName": "S_Circlet_Of_Time_KG",
-    "name": "Temporal Circlet (Kagerou) [1]",
+    "name": "Diadema Temporal Kagerou [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Cross Slash, Kunai Explosion 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 2%\nเมื่ออัพเกรดถึงขั้น 11, ATK +5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Kagerou, Oboro^000000",
@@ -27210,7 +27210,7 @@
   "19491": {
     "id": 19491,
     "aegisName": "S_Circlet_Of_Time_NV",
-    "name": "Temporal Circlet (Super Novice) [1]",
+    "name": "Diadema Temporal Aprendiz [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +10, MATK +10\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +4%, ลดระยะเวลาร่ายแบบแปรผัน 4%\nทุก ๆ การอัพเกรด 4 ขั้น Critical Damage +5%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Super Novice^000000",
@@ -27254,7 +27254,7 @@
   "19492": {
     "id": 19492,
     "aegisName": "S_Circlet_Of_Time_SU",
-    "name": "Temporal Circlet (Summoner) [1]",
+    "name": "Diadema Temporal Doram [1]",
     "unidName": "Helm",
     "resName": "Circlet_Of_Time",
     "description": "มงกุฎผ่านการเจียระไนด้วยเพชรอัญมณีที่มาจากรอยแยกแห่งมิติเวลา\nผู้สวมใส่จะรู้สึกได้ถึงพลังวิเศษที่ได้รับจาก Hugin\n^ffffff_^000000 \nทุก ๆ การอัพเกรด 2 ขั้น ATK +15\nทุก ๆ การอัพเกรด 3 ขั้น ASPD +2%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage สกิล Catnip Meteor, Picky Peck 20%\nทุก ๆ การอัพเกรด 4 ขั้น เพิ่ม Damage ทางกายภาพระยะไกล 5%, เพิ่ม Damage ทางเวทมนตร์ธาตุ Neutral 7%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 5%\n^ffffff_^000000 \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777710^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Summoner (Doram)^000000",
@@ -176194,7 +176194,7 @@
     "name": "White Knight Mantle (Melee) [1]",
     "unidName": "White Knight Mantle (Melee)",
     "resName": "WhiteKnight_Mantle",
-    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, ATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, เพิ่ม Damage ทางกายภาพระยะใกล้ 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, Perfect Hit + 80%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Guillotine Cross),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Rolling Cutter, Counter Slash 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Genetic),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป  เพิ่ม Damage สกิล Cart Tornado 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Shadow Chaser),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Fatal Manace 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Sura),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Tiger Cannon 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Star Emperor),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Falling Star 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Super Novice),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เปิดใช้งานสกิล Ignition Break Lv.5,\nลด Cooldown สกิล Ignition Break 2 วินาที,\nเพิ่ม Damage สกิล Ignition Break 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, ATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, เพิ่ม Damage ทางกายภาพระยะใกล้ 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, Perfect Hit + 80%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Mortal,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Rolling Cutter, Counter Slash 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Químico,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป  เพิ่ม Damage สกิล Cart Tornado 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Renegado,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Fatal Manace 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Lutador,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Tiger Cannon 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Estelar,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Falling Star 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Aprendiz,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เปิดใช้งานสกิล Ignition Break Lv.5,\nลด Cooldown สกิล Ignition Break 2 วินาที,\nเพิ่ม Damage สกิล Ignition Break 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
@@ -176226,28 +176226,28 @@
         "12===80"
       ],
       "Rolling Cutter": [
-        "EQUIP[Temporal Circlet (Guillotine Cross)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mortal]REFINE[headUpper,garment==21]===50"
       ],
       "Counter Slash": [
-        "EQUIP[Temporal Circlet (Guillotine Cross)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mortal]REFINE[headUpper,garment==21]===50"
       ],
       "Cart Tornado": [
-        "EQUIP[Temporal Circlet (Genetic)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Químico]REFINE[headUpper,garment==21]===50"
       ],
       "Fatal Manace": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper,garment==21]===50"
       ],
       "Tiger Cannon": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper,garment==21]===50"
       ],
       "Falling Stars": [
-        "EQUIP[Temporal Circlet (Star Emperor)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Estelar]REFINE[headUpper,garment==21]===50"
       ],
       "cd__Ignition Break": [
-        "EQUIP[Temporal Circlet (Super Novice)]REFINE[headUpper,garment==21]===2"
+        "EQUIP[Diadema Temporal Aprendiz]REFINE[headUpper,garment==21]===2"
       ],
       "Ignition Break": [
-        "EQUIP[Temporal Circlet (Super Novice)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Aprendiz]REFINE[headUpper,garment==21]===50"
       ]
     }
   },
@@ -176257,7 +176257,7 @@
     "name": "White Knight Mantle (Range) [1]",
     "unidName": "White Knight Mantle (Range)",
     "resName": "WhiteKnight_Mantle",
-    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, ATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, เพิ่ม Damage ทางกายภาพระยะไกล 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, Perfect Hit + 80%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Royal Guard),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Banishing Point, Cannon Spear 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Mechanic),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Arm Cannon, Knuckle Boost 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Ranger),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Aimed Bolt, Arrow Storm 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Kagerou),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Cross Slash, Kunai Explosion 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Rebellion),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Round Trip, Vanishing Buster 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Summoner),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Picky Peck 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, ATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, เพิ่ม Damage ทางกายภาพระยะไกล 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, Perfect Hit + 80%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Real,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Banishing Point, Cannon Spear 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Mecânico,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Arm Cannon, Knuckle Boost 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Atirador,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Aimed Bolt, Arrow Storm 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Kagerou,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Cross Slash, Kunai Explosion 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Rebelde,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Round Trip, Vanishing Buster 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Doram,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Picky Peck 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
@@ -176289,37 +176289,37 @@
         "12===80"
       ],
       "Banishing Point": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper,garment==21]===50"
       ],
       "Cannon Spear": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper,garment==21]===50"
       ],
       "Arm Cannon": [
-        "EQUIP[Temporal Circlet (Mechanic)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mecânico]REFINE[headUpper,garment==21]===50"
       ],
       "Knuckle Boost": [
-        "EQUIP[Temporal Circlet (Mechanic)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mecânico]REFINE[headUpper,garment==21]===50"
       ],
       "Aimed Bolt": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper,garment==21]===50"
       ],
       "Arrow Storm": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper,garment==21]===50"
       ],
       "Cross Slash": [
-        "EQUIP[Temporal Circlet (Kagerou)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Kagerou]REFINE[headUpper,garment==21]===50"
       ],
       "Kunai Explosion": [
-        "EQUIP[Temporal Circlet (Kagerou)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Kagerou]REFINE[headUpper,garment==21]===50"
       ],
       "Round Trip": [
-        "EQUIP[Temporal Circlet (Rebellion)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Rebelde]REFINE[headUpper,garment==21]===50"
       ],
       "Vanishing Buster": [
-        "EQUIP[Temporal Circlet (Rebellion)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Rebelde]REFINE[headUpper,garment==21]===50"
       ],
       "Picky Peck": [
-        "EQUIP[Temporal Circlet (Summoner)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Doram]REFINE[headUpper,garment==21]===50"
       ]
     }
   },
@@ -176329,7 +176329,7 @@
     "name": "White Knight Mantle (Magic) [1]",
     "unidName": "White Knight Mantle (Magic)",
     "resName": "WhiteKnight_Mantle",
-    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nMATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, MATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, MATK + 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, เพิกเฉยต่อพลังป้องกันทางเวทมนตร์ของมอนสเตอร์ทุกเผ่า 40% (ยกเว้น Player)\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Warlock),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Chain Lightning, Jack Frost 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Sorcerer),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Psychic Wave, Diamond Dust 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Wanderer&Minstrel),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Reverberation, Metallic Sound 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Arch Bishop),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Adoramus 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Oboro),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Wind Blade, Freezing Spear 50%\n\nเมื่อใช้งานร่วมกับ Temporal Circlet (Soul Reaper),\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Curse Explosion, Eswhoo 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เสื้อคลุมอันทรงเกียรติของอัศวิน White Knight\n\nMATK + 50\nทุก ๆ การอัพเกรด 3 ขั้น, MATK + 20\nทุก ๆ การอัพเกรด 4 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 5%\n\nเมื่อขั้นอัพเกรดตั้งแต่ 9 ขึ้นไป, Global Cooldown - 5%\nเมื่อขั้นอัพเกรดตั้งแต่ 11 ขึ้นไป, MATK + 15%\nเมื่อขั้นอัพเกรดตั้งแต่ 12 ขึ้นไป, เพิกเฉยต่อพลังป้องกันทางเวทมนตร์ของมอนสเตอร์ทุกเผ่า 40% (ยกเว้น Player)\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Arcano,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Chain Lightning, Jack Frost 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Mágico,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Psychic Wave, Diamond Dust 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Musical,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Reverberation, Metallic Sound 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Sagrado,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Adoramus 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Oboro,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Wind Blade, Freezing Spear 50%\n\nเมื่อใช้งานร่วมกับ Diadema Temporal Xamânico,\nเมื่อผลขั้นอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป เพิ่ม Damage สกิล Curse Explosion, Eswhoo 50%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^777777120^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
@@ -176361,37 +176361,37 @@
         "12===40"
       ],
       "Chain Lightning": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper,garment==21]===50"
       ],
       "Jack Frost": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper,garment==21]===50"
       ],
       "Psychic Wave": [
-        "EQUIP[Temporal Circlet (Sorcerer)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mágico]REFINE[headUpper,garment==21]===50"
       ],
       "Diamond Dust": [
-        "EQUIP[Temporal Circlet (Sorcerer)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Mágico]REFINE[headUpper,garment==21]===50"
       ],
       "Reverberation": [
-        "EQUIP[Temporal Circlet (Wanderer&Minstrel)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Musical]REFINE[headUpper,garment==21]===50"
       ],
       "Metalic Sound": [
-        "EQUIP[Temporal Circlet (Wanderer&Minstrel)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Musical]REFINE[headUpper,garment==21]===50"
       ],
       "Adoramus": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper,garment==21]===50"
       ],
       "Wind Blade": [
-        "EQUIP[Temporal Circlet (Oboro)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Oboro]REFINE[headUpper,garment==21]===50"
       ],
       "Freezing Spear": [
-        "EQUIP[Temporal Circlet (Oboro)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Oboro]REFINE[headUpper,garment==21]===50"
       ],
       "Curse Explosion": [
-        "EQUIP[Temporal Circlet (Soul Reaper)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Xamânico]REFINE[headUpper,garment==21]===50"
       ],
       "Eswhoo": [
-        "EQUIP[Temporal Circlet (Soul Reaper)]REFINE[headUpper,garment==21]===50"
+        "EQUIP[Diadema Temporal Xamânico]REFINE[headUpper,garment==21]===50"
       ]
     }
   },
@@ -177376,19 +177376,19 @@
       "hpPercent": ["11===10"],
       "spPercent": ["11===10"],
       "acd": ["11===15"],
-      "vct__Dragon Breath": ["EQUIP[Temporal Circlet (Rune Knight)]100"],
-      "vct__Dragon Breath - WATER": ["EQUIP[Temporal Circlet (Rune Knight)]100"],
-      "cd__Banishing Point": ["EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper,garment==22]===0.5"],
-      "vct__Arrow Storm": ["EQUIP[Temporal Circlet (Ranger)]100"],
-      "vct__Aimed Bolt": ["EQUIP[Temporal Circlet (Ranger)]100"],
-      "cd__No Limits": ["EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper,garment==22]===45"],
-      "cd__Flash Combo": ["EQUIP[Temporal Circlet (Sura)]1"],
-      "cd__Cart Tornado": ["EQUIP[Temporal Circlet (Genetic)]0.5"],
-      "vct__Kunai Explosion": ["EQUIP[Temporal Circlet (Kagerou)]100"],
-      "cd__Kunai Explosion": ["EQUIP[Temporal Circlet (Kagerou)]REFINE[headUpper,garment==22]===1"],
+      "vct__Dragon Breath": ["EQUIP[Diadema Temporal Rúnico]100"],
+      "vct__Dragon Breath - WATER": ["EQUIP[Diadema Temporal Rúnico]100"],
+      "cd__Banishing Point": ["EQUIP[Diadema Temporal Real]REFINE[headUpper,garment==22]===0.5"],
+      "vct__Arrow Storm": ["EQUIP[Diadema Temporal Atirador]100"],
+      "vct__Aimed Bolt": ["EQUIP[Diadema Temporal Atirador]100"],
+      "cd__No Limits": ["EQUIP[Diadema Temporal Atirador]REFINE[headUpper,garment==22]===45"],
+      "cd__Flash Combo": ["EQUIP[Diadema Temporal Lutador]1"],
+      "cd__Cart Tornado": ["EQUIP[Diadema Temporal Químico]0.5"],
+      "vct__Kunai Explosion": ["EQUIP[Diadema Temporal Kagerou]100"],
+      "cd__Kunai Explosion": ["EQUIP[Diadema Temporal Kagerou]REFINE[headUpper,garment==22]===1"],
       "fct": [
-        "EQUIP[Temporal Circlet (Rebellion)]REFINE[headUpper,garment==22]===0.5",
-        "EQUIP[Temporal Circlet (Star Emperor)]REFINE[headUpper,garment==22]===0.5"
+        "EQUIP[Diadema Temporal Rebelde]REFINE[headUpper,garment==22]===0.5",
+        "EQUIP[Diadema Temporal Estelar]REFINE[headUpper,garment==22]===0.5"
       ]
     }
   },
@@ -177419,7 +177419,14 @@
       "vct": ["9===10"],
       "hpPercent": ["11===10"],
       "spPercent": ["11===10"],
-      "acd": ["11===15"]
+      "acd": ["11===15"],
+      "vct__Jack Frost": ["EQUIP[Diadema Temporal Arcano]100"],
+      "vct__Diamond Dust": ["EQUIP[Diadema Temporal Mágico]100"],
+      "cd__Adoramus": ["EQUIP[Diadema Temporal Sagrado]REFINE[headUpper,garment==22]===0.5"],
+      "vct__Metalic Sound": ["EQUIP[Diadema Temporal Musical]100"],
+      "vct__Freezing Spear": ["EQUIP[Diadema Temporal Oboro]100"],
+      "vct__Wind Blade": ["EQUIP[Diadema Temporal Oboro]100"],
+      "vct__Catnip Meteor": ["EQUIP[Diadema Temporal Doram]100"]
     }
   },
   "490004": {
@@ -185528,7 +185535,7 @@
     "name": "Black Eagle Ring [1]",
     "unidName": "Black Eagle Ring",
     "resName": "WindHawk_Snip_Ring",
-    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100,  ATK + 10% \n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Ranger),\nลด Delay หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 3 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด + 4%\n\nเมื่ออัพเกรดถึงขั้น 11,\nลดระยะเวลาร่ายแบบแปรผันสกิล Aimed Bolt, Arrow Storm, Focus Arrow Strike 100%\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range),\nลด Delay หลังใช้สกิล 5%,\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Aimed Bolt 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Dex) Lv. 3,\nลด Delay หลังใช้สกิล 8%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Arrow Storm 20%,\nลด Cooldown สกิล Arrow Strom 0.3 วินาที\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Luk) Lv.3,\nCritical Damage +15%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Focus Arrow Strike 20%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100,  ATK + 10% \n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Atirador,\nลด Delay หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 3 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด + 4%\n\nเมื่ออัพเกรดถึงขั้น 11,\nลดระยะเวลาร่ายแบบแปรผันสกิล Aimed Bolt, Arrow Storm, Focus Arrow Strike 100%\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range),\nลด Delay หลังใช้สกิล 5%,\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Aimed Bolt 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Dex) Lv. 3,\nลด Delay หลังใช้สกิล 8%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Arrow Storm 20%,\nลด Cooldown สกิล Arrow Strom 0.3 วินาที\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Luk) Lv.3,\nCritical Damage +15%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น เพิ่ม Damage สกิล Focus Arrow Strike 20%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -185545,7 +185552,7 @@
     "script": {
       "acd": [
         "5",
-        "EQUIP[Temporal Circlet (Ranger)]===5",
+        "EQUIP[Diadema Temporal Atirador]===5",
         "EQUIP[All Above Time(Range)]===5",
         "EQUIP[Temporal Jewel (Dex) Lv. 3]===8"
       ],
@@ -185556,16 +185563,16 @@
         "10"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper==3]---4"
       ],
       "vct__Aimed Bolt": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper==11]===100"
       ],
       "vct__Arrow Storm": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper==11]===100"
       ],
       "vct__Focused Arrow Strike": [
-        "EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper==11]===100"
       ],
       "p_class_all": [
         "EQUIP[All Above Time(Range)]===10"
@@ -185596,7 +185603,7 @@
     "name": "King Of Elemental Ring [1]",
     "unidName": "King Of Elemental Ring",
     "resName": "Lord_of_Elemental",
-    "description": "Global Cooldown -5%\nMATK + 100 \nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Sorcerer),\nGlobal Cooldown -5%\nทุก ๆ 3 ขั้นอัพเกรด Headgear, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางเวทมนตร์ มีโอกาส 3% ที่จะ MATK + 20%, INT + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nGlobal Cooldown -5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv. 3,\nลด Cooldown สกิล Psychic Wave 1 วินาที\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage สกิล Psychic Wave 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Agi) Lv. 3,\nลด Cooldown สกิล Diamond Dust 1 วินาที\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage สกิล Diamond Dust 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv. 3,\nเมื่อโจมตีทางกายภาพระยะใกล้ทั่วไป, มีโอกาส 15% ที่จะเกิดสกิล Cold Bolt Lv. 10\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 8%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv. 3,\nลด Cooldown สกิล Psychic Wave 0.35 วินาที\nเพิ่ม Damage สกิล Psychic Wave 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Agi) Lv. 3,\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 10%\nเพิ่ม Damage สกิล Diamond Dust 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv. 3,\nเมื่อโจมตีทางกายภาพระยะใกล้ทั่วไป, มีโอกาส 8% ที่จะใช้งานสกิล Dark Claw Lv. 5 ใส่เป้าหมาย\nเพิ่ม Damage สกิล Fire Bolt, Cold Bolt, Lightning Bolt 280%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sorcerer^000000",
+    "description": "Global Cooldown -5%\nMATK + 100 \nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Mágico,\nGlobal Cooldown -5%\nทุก ๆ 3 ขั้นอัพเกรด Headgear, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางเวทมนตร์ มีโอกาส 3% ที่จะ MATK + 20%, INT + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nGlobal Cooldown -5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv. 3,\nลด Cooldown สกิล Psychic Wave 1 วินาที\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage สกิล Psychic Wave 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Agi) Lv. 3,\nลด Cooldown สกิล Diamond Dust 1 วินาที\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage สกิล Diamond Dust 20%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv. 3,\nเมื่อโจมตีทางกายภาพระยะใกล้ทั่วไป, มีโอกาส 15% ที่จะเกิดสกิล Cold Bolt Lv. 10\nทุก ๆ 2 ขั้นอัพเกรด Headgear, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 8%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv. 3,\nลด Cooldown สกิล Psychic Wave 0.35 วินาที\nเพิ่ม Damage สกิล Psychic Wave 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Agi) Lv. 3,\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 10%\nเพิ่ม Damage สกิล Diamond Dust 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv. 3,\nเมื่อโจมตีทางกายภาพระยะใกล้ทั่วไป, มีโอกาส 8% ที่จะใช้งานสกิล Dark Claw Lv. 5 ใส่เป้าหมาย\nเพิ่ม Damage สกิล Fire Bolt, Cold Bolt, Lightning Bolt 280%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sorcerer^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -185613,7 +185620,7 @@
     "script": {
       "acd": [
         "5",
-        "EQUIP[Temporal Circlet (Sorcerer)]===5",
+        "EQUIP[Diadema Temporal Mágico]===5",
         "EQUIP[All Above Time(Magic)]===5"
       ],
       "matk": [
@@ -185623,14 +185630,14 @@
         "10"
       ],
       "m_size_all": [
-        "EQUIP[Temporal Circlet (Sorcerer)]REFINE[headUpper==3]---4",
+        "EQUIP[Diadema Temporal Mágico]REFINE[headUpper==3]---4",
         "EQUIP[Time Jewel (Agi) Lv.3]===10"
       ],
       "chance__matkPercent": [
-        "EQUIP[Temporal Circlet (Sorcerer)]REFINE[headUpper==11]===20"
+        "EQUIP[Diadema Temporal Mágico]REFINE[headUpper==11]===20"
       ],
       "chance__int": [
-        "EQUIP[Temporal Circlet (Sorcerer)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Mágico]REFINE[headUpper==11]===100"
       ],
       "m_class_all": [
         "EQUIP[All Above Time(Magic)]===10",
@@ -185784,7 +185791,7 @@
     "name": "Giant Protection [1]",
     "unidName": "Giant Protection",
     "resName": "Giant_Protection",
-    "description": "ลดดีเลย์หลังใช้สกิล 5%,\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Shadow Chaser),\nลดดีเลย์หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Fatal Menace, Triangle Shot 15%,\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%,\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK + 20%, AGI + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nลดดีเลย์หลังใช้สกิล 5%,\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะใกล้ 15%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Fatal Menace 5%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Dex) Lv. 3,\nลด Cooldown สกิล Feint Bomb ลง 1.8 วินาที,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Triangle Shot 10%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str) Lv. 3,\nเมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะฟื้นฟู HP 3% ของ Damage ที่ทำ,\nเมื่อโจมตีทางกายภาพ มีโอกาส 1% ที่จะฟื้นฟู SP 2% ของ Damage ที่ทำ,\nเพิ่ม Damage สกิล Fatal Menace 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Dex) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะไกล 30%,\nเพิ่ม Damage สกิล Triangle Shot 105%\n\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Shadow Chaser Class^000000",
+    "description": "ลดดีเลย์หลังใช้สกิล 5%,\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Renegado,\nลดดีเลย์หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Fatal Menace, Triangle Shot 15%,\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%,\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK + 20%, AGI + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nลดดีเลย์หลังใช้สกิล 5%,\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะใกล้ 15%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Fatal Menace 5%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Dex) Lv. 3,\nลด Cooldown สกิล Feint Bomb ลง 1.8 วินาที,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Triangle Shot 10%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str) Lv. 3,\nเมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะฟื้นฟู HP 3% ของ Damage ที่ทำ,\nเมื่อโจมตีทางกายภาพ มีโอกาส 1% ที่จะฟื้นฟู SP 2% ของ Damage ที่ทำ,\nเพิ่ม Damage สกิล Fatal Menace 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Dex) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะไกล 30%,\nเพิ่ม Damage สกิล Triangle Shot 105%\n\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Shadow Chaser Class^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -185801,7 +185808,7 @@
     "script": {
       "acd": [
         "5",
-        "EQUIP[Temporal Circlet (Shadow Chaser)]===5",
+        "EQUIP[Diadema Temporal Renegado]===5",
         "EQUIP[All Above Time(Range)||All Above Time(Melee)]===5"
       ],
       "atk": [
@@ -185811,23 +185818,23 @@
         "10"
       ],
       "Fatal Manace": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Str) Lv. 3]REFINE[headUpper==2]---5",
         "EQUIP[Time Jewel (Str) Lv.3]===70"
       ],
       "Triangle Shot": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Dex) Lv. 3]REFINE[headUpper==2]---10",
         "EQUIP[Time Jewel (Dex) Lv.3]===105"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper==3]---4"
       ],
       "chance__atkPercent": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper==11]===20"
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper==11]===20"
       ],
       "chance__agi": [
-        "EQUIP[Temporal Circlet (Shadow Chaser)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Renegado]REFINE[headUpper==11]===100"
       ],
       "p_class_all": [
         "EQUIP[All Above Time(Range)||All Above Time(Melee)]===10"
@@ -185849,7 +185856,7 @@
     "name": "Imperial Glove [1]",
     "unidName": "Imperial Glove",
     "resName": "임페리얼글러브",
-    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Royal Guard),\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Overbrand, Canon Spear 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK + 20%, STR + 100 เป็นระยะเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nSTR + 20\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nลด Delay หลังใช้สกิล 15%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Overbrand 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Luk) Lv. 3,\nCRI + 20\nCritical Damage + 20%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Canon Spear 5%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str) Lv. 3,\nลด Delay หลังใช้สกิล 5%\nลด Cooldown สกิล Overbrand 0.1 วินาที\nเพิ่ม Damage สกิล Overbrand 105%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Luk) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะไกล 20%\nSTR + 56, เพิ่ม Damage สกิล Canon Spear 70%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Royal Guard^000000",
+    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Real,\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Overbrand, Canon Spear 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK + 20%, STR + 100 เป็นระยะเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nSTR + 20\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv. 3,\nลด Delay หลังใช้สกิล 15%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Overbrand 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Luk) Lv. 3,\nCRI + 20\nCritical Damage + 20%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Canon Spear 5%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str) Lv. 3,\nลด Delay หลังใช้สกิล 5%\nลด Cooldown สกิล Overbrand 0.1 วินาที\nเพิ่ม Damage สกิล Overbrand 105%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Luk) Lv. 3,\nเพิ่ม Damage ทางกายภาพระยะไกล 20%\nSTR + 56, เพิ่ม Damage สกิล Canon Spear 70%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Royal Guard^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -185876,30 +185883,30 @@
         "10"
       ],
       "melee": [
-        "EQUIP[Temporal Circlet (Royal Guard)]===10"
+        "EQUIP[Diadema Temporal Real]===10"
       ],
       "range": [
-        "EQUIP[Temporal Circlet (Royal Guard)]===10",
+        "EQUIP[Diadema Temporal Real]===10",
         "EQUIP[Time Jewel (Luk) Lv.3]===20"
       ],
       "Over Brand": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Str) Lv. 3]REFINE[headUpper==2]---10",
         "EQUIP[Time Jewel (Str) Lv.3]===105"
       ],
       "Cannon Spear": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Luk) Lv. 3]REFINE[headUpper==2]---5",
         "EQUIP[Time Jewel (Luk) Lv.3]===70"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper==3]---4"
       ],
       "chance__atkPercent": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper==11]===20"
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper==11]===20"
       ],
       "chance__str": [
-        "EQUIP[Temporal Circlet (Royal Guard)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper==11]===100"
       ],
       "str": [
         "EQUIP[All Above Time(Range)||All Above Time(Melee)]===20",
@@ -185925,7 +185932,7 @@
     "name": "Ice Crystal Circle [1]",
     "unidName": "Ice Crystal Circle",
     "resName": "Geffenia_Magictool_Ice",
-    "description": "ลด Delay หลังใช้สกิล 5%\nMATK + 100 \nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Warlock),\nลด Delay หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Jack Frost, Chain Lightning 10%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, ลด Cooldown สกิล Jack Frost 2.5 วินาที, ลดระยะเวลาร่ายแบบแปรผัน 30%\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv.3,\nลด Cooldown สกิล Frost Misty 3 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Jack Frost 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Agi) Lv.3,\nลด Delay หลังใช้สกิล 10%\nASPD + 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Chain Lightning 10%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv.3,\nลด Cooldown สกิล Jack Frost 0.5 วินาที\nASPD + 15%\nเพิ่ม Damage สกิล Jack Frost 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Agi) Lv.3,\nเมื่อใช้สกิล Chain Lightning มีโอกาส 35% ที่จะใช้สกิล Chain Lightning Lv.5 ใส่ศัตรู\nเพิ่ม Damage สกิล Chain Lightning 70%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Warlock^000000",
+    "description": "ลด Delay หลังใช้สกิล 5%\nMATK + 100 \nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Arcano,\nลด Delay หลังใช้สกิล 5%,\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Jack Frost, Chain Lightning 10%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, ลด Cooldown สกิล Jack Frost 2.5 วินาที, ลดระยะเวลาร่ายแบบแปรผัน 30%\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv.3,\nลด Cooldown สกิล Frost Misty 3 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Jack Frost 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Agi) Lv.3,\nลด Delay หลังใช้สกิล 10%\nASPD + 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Chain Lightning 10%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv.3,\nลด Cooldown สกิล Jack Frost 0.5 วินาที\nASPD + 15%\nเพิ่ม Damage สกิล Jack Frost 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Agi) Lv.3,\nเมื่อใช้สกิล Chain Lightning มีโอกาส 35% ที่จะใช้สกิล Chain Lightning Lv.5 ใส่ศัตรู\nเพิ่ม Damage สกิล Chain Lightning 70%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Warlock^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -185942,7 +185949,7 @@
     "script": {
       "acd": [
         "5",
-        "EQUIP[Temporal Circlet (Warlock)]===5",
+        "EQUIP[Diadema Temporal Arcano]===5",
         "EQUIP[All Above Time(Magic)]===5",
         "EQUIP[Temporal Jewel (Agi) Lv. 3]===10"
       ],
@@ -185953,24 +185960,24 @@
         "10"
       ],
       "Jack Frost": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper==2]---10",
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper==2]---10",
         "EQUIP[Temporal Jewel (Int) Lv. 3]REFINE[headUpper==2]---10",
         "EQUIP[Time Jewel (Int) Lv.3]===70"
       ],
       "Chain Lightning": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper==2]---10",
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper==2]---10",
         "EQUIP[Temporal Jewel (Agi) Lv. 3]REFINE[headUpper==2]---10",
         "EQUIP[Time Jewel (Agi) Lv.3]===70"
       ],
       "m_size_all": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper==3]---4"
       ],
       "cd__Jack Frost": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper==11]===2.5",
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper==11]===2.5",
         "EQUIP[Time Jewel (Int) Lv.3]===0.5"
       ],
       "vct": [
-        "EQUIP[Temporal Circlet (Warlock)]REFINE[headUpper==11]===30"
+        "EQUIP[Diadema Temporal Arcano]REFINE[headUpper==11]===30"
       ],
       "m_class_all": [
         "EQUIP[All Above Time(Magic)]===10"
@@ -186377,7 +186384,7 @@
     "name": "Durga Ring [1]",
     "unidName": "Durga Ring",
     "resName": "Anulus_Ira",
-    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Sura),\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Knuckle Arrow, Tiger Cannon 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK +20%, VIT +100 เป็นระยะเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv.3,\nเพิ่ม Damage ทางกายภาพระยะไกล 20%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 7%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv.3,\nลด Cooldown สกิล Tiger Cannon 0.5 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Tiger Cannon 5%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str),\nเมื่อใช้สกิล Knuckle Arrow มีโอกาส 35% ที่จะเกิดสกิล Knuckle Arrow Lv.10 ต่อเป้าหมาย\nเพิ่ม Damage สกิล Knuckle Arrow 105%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv.3,\nเพิ่ม Damage ทางกายภาพระยะใกล้ 20%\nเพิ่ม Damage สกิล Tiger Cannon 105%\nประเภท  : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
+    "description": "ลด Delay หลังใช้สกิล 5%\nATK + 100\nATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Lutador,\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Knuckle Arrow, Tiger Cannon 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางกายภาพ มีโอกาส 3% ที่จะ ATK +20%, VIT +100 เป็นระยะเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Range) หรือ All Above Time (Melee),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Str) Lv.3,\nเพิ่ม Damage ทางกายภาพระยะไกล 20%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 7%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv.3,\nลด Cooldown สกิล Tiger Cannon 0.5 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Tiger Cannon 5%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Str),\nเมื่อใช้สกิล Knuckle Arrow มีโอกาส 35% ที่จะเกิดสกิล Knuckle Arrow Lv.10 ต่อเป้าหมาย\nเพิ่ม Damage สกิล Knuckle Arrow 105%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv.3,\nเพิ่ม Damage ทางกายภาพระยะใกล้ 20%\nเพิ่ม Damage สกิล Tiger Cannon 105%\nประเภท  : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Sura^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -186403,21 +186410,21 @@
         "10"
       ],
       "melee": [
-        "EQUIP[Temporal Circlet (Sura)]===10",
+        "EQUIP[Diadema Temporal Lutador]===10",
         "EQUIP[Time Jewel (Vit) Lv.3]===20"
       ],
       "range": [
-        "EQUIP[Temporal Circlet (Sura)]===10",
+        "EQUIP[Diadema Temporal Lutador]===10",
         "EQUIP[Temporal Jewel (Str) Lv. 3]===20"
       ],
       "p_size_all": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper==3]---4"
       ],
       "chance__atkPercent": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper==11]===20"
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper==11]===20"
       ],
       "chance__vit": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper==11]===100"
       ],
       "p_class_all": [
         "EQUIP[All Above Time(Range)||All Above Time(Melee)]===10",
@@ -186427,11 +186434,11 @@
         "EQUIP[Temporal Jewel (Vit) Lv. 3]===0.5"
       ],
       "Knuckle Arrow": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper==2]---15",
         "EQUIP[Time Jewel (Str) Lv.3]===105"
       ],
       "Tiger Cannon": [
-        "EQUIP[Temporal Circlet (Sura)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Lutador]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Vit) Lv. 3]REFINE[headUpper==2]---5",
         "EQUIP[Time Jewel (Vit) Lv.3]===105"
       ]
@@ -186830,7 +186837,7 @@
     "name": "Surrection Ring [1]",
     "unidName": "Surrection Ring",
     "resName": "Ring_Of_Ceryneian",
-    "description": "ลด Delay หลังใช้สกิล 5%\nMATK + 100\nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Temporal Circlet (Arch Bishop),\nลด Delay หลังใช้สกิล 5%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Adoramus, Duple Light 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางเวทมนตร์ มีโอกาส 3% ที่จะ MATK + 20%, INT + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv.3,\nลด Cooldown สกิล Adoramus 1.5 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Adoramus 5%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv.3,\nเมื่อโจมตีทางกายภาพ มีโอกาส 15% ที่จะเกิดสกิล Lex Aererna Lv.1\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Duple Light 35%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv.3, \nลด Delay หลังใช้สกิล 10%\nASPD + 10%\nเพิ่ม Damage สกิล Adoramus 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv.3,\nใช้งานสกิล Empty Shadow Lv.3 ได้ (จำเป็นต้องใช้ Shadow Orb 1 ea ในการใช้สกิล)\nเพิ่ม Damage สกิล Duple Light 400%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Arch Bishop^000000",
+    "description": "ลด Delay หลังใช้สกิล 5%\nMATK + 100\nMATK + 10%\n\nเมื่อสวมใส่ร่วมกับ Diadema Temporal Sagrado,\nลด Delay หลังใช้สกิล 5%\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Adoramus, Duple Light 15%\nทุก ๆ การอัพเกรด Headgear 3 ขั้น, เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 4%\nเมื่ออัพเกรดถึงขั้น 11, เมื่อโจมตีทางเวทมนตร์ มีโอกาส 3% ที่จะ MATK + 20%, INT + 100 เป็นเวลา 10 วินาที\n\nเมื่อสวมใส่ร่วมกับ All Above Time (Magic),\nลด Delay หลังใช้สกิล 5%\nเพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกประเภท 10%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Int) Lv.3,\nลด Cooldown สกิล Adoramus 1.5 วินาที\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Adoramus 5%\n\nเมื่อใช้งานร่วมกับ Temporal Jewel (Vit) Lv.3,\nเมื่อโจมตีทางกายภาพ มีโอกาส 15% ที่จะเกิดสกิล Lex Aererna Lv.1\nทุก ๆ การอัพเกรด Headgear 2 ขั้น, เพิ่ม Damage สกิล Duple Light 35%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Int) Lv.3, \nลด Delay หลังใช้สกิล 10%\nASPD + 10%\nเพิ่ม Damage สกิล Adoramus 70%\n\nเมื่อใช้งานร่วมกับ Time Jewel (Vit) Lv.3,\nใช้งานสกิล Empty Shadow Lv.3 ได้ (จำเป็นต้องใช้ Shadow Orb 1 ea ในการใช้สกิล)\nเพิ่ม Damage สกิล Duple Light 400%\nประเภท : ^777777Accessory (Left)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^777777170^000000\nอาชีพที่ใส่ได้ : ^777777Arch Bishop^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 511,
@@ -186847,7 +186854,7 @@
     "script": {
       "acd": [
         "5",
-        "EQUIP[Temporal Circlet (Arch Bishop)]===5",
+        "EQUIP[Diadema Temporal Sagrado]===5",
         "EQUIP[All Above Time(Magic)]===5",
         "EQUIP[Time Jewel (Int) Lv.3]===10"
       ],
@@ -186858,7 +186865,7 @@
         "10"
       ],
       "m_size_all": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper==3]---4"
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper==3]---4"
       ],
       "m_class_all": [
         "EQUIP[All Above Time(Magic)]===10"
@@ -186867,12 +186874,12 @@
         "EQUIP[Temporal Jewel (Int) Lv. 3]===1.5"
       ],
       "Adoramus": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Int) Lv. 3]REFINE[headUpper==2]---5",
         "EQUIP[Time Jewel (Int) Lv.3]===70"
       ],
       "Duple Light": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper==2]---15",
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper==2]---15",
         "EQUIP[Temporal Jewel (Vit) Lv. 3]REFINE[headUpper==2]---35",
         "EQUIP[Time Jewel (Vit) Lv.3]===400"
       ],
@@ -186880,10 +186887,10 @@
         "EQUIP[Time Jewel (Int) Lv.3]===10"
       ],
       "chance__matkPercent": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper==11]===20"
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper==11]===20"
       ],
       "chance__int": [
-        "EQUIP[Temporal Circlet (Arch Bishop)]REFINE[headUpper==11]===100"
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper==11]===100"
       ]
     }
   },
