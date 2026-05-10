@@ -156331,6 +156331,81 @@
       ]
     }
   },
+  "420820": {
+    "id": 420820,
+    "aegisName": "Poring_On_Shoulder_LT",
+    "name": "Competidor Poring",
+    "unidName": "Competidor Poring",
+    "resName": null,
+    "description": "Participante número 1 da Corrida de Monstros, o Poring, pode parecer lento para a competição, mas é bastante resistente aos obstáculos do percurso!\n--------------------------\nPós-conjuração -3%.\nDano mágico de todas as propriedades +5%.\n--------------------------\nTipo: Equip. para Cabeça\nEquipa em: Baixo\nDEF: 0 DEFM: 0\nPeso: 10\nNível necessário: 100\nClasses: Todas",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "acd": ["3"],
+      "m_my_element_all": ["5"]
+    }
+  },
+  "420821": {
+    "id": 420821,
+    "aegisName": "SavageB_On_Shoulder_LT",
+    "name": "Competidor Bebê Selvagem",
+    "unidName": "Competidor Bebê Selvagem",
+    "resName": null,
+    "description": "Participante número 2 da Corrida de Monstros, o Bebê Selvagem, pode parecer frágil para a competição, mas é bastante rápido aos obstáculos do percurso!\n--------------------------\nPós-conjuração -3%.\nDano físico a distância +5%.\n--------------------------\nTipo: Equip. para Cabeça\nEquipa em: Baixo\nDEF: 0 DEFM: 0\nPeso: 10\nNível necessário: 100\nClasses: Todas",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "acd": ["3"],
+      "range": ["5"]
+    }
+  },
+  "420822": {
+    "id": 420822,
+    "aegisName": "Luna_On_Shoulder_LT",
+    "name": "Competidor Lunático",
+    "unidName": "Competidor Lunático",
+    "resName": null,
+    "description": "Participante número 3 da Corrida de Monstros, o Lunático, pode parecer fofo para a competição, mas é bastante ágil aos obstáculos do percurso!\n--------------------------\nPós-conjuração -3%.\nDano físico corpo a corpo +5%.\n--------------------------\nTipo: Equip. para Cabeça\nEquipa em: Baixo\nDEF: 0 DEFM: 0\nPeso: 10\nNível necessário: 100\nClasses: Todas",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 100,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "acd": ["3"],
+      "melee": ["5"]
+    }
+  },
   "440013": {
     "id": 440013,
     "aegisName": "C_2024ROS_Hat_1st",
@@ -177368,24 +177443,60 @@
       "all"
     ],
     "script": {
-      "p_size_all": ["3---3"],
-      "range": ["5---5"],
-      "melee": ["5---5"],
-      "atk": ["9===50"],
-      "perfectHit": ["9===10"],
-      "hpPercent": ["11===10"],
-      "spPercent": ["11===10"],
-      "acd": ["11===15"],
-      "vct__Dragon Breath": ["EQUIP[Diadema Temporal Rúnico]100"],
-      "vct__Dragon Breath - WATER": ["EQUIP[Diadema Temporal Rúnico]100"],
-      "cd__Banishing Point": ["EQUIP[Diadema Temporal Real]REFINE[headUpper,garment==22]===0.5"],
-      "vct__Arrow Storm": ["EQUIP[Diadema Temporal Atirador]100"],
-      "vct__Aimed Bolt": ["EQUIP[Diadema Temporal Atirador]100"],
-      "cd__No Limits": ["EQUIP[Diadema Temporal Atirador]REFINE[headUpper,garment==22]===45"],
-      "cd__Flash Combo": ["EQUIP[Diadema Temporal Lutador]1"],
-      "cd__Cart Tornado": ["EQUIP[Diadema Temporal Químico]0.5"],
-      "vct__Kunai Explosion": ["EQUIP[Diadema Temporal Kagerou]100"],
-      "cd__Kunai Explosion": ["EQUIP[Diadema Temporal Kagerou]REFINE[headUpper,garment==22]===1"],
+      "p_size_all": [
+        "3---3"
+      ],
+      "range": [
+        "5---5"
+      ],
+      "melee": [
+        "5---5"
+      ],
+      "atk": [
+        "9===50"
+      ],
+      "perfectHit": [
+        "9===10"
+      ],
+      "hpPercent": [
+        "11===10"
+      ],
+      "spPercent": [
+        "11===10"
+      ],
+      "acd": [
+        "11===15"
+      ],
+      "vct__Dragon Breath": [
+        "EQUIP[Diadema Temporal Rúnico]100"
+      ],
+      "vct__Dragon Breath - WATER": [
+        "EQUIP[Diadema Temporal Rúnico]100"
+      ],
+      "cd__Banishing Point": [
+        "EQUIP[Diadema Temporal Real]REFINE[headUpper,garment==22]===0.5"
+      ],
+      "vct__Arrow Storm": [
+        "EQUIP[Diadema Temporal Atirador]100"
+      ],
+      "vct__Aimed Bolt": [
+        "EQUIP[Diadema Temporal Atirador]100"
+      ],
+      "cd__No Limits": [
+        "EQUIP[Diadema Temporal Atirador]REFINE[headUpper,garment==22]===45"
+      ],
+      "cd__Flash Combo": [
+        "EQUIP[Diadema Temporal Lutador]1"
+      ],
+      "cd__Cart Tornado": [
+        "EQUIP[Diadema Temporal Químico]0.5"
+      ],
+      "vct__Kunai Explosion": [
+        "EQUIP[Diadema Temporal Kagerou]100"
+      ],
+      "cd__Kunai Explosion": [
+        "EQUIP[Diadema Temporal Kagerou]REFINE[headUpper,garment==22]===1"
+      ],
       "fct": [
         "EQUIP[Diadema Temporal Rebelde]REFINE[headUpper,garment==22]===0.5",
         "EQUIP[Diadema Temporal Estelar]REFINE[headUpper,garment==22]===0.5"
@@ -177413,20 +177524,48 @@
       "all"
     ],
     "script": {
-      "m_size_all": ["3---3"],
-      "m_my_element_all": ["5---5"],
-      "matk": ["9===50"],
-      "vct": ["9===10"],
-      "hpPercent": ["11===10"],
-      "spPercent": ["11===10"],
-      "acd": ["11===15"],
-      "vct__Jack Frost": ["EQUIP[Diadema Temporal Arcano]100"],
-      "vct__Diamond Dust": ["EQUIP[Diadema Temporal Mágico]100"],
-      "cd__Adoramus": ["EQUIP[Diadema Temporal Sagrado]REFINE[headUpper,garment==22]===0.5"],
-      "vct__Metalic Sound": ["EQUIP[Diadema Temporal Musical]100"],
-      "vct__Freezing Spear": ["EQUIP[Diadema Temporal Oboro]100"],
-      "vct__Wind Blade": ["EQUIP[Diadema Temporal Oboro]100"],
-      "vct__Catnip Meteor": ["EQUIP[Diadema Temporal Doram]100"]
+      "m_size_all": [
+        "3---3"
+      ],
+      "m_my_element_all": [
+        "5---5"
+      ],
+      "matk": [
+        "9===50"
+      ],
+      "vct": [
+        "9===10"
+      ],
+      "hpPercent": [
+        "11===10"
+      ],
+      "spPercent": [
+        "11===10"
+      ],
+      "acd": [
+        "11===15"
+      ],
+      "vct__Jack Frost": [
+        "EQUIP[Diadema Temporal Arcano]100"
+      ],
+      "vct__Diamond Dust": [
+        "EQUIP[Diadema Temporal Mágico]100"
+      ],
+      "cd__Adoramus": [
+        "EQUIP[Diadema Temporal Sagrado]REFINE[headUpper,garment==22]===0.5"
+      ],
+      "vct__Metalic Sound": [
+        "EQUIP[Diadema Temporal Musical]100"
+      ],
+      "vct__Freezing Spear": [
+        "EQUIP[Diadema Temporal Oboro]100"
+      ],
+      "vct__Wind Blade": [
+        "EQUIP[Diadema Temporal Oboro]100"
+      ],
+      "vct__Catnip Meteor": [
+        "EQUIP[Diadema Temporal Doram]100"
+      ]
     }
   },
   "490004": {
