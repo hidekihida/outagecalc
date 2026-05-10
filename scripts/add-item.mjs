@@ -94,7 +94,9 @@ async function fileExists(p) {
 async function downloadIcon(id, dir) {
   const out = resolve(dir, `${id}.png`);
   if (await fileExists(out)) return { status: "skip", path: out };
-  const url = `https://static.divine-pride.net/images/items/collection/${id}.png`;
+  // URL "item/" = icone pequeno (24x24, transparencia preservada)
+  // URL "collection/" tem fundo branco e e maior (75x100), nao bate com o resto da calc.
+  const url = `https://static.divine-pride.net/images/items/item/${id}.png`;
   const res = await fetch(url);
   if (!res.ok) return { status: "fail", reason: `HTTP ${res.status}` };
   const buf = Buffer.from(await res.arrayBuffer());
