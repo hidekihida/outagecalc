@@ -45,3 +45,6 @@ ssl
 backup-preset.json
 # Divine Pride API key
 .env
+
+# Arquivos temporarios do merge com rocalc.cc
+scripts/rocalc-*.json
