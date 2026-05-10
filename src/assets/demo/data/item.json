@@ -177375,7 +177375,18 @@
       "perfectHit": ["9===10"],
       "hpPercent": ["11===10"],
       "spPercent": ["11===10"],
-      "acd": ["11===15"]
+      "acd": ["11===15"],
+      "vct__Arrow Storm": ["EQUIP[Temporal Circlet (Ranger)]100"],
+      "vct__Aimed Bolt": ["EQUIP[Temporal Circlet (Ranger)]100"],
+      "cd__No Limits": ["EQUIP[Temporal Circlet (Ranger)]REFINE[headUpper,garment==22]===45"],
+      "cd__Flash Combo": ["EQUIP[Temporal Circlet (Sura)]1"],
+      "cd__Cart Tornado": ["EQUIP[Temporal Circlet (Genetic)]0.5"],
+      "vct__Kunai Explosion": ["EQUIP[Temporal Circlet (Kagerou)]100"],
+      "cd__Kunai Explosion": ["EQUIP[Temporal Circlet (Kagerou)]REFINE[headUpper,garment==22]===1"],
+      "fct": [
+        "EQUIP[Temporal Circlet (Rebellion)]REFINE[headUpper,garment==22]===0.5",
+        "EQUIP[Temporal Circlet (Star Emperor)]REFINE[headUpper,garment==22]===0.5"
+      ]
     }
   },
   "480813": {
