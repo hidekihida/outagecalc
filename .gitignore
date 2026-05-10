@@ -43,3 +43,5 @@ layout.css
 src/assets/demo/styles/badges.css
 ssl
 backup-preset.json
+# Divine Pride API key
+.env

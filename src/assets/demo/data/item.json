@@ -171891,6 +171891,28 @@
       ]
     }
   },
+  "470416": {
+    "id": 470416,
+    "aegisName": "Samba_Shoes2",
+    "name": "Sandália de Samba",
+    "unidName": "Sandália de Samba",
+    "resName": null,
+    "description": "Sandália de Samba [1]",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": 0,
+    "defense": 0,
+    "weight": 0,
+    "requiredLevel": 100,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {}
+  },
   "480000": {
     "id": 480000,
     "aegisName": "Atker_Manteau",
