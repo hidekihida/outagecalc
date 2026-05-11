@@ -8,6 +8,257 @@ $gutter: 1rem; //for primeflex grid system
 @import "../node_modules/primeflex/primeflex.scss";
 @import "../node_modules/primeicons/primeicons.css";
 
+/* ═══════════════════════════════════════════════════════════════
+   REFORMA VISUAL — Outage Calc
+   Tokens, tipografia, background e refinos sobre o lara-dark-blue
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Fontes modernas (Inter pro corpo, JetBrains Mono pros números) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+:root {
+  /* Tokens do tema Outage */
+  --outage-bg: #0a0e1a;
+  --outage-bg-2: #0f1525;
+  --outage-surface: rgba(22, 28, 45, 0.7);
+  --outage-surface-hi: rgba(30, 38, 60, 0.85);
+  --outage-border: rgba(99, 110, 144, 0.18);
+  --outage-border-hi: rgba(99, 110, 144, 0.32);
+
+  --outage-accent: #3b82f6;
+  --outage-accent-hover: #2563eb;
+  --outage-accent-soft: rgba(59, 130, 246, 0.12);
+  --outage-accent-glow: rgba(59, 130, 246, 0.35);
+
+  --outage-gold: #fbbf24;
+  --outage-magic: #a78bfa;
+
+  --outage-text: #e6ecf5;
+  --outage-text-dim: #94a3b8;
+}
+
+/* Fonte global Inter + altura padrão melhor */
+html,
+body,
+.layout-wrapper {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif !important;
+}
+
+/* Números em fonte mono (inputs numéricos, valores, refinos) */
+.p-inputnumber-input,
+input[type='number'],
+.refine-value,
+.stat-value,
+.summary-value {
+  font-family: 'JetBrains Mono', 'Consolas', monospace !important;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Background com gradiente sutil ── */
+body,
+.layout-wrapper {
+  background: var(--outage-bg) !important;
+  background-image:
+    radial-gradient(900px 500px at 12% -10%, rgba(59, 130, 246, 0.10), transparent 60%),
+    radial-gradient(700px 500px at 92% 110%, rgba(167, 139, 250, 0.08), transparent 60%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+}
+
+/* ── Cards / Panels com glassmorphism ── */
+.p-card,
+.p-panel,
+.p-fieldset,
+.p-tabview-panels,
+.p-dialog .p-dialog-content,
+.card {
+  background: var(--outage-surface) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid var(--outage-border) !important;
+  border-radius: 12px !important;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.p-card:hover,
+.p-panel:hover {
+  border-color: var(--outage-border-hi) !important;
+}
+
+/* Header dos panels: cor mais sutil + accent bar */
+.p-card .p-card-header,
+.p-card .p-card-title,
+.p-panel .p-panel-header,
+.p-fieldset .p-fieldset-legend {
+  background: transparent !important;
+  border-bottom: 1px solid var(--outage-border) !important;
+  color: var(--outage-text-dim) !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  position: relative;
+}
+
+.p-panel .p-panel-header::before,
+.p-fieldset .p-fieldset-legend::before {
+  content: '';
+  display: inline-block;
+  width: 3px;
+  height: 14px;
+  background: var(--outage-accent);
+  border-radius: 2px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* ── Inputs: foco com glow azul ── */
+.p-inputtext:enabled:focus,
+.p-inputnumber-input:enabled:focus,
+.p-dropdown:not(.p-disabled).p-focus,
+.p-multiselect:not(.p-disabled).p-focus,
+.p-autocomplete-input:enabled:focus,
+textarea:focus,
+input:focus {
+  border-color: var(--outage-accent) !important;
+  box-shadow: 0 0 0 3px var(--outage-accent-soft) !important;
+  outline: none !important;
+}
+
+/* ── Botões primários com glow ── */
+.p-button.p-button-primary,
+.p-button:not(.p-button-secondary):not(.p-button-success):not(.p-button-info):not(.p-button-warning):not(.p-button-danger):not(.p-button-help):not(.p-button-text):not(.p-button-outlined) {
+  background: var(--outage-accent) !important;
+  border-color: var(--outage-accent) !important;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3) !important;
+  transition: all 0.15s ease !important;
+}
+
+.p-button.p-button-primary:hover,
+.p-button:not(.p-button-secondary):not(.p-button-success):not(.p-button-info):not(.p-button-warning):not(.p-button-danger):not(.p-button-help):not(.p-button-text):not(.p-button-outlined):hover {
+  background: var(--outage-accent-hover) !important;
+  border-color: var(--outage-accent-hover) !important;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.5) !important;
+  transform: translateY(-1px);
+}
+
+/* ── Tabs: visual moderno ── */
+.p-tabview .p-tabview-nav {
+  background: var(--outage-surface) !important;
+  border: 1px solid var(--outage-border) !important;
+  border-radius: 12px !important;
+  padding: 4px !important;
+  gap: 2px;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  background: transparent !important;
+  border: none !important;
+  color: var(--outage-text-dim) !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  transition: all 0.15s ease !important;
+  margin: 0 !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:hover {
+  color: var(--outage-text) !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: var(--outage-accent) !important;
+  color: white !important;
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4) !important;
+}
+
+/* ── Topbar/menu: glass effect ── */
+.layout-topbar {
+  background: var(--outage-surface) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid var(--outage-border) !important;
+}
+
+.layout-sidebar {
+  background: var(--outage-surface) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-right: 1px solid var(--outage-border) !important;
+}
+
+/* ── Selo / Tag: arredondado e elegante ── */
+.p-tag {
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+  font-size: 0.65rem !important;
+  padding: 3px 10px !important;
+}
+
+/* ── Tabela: linhas mais separadas, hover sutil ── */
+.p-datatable .p-datatable-thead > tr > th {
+  background: transparent !important;
+  color: var(--outage-text-dim) !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  border-bottom: 1px solid var(--outage-border) !important;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  background: transparent !important;
+  transition: background 0.15s ease;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background: var(--outage-accent-soft) !important;
+}
+
+/* ── Dropdown items hover ── */
+.p-dropdown-panel .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover,
+.p-autocomplete-panel .p-autocomplete-item:hover {
+  background: var(--outage-accent-soft) !important;
+  color: var(--outage-text) !important;
+}
+
+/* ── Slot/equipamento: highlight no hover ── */
+[class*='equip'] [class*='slot']:hover,
+.equipment-slot:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: all 0.15s ease;
+}
+
+/* ── Texto destacado (dano, números importantes) ── */
+.damage-number,
+.highlight-gold {
+  color: var(--outage-gold) !important;
+  text-shadow: 0 0 20px rgba(251, 191, 36, 0.3);
+  font-family: 'JetBrains Mono', monospace !important;
+  font-weight: 700;
+}
+
+/* ── Scrollbar mais discreta ── */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--outage-bg-2); }
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 110, 144, 0.3);
+  border-radius: 5px;
+  border: 2px solid var(--outage-bg-2);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--outage-accent); }
+
+/* ── Animação suave nas transições de tab ── */
+.p-tabview-panel {
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 
 .property_Water {
   /* background-color: #7ba7e1; */
