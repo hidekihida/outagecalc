@@ -770,3 +770,61 @@
 /* Tom sutil da borda lateral por performance pra cards nao-best */
 :host ::ng-deep .monster-vs-card.mvs-perf-high:not(.mvs-is-best)::before { background: #10b981; }
 :host ::ng-deep .monster-vs-card.mvs-perf-low:not(.mvs-is-best)::before { background: #ef4444; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Resumo de Batalha — modernizacao MINIMAL (so visual das pills)
+   Mantém o layout original 100% intocado. Só refina cor/fonte
+   dos pequenos boxes de valor (#121212 -> glass).
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Pills mais modernas: troca o fundo cru #121212 por glass colorido.
+   Tamanho e display continuam exatamente iguais, so muda a aparencia. */
+:host ::ng-deep .battle_summary .summary_monster_value,
+:host ::ng-deep .battle_summary .summary_highlight,
+:host ::ng-deep .battle_summary .summary_damage,
+:host ::ng-deep .battle_summary .summary_value,
+:host ::ng-deep .battle_summary .summary_chance,
+:host ::ng-deep .battle_summary .summary_chance_hilight,
+:host ::ng-deep .battle_summary .summary_compare {
+  background: rgba(0, 0, 0, 0.32) !important;
+  border-radius: 5px;
+  font-family: 'JetBrains Mono', 'Consolas', monospace !important;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.2px;
+}
+
+/* Skill damage: destaque dourado leve (so cor, sem mexer em tamanho) */
+:host ::ng-deep .battle_summary .summary_damage {
+  color: #fcd34d !important;
+  background: rgba(251, 191, 36, 0.10) !important;
+  text-shadow: 0 0 8px rgba(251, 191, 36, 0.2);
+}
+
+/* Highlight (ASPD, base etc) laranja mais claro */
+:host ::ng-deep .battle_summary .summary_highlight,
+:host ::ng-deep .battle_summary .summary_chance_hilight {
+  color: #fb923c !important;
+  background: rgba(251, 146, 60, 0.10) !important;
+}
+
+/* Monster value: rose mais suave que o vermelho gritante */
+:host ::ng-deep .battle_summary .summary_monster_value {
+  color: #fda4af !important;
+  background: rgba(251, 113, 133, 0.10) !important;
+}
+
+/* Imagem do monstro: leve frame */
+:host ::ng-deep .battle_summary .img_monster {
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 4px;
+}
+
+/* Lupa de elemento menor */
+:host ::ng-deep .battle_summary .p-button.p-button-text.p-button-warning {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  padding: 0;
+}
+:host ::ng-deep .battle_summary .pi-search { font-size: 0.75rem; }
