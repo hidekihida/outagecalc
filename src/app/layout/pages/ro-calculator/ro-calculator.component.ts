@@ -1027,6 +1027,46 @@ export class RoCalculatorComponent implements OnInit, OnDestroy {
     this.calculator.setMonster(this.monsterDataMap[this.selectedMonster]).prepareAllItemBonus().calcAllAtk();
   }
 
+  /**
+   * Retorna calcDamages ordenado por skillMaxDamage (desc) e enriquecido com:
+   * - _rank: posicao 1-N
+   * - _isBest: true se eh o de maior dano
+   * - _damagePct: 0-100, dano relativo ao melhor (pra barra visual)
+   * - _diffPct: diferenca percentual vs o melhor (negativa ou 0)
+   * - _timeToKillSec: tempo estimado pra matar baseado no DPS
+   * - _performance: 'high' | 'mid' | 'low' baseado em quartis
+   */
+  get comparisonDamagesEnriched() {
+    const list = this.calcDamages || [];
+    if (!list.length) return [];
+
+    // Ordena por skillMaxDamage desc; itens sem dano vao pro fim
+    const sorted = [...list].sort((a, b) => (b.skillMaxDamage || 0) - (a.skillMaxDamage || 0));
+    const bestDmg = sorted[0]?.skillMaxDamage || 0;
+
+    return sorted.map((item, idx) => {
+      const dmg = item.skillMaxDamage || 0;
+      const damagePct = bestDmg > 0 ? Math.round((dmg / bestDmg) * 100) : 0;
+      const diffPct = bestDmg > 0 ? Math.round(((dmg - bestDmg) / bestDmg) * 100) : 0;
+      const timeToKillSec = item.skillDps > 0 && item.health > 0
+        ? Math.max(1, Math.round(item.health / item.skillDps))
+        : null;
+      let performance: 'high' | 'mid' | 'low' = 'mid';
+      if (damagePct >= 80) performance = 'high';
+      else if (damagePct < 50) performance = 'low';
+
+      return {
+        ...item,
+        _rank: idx + 1,
+        _isBest: idx === 0 && dmg > 0,
+        _damagePct: damagePct,
+        _diffPct: diffPct,
+        _timeToKillSec: timeToKillSec,
+        _performance: performance,
+      };
+    });
+  }
+
   private resetModel() {
     const { class: _class, level, jobLevel } = this.model;
     this.model = { ...createMainModel(), class: _class, level, jobLevel };

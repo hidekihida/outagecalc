@@ -1942,11 +1942,21 @@
           </div>
 
           <!-- Grid de cards -->
-          <div class="col-12 monster-vs-grid" *ngIf="calcDamages?.length">
+          <div class="col-12 monster-vs-grid" *ngIf="comparisonDamagesEnriched?.length">
             <div
-              *ngFor="let item of calcDamages"
-              class="monster-vs-card {{ 'mvs-class-' + (item.monsterClass | lowercase) }}"
+              *ngFor="let item of comparisonDamagesEnriched"
+              class="monster-vs-card mvs-class-{{ item.monsterClass | lowercase }} mvs-perf-{{ item._performance }}"
+              [class.mvs-is-best]="item._isBest"
             >
+              <!-- Badge de rank no canto -->
+              <div class="mvs-rank-badge" *ngIf="item._isBest">
+                <span class="mvs-crown">👑</span>
+                <span>TOP 1</span>
+              </div>
+              <div class="mvs-rank-badge mvs-rank-other" *ngIf="!item._isBest && item.skillMaxDamage > 0">
+                #{{ item._rank }}
+              </div>
+
               <!-- Header com imagem e nome -->
               <div class="mvs-head">
                 <img
@@ -1967,7 +1977,16 @@
               <!-- Dano principal: skillMaxDamage em destaque -->
               <div class="mvs-damage">
                 <div class="mvs-damage-num">{{ item.skillMaxDamage > 0 ? (item.skillMaxDamage | number) : '—' }}</div>
-                <div class="mvs-damage-sub">Dano Máx da Skill</div>
+                <div class="mvs-damage-sub">
+                  Dano Máx da Skill
+                  <span class="mvs-diff" *ngIf="item._isBest">· top 1</span>
+                  <span class="mvs-diff mvs-diff-down" *ngIf="!item._isBest && item._diffPct < 0">· {{ item._diffPct }}%</span>
+                </div>
+              </div>
+
+              <!-- Barra visual proporcional ao melhor -->
+              <div class="mvs-bar" *ngIf="item.skillMaxDamage > 0">
+                <div class="mvs-bar-fill" [style.width.%]="item._damagePct"></div>
               </div>
 
               <!-- Stats -->
@@ -1984,6 +2003,10 @@
                   <span class="mvs-stat-k">Hits p/ matar</span>
                   <span class="mvs-stat-v">{{ item.skillHitKill | number }}</span>
                 </div>
+                <div class="mvs-stat" *ngIf="item._timeToKillSec != null">
+                  <span class="mvs-stat-k">Tempo p/ matar</span>
+                  <span class="mvs-stat-v mvs-up">~{{ item._timeToKillSec }}s</span>
+                </div>
                 <div class="mvs-stat" *ngIf="item.skillCriRateToMonster">
                   <span class="mvs-stat-k">Crítico</span>
                   <span class="mvs-stat-v mvs-crit">{{ item.skillCriRateToMonster }}%</span>
@@ -1991,10 +2014,6 @@
                 <div class="mvs-stat">
                   <span class="mvs-stat-k">HP do alvo</span>
                   <span class="mvs-stat-v">{{ item.health | number }}</span>
-                </div>
-                <div class="mvs-stat" *ngIf="item.basicMaxDamage">
-                  <span class="mvs-stat-k">Atk Básico Máx</span>
-                  <span class="mvs-stat-v">{{ item.basicMaxDamage | number }}</span>
                 </div>
               </div>
             </div>
