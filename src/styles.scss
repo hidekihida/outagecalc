@@ -259,6 +259,158 @@ input:focus {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   REFORMA VISUAL — PASSO 3
+   Containers da calc (que usa <div class="col-X"> direto, sem p-card)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Forca o body ter o fundo gradient mesmo com surface-ground sobrescrito */
+body {
+  background: var(--outage-bg) !important;
+  background-image:
+    radial-gradient(1200px 700px at 10% -10%, rgba(59, 130, 246, 0.12), transparent 60%),
+    radial-gradient(900px 700px at 95% 110%, rgba(167, 139, 250, 0.10), transparent 60%),
+    radial-gradient(500px 400px at 50% 50%, rgba(59, 130, 246, 0.04), transparent 70%) !important;
+  background-attachment: fixed !important;
+}
+
+/* Override do tema PrimeNG: surface-ground transparente pra deixar o gradient passar */
+:root {
+  --surface-ground: transparent !important;
+  --surface-section: transparent !important;
+}
+
+/* Container principal da calc: padding bom + max-width pra centralizar */
+.layout-main-container {
+  background: transparent !important;
+}
+
+/* As colunas grandes (col-7, col-5) viram painéis com glass */
+.layout-main-container > .layout-main > app-ro-calculator > .grid.grid-nogutter,
+.layout-main .grid.grid-nogutter[style*='min-width'] {
+  gap: 16px !important;
+  padding: 16px !important;
+}
+
+/* Cada coluna grande (.col-7, .col-5) ganha card style */
+.layout-main .grid.grid-nogutter[style*='min-width'] > .col-7,
+.layout-main .grid.grid-nogutter[style*='min-width'] > .col-5 {
+  background: var(--outage-surface) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--outage-border) !important;
+  border-radius: 14px;
+  padding: 18px !important;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Sub-grupos de inputs ganham um background mais sutil pra agrupar visualmente */
+.p-fluid > .grid > [class*='col-'] > .grid > [class*='col-'] {
+  border-radius: 8px;
+}
+
+/* Input group: mais espaço respirável + bordas suaves */
+.p-inputgroup {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.p-inputgroup-addon {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: var(--outage-border) !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--outage-text-dim) !important;
+}
+
+/* Inputs com fundo + borda padronizados */
+.p-inputtext,
+.p-inputnumber-input,
+.p-dropdown,
+.p-multiselect,
+.p-autocomplete-input {
+  background: rgba(15, 21, 37, 0.6) !important;
+  border-color: var(--outage-border) !important;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+/* Topbar: gradient sutil + glass */
+.layout-topbar {
+  background: linear-gradient(180deg, rgba(15, 21, 37, 0.95), rgba(15, 21, 37, 0.75)) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid var(--outage-border) !important;
+}
+
+/* Botões secundários ficam mais discretos */
+.p-button.p-button-secondary {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: var(--outage-border) !important;
+  color: var(--outage-text) !important;
+}
+
+.p-button.p-button-secondary:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: var(--outage-border-hi) !important;
+}
+
+/* Botão success (Salvar) com gradient verde */
+.p-button.p-button-success {
+  background: linear-gradient(180deg, #10b981, #059669) !important;
+  border-color: #059669 !important;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+}
+
+/* Botão help/info (preset, splitButton) com tom roxo */
+.p-button.p-button-help {
+  background: linear-gradient(180deg, var(--outage-magic), #8b5cf6) !important;
+  border-color: #8b5cf6 !important;
+}
+
+/* Dropdown panel (aberto) com glass */
+.p-dropdown-panel,
+.p-autocomplete-panel,
+.p-multiselect-panel {
+  background: var(--outage-surface-hi) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid var(--outage-border-hi) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+/* Sombras extras no foco pra dar profundidade */
+.p-component {
+  transition: all 0.15s ease;
+}
+
+/* Spinner button arrows (p-inputnumber +/-) */
+.p-inputnumber-button {
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-color: var(--outage-border) !important;
+  color: var(--outage-text-dim) !important;
+}
+.p-inputnumber-button:hover {
+  background: var(--outage-accent-soft) !important;
+  color: var(--outage-accent) !important;
+}
+
+/* Job dropdown / imagens de classe com glow no hover */
+.job_img {
+  border-radius: 4px;
+  transition: transform 0.15s ease;
+}
+.job_img:hover { transform: scale(1.1); }
+
+/* Texto de labels mais aparentes */
+.p-inputgroup-addon[style*='width'] {
+  background: rgba(59, 130, 246, 0.08) !important;
+  color: #93c5fd !important;
+}
+
 
 .property_Water {
   /* background-color: #7ba7e1; */
