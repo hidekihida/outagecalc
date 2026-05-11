@@ -1714,6 +1714,136 @@
         </div>
       </p-accordionTab>
 
+      <p-accordionTab header="🎯 Resumo Hero" [selected]="true">
+        <div class="resumo-hero" *ngIf="totalSummary?.dmg">
+          <!-- Coluna 1: Monstro -->
+          <div class="rh-card rh-monster-card">
+            <div class="rh-section-label">Alvo</div>
+            <div class="rh-monster-portrait">
+              <img
+                [src]="'https://static.divine-pride.net/images/mobs/png/' + selectedMonster + '.png'"
+                alt="-"
+                onerror="this.style.display='none'"
+              />
+            </div>
+            <div class="rh-monster-name">{{ selectedMonsterName }}</div>
+
+            <div class="rh-pills">
+              <span class="rh-pill rh-pill-class" *ngIf="totalSummary?.monster?.typeUpper">
+                {{ totalSummary?.monster?.typeUpper }}
+              </span>
+              <span class="rh-pill rh-pill-mvp" *ngIf="totalSummary?.monster?.isMvp">MVP</span>
+              <span class="rh-pill rh-pill-element {{ 'property_' + totalSummary?.monster?.elementUpper }}">
+                {{ totalSummary?.monster?.elementLevelUpper }}
+              </span>
+              <span class="rh-pill rh-pill-race" *ngIf="totalSummary?.monster?.raceUpper">
+                {{ totalSummary?.monster?.raceUpper }}
+              </span>
+              <span class="rh-pill rh-pill-size" *ngIf="totalSummary?.monster?.sizeFullUpper">
+                {{ totalSummary?.monster?.sizeFullUpper }}
+              </span>
+            </div>
+
+            <div class="rh-mini-stats">
+              <div class="rh-mini-stat">
+                <span class="rh-k">HP</span>
+                <span class="rh-v">{{ totalSummary?.monster?.hp | number }}</span>
+              </div>
+              <div class="rh-mini-stat">
+                <span class="rh-k">DEF</span>
+                <span class="rh-v">{{ totalSummary?.monster?.softDef }} + {{ totalSummary?.monster?.def }}</span>
+              </div>
+              <div class="rh-mini-stat">
+                <span class="rh-k">MDEF</span>
+                <span class="rh-v">{{ totalSummary?.monster?.softMDef }} + {{ totalSummary?.monster?.mdef }}</span>
+              </div>
+              <div class="rh-mini-stat">
+                <span class="rh-k">RES</span>
+                <span class="rh-v">{{ totalSummary?.monster?.res }}</span>
+              </div>
+              <div class="rh-mini-stat">
+                <span class="rh-k">M.RES</span>
+                <span class="rh-v">{{ totalSummary?.monster?.mres }}</span>
+              </div>
+              <div class="rh-mini-stat">
+                <span class="rh-k">HIT100</span>
+                <span class="rh-v">{{ totalSummary?.monster?.hitRequireFor100 }}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Coluna 2: Dano HERO -->
+          <div class="rh-card rh-damage-card">
+            <div class="rh-section-label">Habilidade</div>
+            <div class="rh-skill-name">{{ totalSummary?.dmg?.skillDamageLabel || model?.selectedAtkSkill }}</div>
+
+            <div class="rh-skill-pills">
+              <span class="rh-pill rh-pill-type" *ngIf="totalSummary?.calcSkill?.dmgType">
+                {{ totalSummary?.calcSkill?.dmgType }}
+              </span>
+              <span class="rh-pill rh-pill-element {{ 'property_' + totalSummary?.calcSkill?.propertySkill }}" *ngIf="totalSummary?.calcSkill?.propertySkill">
+                {{ totalSummary?.calcSkill?.propertySkill }}
+              </span>
+              <span class="rh-pill rh-pill-mult" *ngIf="totalSummary?.dmg?.skillPropertyMultiplier">
+                × {{ totalSummary?.dmg?.skillPropertyMultiplier }}
+              </span>
+            </div>
+
+            <!-- HERO: dano min-max gigante -->
+            <div class="rh-damage-hero">
+              <div class="rh-damage-num">
+                {{ totalSummary?.dmg?.skillMinDamage | number }} <span class="rh-damage-sep">—</span> {{ totalSummary?.dmg?.skillMaxDamage | number }}
+              </div>
+              <div class="rh-damage-label">Dano por hit · mín → máx</div>
+            </div>
+
+            <!-- Key stats -->
+            <div class="rh-key-stats">
+              <div class="rh-key-stat">
+                <span class="rh-key-k">DPS</span>
+                <span class="rh-key-v rh-gold">{{ totalSummary?.dmg?.skillDps | number }}</span>
+              </div>
+              <div class="rh-key-stat">
+                <span class="rh-key-k">Hits/s</span>
+                <span class="rh-key-v">{{ totalSummary?.calcSkill?.totalHitPerSec | number:'1.0-2' }}</span>
+              </div>
+              <div class="rh-key-stat" *ngIf="totalSummary?.dmg?.skillCriRateToMonster">
+                <span class="rh-key-k">Cri %</span>
+                <span class="rh-key-v rh-red">{{ totalSummary?.dmg?.skillCriRateToMonster }}%</span>
+              </div>
+              <div class="rh-key-stat" *ngIf="totalSummary?.dmg?.skillAccuracy">
+                <span class="rh-key-k">Precisão</span>
+                <span class="rh-key-v">{{ totalSummary?.dmg?.skillAccuracy }}%</span>
+              </div>
+            </div>
+
+            <!-- Cast timing -->
+            <div class="rh-cast-stats">
+              <div class="rh-cast-stat">
+                <span class="rh-cast-k">VCT</span>
+                <span class="rh-cast-v">{{ totalSummary?.calcSkill?.reducedVct }}s</span>
+              </div>
+              <div class="rh-cast-stat">
+                <span class="rh-cast-k">FCT</span>
+                <span class="rh-cast-v">{{ totalSummary?.calcSkill?.reducedFct }}s</span>
+              </div>
+              <div class="rh-cast-stat">
+                <span class="rh-cast-k">CD</span>
+                <span class="rh-cast-v">{{ totalSummary?.calcSkill?.reducedCd }}s</span>
+              </div>
+              <div class="rh-cast-stat">
+                <span class="rh-cast-k">Delay</span>
+                <span class="rh-cast-v">{{ totalSummary?.calcSkill?.reducedAcd }}s</span>
+              </div>
+              <div class="rh-cast-stat">
+                <span class="rh-cast-k">Cast Total</span>
+                <span class="rh-cast-v">{{ totalSummary?.calcSkill?.castPeriod }}s</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </p-accordionTab>
+
       <p-accordionTab header="Resumo de Batalha">
         <div class="grid grid-nogutter battle_summary">
           <div class="col-12" [hidden]="!chanceList?.length">
