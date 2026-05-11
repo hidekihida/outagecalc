@@ -828,3 +828,81 @@
   padding: 0;
 }
 :host ::ng-deep .battle_summary .pi-search { font-size: 0.75rem; }
+
+/* ═══════════════════════════════════════════════════════════════
+   Resumo de Batalha — INTENSIFICA o moderno sem mexer no layout
+   ═══════════════════════════════════════════════════════════════ */
+
+/* SKILL DAMAGE em destaque: o numero hero da tela */
+:host ::ng-deep .battle_summary .summary_damage {
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  padding: 3px 10px !important;
+  color: #fbbf24 !important;
+  background: linear-gradient(135deg, rgba(251,191,36,0.18), rgba(245,158,11,0.10)) !important;
+  border: 1px solid rgba(251,191,36,0.4);
+  text-shadow: 0 0 14px rgba(251,191,36,0.45);
+  box-shadow: 0 0 16px rgba(251,191,36,0.15), inset 0 0 0 1px rgba(251,191,36,0.08);
+}
+
+/* Class/Race/Element/Size: Boss/Dark/Demon/Large viram pills inline */
+:host ::ng-deep .battle_summary > .col-5 .col-12 > span.font-bold,
+:host ::ng-deep .battle_summary > .col-5 .col-12 > span.font-semibold {
+  display: inline-block;
+  padding: 1px 9px !important;
+  border-radius: 999px !important;
+  font-size: 0.66rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+  background: rgba(0,0,0,0.35) !important;
+}
+
+/* Frame estilo gem na imagem do monstro */
+:host ::ng-deep .battle_summary .img_monster {
+  border-radius: 10px !important;
+  background:
+    linear-gradient(135deg, rgba(59,130,246,0.15), rgba(167,139,250,0.10)),
+    rgba(0,0,0,0.3) !important;
+  padding: 6px !important;
+  box-shadow:
+    0 0 0 1px rgba(99,110,144,0.3) inset,
+    0 4px 14px rgba(0,0,0,0.4);
+}
+
+/* Labels "Monstro" e "Habilidade" com brilho */
+:host ::ng-deep .battle_summary .monster_hilight_label,
+:host ::ng-deep .battle_summary .skill_hilight_label {
+  background: linear-gradient(135deg, rgba(239,68,68,0.18), rgba(220,38,38,0.10)) !important;
+  border: 1px solid rgba(239,68,68,0.35);
+  color: #fca5a5 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 0.72rem !important;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(239,68,68,0.15);
+}
+
+/* Elemento "Holy (x 1.75)" tipo destaque amarelo */
+:host ::ng-deep .battle_summary .property_Holy {
+  background: linear-gradient(135deg, rgba(251,191,36,0.25), rgba(245,158,11,0.15)) !important;
+  color: #fde68a !important;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(251,191,36,0.2);
+}
+
+/* Dropdowns do monstro/skill com hover azul sutil */
+:host ::ng-deep .battle_summary .p-dropdown {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+:host ::ng-deep .battle_summary .p-dropdown:hover {
+  border-color: rgba(59,130,246,0.5) !important;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.08);
+}
+
+/* DPS final em destaque */
+:host ::ng-deep .battle_summary .summary_highlight {
+  font-weight: 700 !important;
+}
