@@ -48295,10 +48295,10 @@
   "15376": {
     "id": 15376,
     "aegisName": "Illusion_Armor_A",
-    "name": "Illusion Armor A-type [1]",
+    "name": "Colete Ilusión A [1]",
     "unidName": "Armor",
     "resName": "Illusion_Armor_A",
-    "description": "เกราะนักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nATK + 100\nทุก ๆ การอัปเกรด 2 ขั้น ATK + 10\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม ASPD 10%\nเมื่อสวมใส่ร่วมกับ Illusion Engine Wing A-type\nATK + 50.\nเมื่อสวมใส่ร่วมกับ Illusion Engine Wing B-type\nลด Delay หลังใช้สกิล 10%\n\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777105^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เกราะนักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nATK + 100\nทุก ๆ การอัปเกรด 2 ขั้น ATK + 10\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม ASPD 10%\nเมื่อสวมใส่ร่วมกับ Motor Ilusión A\nATK + 50.\nเมื่อสวมใส่ร่วมกับ Motor Ilusión B\nลด Delay หลังใช้สกิล 10%\n\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777105^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 513,
@@ -48314,23 +48314,23 @@
       "atk": [
         "100",
         "2---10",
-        "EQUIP[Illusion Engine Wing A-type]50"
+        "EQUIP[Motor Ilusión A]50"
       ],
       "aspdPercent": [
         "7===10"
       ],
       "acd": [
-        "EQUIP[Illusion Engine Wing B-type]10"
+        "EQUIP[Motor Ilusión B]10"
       ]
     }
   },
   "15377": {
     "id": 15377,
     "aegisName": "Illusion_Armor_B",
-    "name": "Illusion Armor B-type [1]",
+    "name": "Colete Ilusión B [1]",
     "unidName": "Armor",
     "resName": "Illusion_Armor_B",
-    "description": "เกราะนักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMATK + 100\nทุก ๆ การอัปเกรด 2 ขั้น MATK + 10\nเมื่ออัปเกรดถึงขั้น 7 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อสวมใส่ร่วมกับ Illusion Engine Wing A-type\nเพิ่ม ASPD 10%\nเมื่อสวมใส่ร่วมกับ Illusion Engine Wing B-type\nMATK + 50\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777105^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เกราะนักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMATK + 100\nทุก ๆ การอัปเกรด 2 ขั้น MATK + 10\nเมื่ออัปเกรดถึงขั้น 7 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อสวมใส่ร่วมกับ Motor Ilusión A\nเพิ่ม ASPD 10%\nเมื่อสวมใส่ร่วมกับ Motor Ilusión B\nMATK + 50\nประเภท : ^777777Armor^000000 พลังป้องกัน : ^777777105^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 513,
@@ -48346,13 +48346,13 @@
       "matk": [
         "100",
         "2---10",
-        "EQUIP[Illusion Engine Wing B-type]50"
+        "EQUIP[Motor Ilusión B]50"
       ],
       "vct": [
         "7===10"
       ],
       "aspdPercent": [
-        "EQUIP[Illusion Engine Wing A-type]10"
+        "EQUIP[Motor Ilusión A]10"
       ]
     }
   },
@@ -60139,10 +60139,10 @@
   "20933": {
     "id": 20933,
     "aegisName": "Illusion_Engine_A",
-    "name": "Illusion Engine Wing A-type [1]",
+    "name": "Motor Ilusión A [1]",
     "unidName": "Garment",
     "resName": "Illusion_Engine_A",
-    "description": "เครื่องยนต์นักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMHP + 1000\nทุก ๆ การอัปเกรด 2 ขั้น MHP + 100\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม ASPD 5%\nเมื่อสวมใส่ร่วมกับ Illusion Leg A-type\nเพิ่ม Critical Damage 10%\nเมื่อสวมใส่ร่วมกับ Illusion Leg B-type\nลดระยะเวลาร่ายแบบแปรผัน 10%\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777750^000000\nน้ำหนัก : ^77777790^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เครื่องยนต์นักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMHP + 1000\nทุก ๆ การอัปเกรด 2 ขั้น MHP + 100\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม ASPD 5%\nเมื่อสวมใส่ร่วมกับ Perna Ilusión A\nเพิ่ม Critical Damage 10%\nเมื่อสวมใส่ร่วมกับ Perna Ilusión B\nลดระยะเวลาร่ายแบบแปรผัน 10%\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777750^000000\nน้ำหนัก : ^77777790^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
@@ -60163,20 +60163,20 @@
         "7===5"
       ],
       "criDmg": [
-        "EQUIP[Illusion Leg A-type]10"
+        "EQUIP[Perna Ilusión A]10"
       ],
       "vct": [
-        "EQUIP[Illusion Leg B-type]10"
+        "EQUIP[Perna Ilusión B]10"
       ]
     }
   },
   "20934": {
     "id": 20934,
     "aegisName": "Illusion_Engine_B",
-    "name": "Illusion Engine Wing B-type [1]",
+    "name": "Motor Ilusión B [1]",
     "unidName": "Garment",
     "resName": "Illusion_Engine_B",
-    "description": "เครื่องยนต์นักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMHP + 1000\nทุก ๆ การอัปเกรด 2 ขั้น MHP + 100\nเมื่ออัปเกรดถึงขั้น 7 ลดระยะเวลาร่ายแบบแปรผัน 5%\nเมื่อสวมใส่ร่วมกับ Illusion Leg A-type\nเพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่อสวมใส่ร่วมกับ Illusion Leg B-type\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777750^000000\nน้ำหนัก : ^77777790^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เครื่องยนต์นักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMHP + 1000\nทุก ๆ การอัปเกรด 2 ขั้น MHP + 100\nเมื่ออัปเกรดถึงขั้น 7 ลดระยะเวลาร่ายแบบแปรผัน 5%\nเมื่อสวมใส่ร่วมกับ Perna Ilusión A\nเพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่อสวมใส่ร่วมกับ Perna Ilusión B\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777750^000000\nน้ำหนัก : ^77777790^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
@@ -60197,10 +60197,10 @@
         "7===5"
       ],
       "range": [
-        "EQUIP[Illusion Leg A-type]5"
+        "EQUIP[Perna Ilusión A]5"
       ],
       "m_my_element_all": [
-        "EQUIP[Illusion Leg B-type]10"
+        "EQUIP[Perna Ilusión B]10"
       ]
     }
   },
@@ -63334,10 +63334,10 @@
   "22196": {
     "id": 22196,
     "aegisName": "Illusion_Leg_A",
-    "name": "Illusion Leg A-type [1]",
+    "name": "Perna Ilusión A [1]",
     "unidName": "Shoes",
     "resName": "Illusion_Leg_A",
-    "description": "รองเท้านักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMSP + 200\nทุก ๆ การอัปเกรด 2 ขั้น MSP + 20\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่อสวมใส่ร่วมกับ Illusion Armor A-type\nATK + 5%\nเมื่อสวมใส่ร่วมกับ Illusion Armor B-type\nเพิ่ม ASPD 5%\nประเภท : ^777777Shoes^000000 พลังป้องกัน : ^77777720^000000\nน้ำหนัก : ^77777750^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "รองเท้านักรบไทป์ A ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMSP + 200\nทุก ๆ การอัปเกรด 2 ขั้น MSP + 20\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม Damage ทางกายภาพระยะไกล 5%\nเมื่อสวมใส่ร่วมกับ Colete Ilusión A\nATK + 5%\nเมื่อสวมใส่ร่วมกับ Colete Ilusión B\nเพิ่ม ASPD 5%\nประเภท : ^777777Shoes^000000 พลังป้องกัน : ^77777720^000000\nน้ำหนัก : ^77777750^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 516,
@@ -63358,20 +63358,20 @@
         "7===5"
       ],
       "atkPercent": [
-        "EQUIP[Illusion Armor A-type]5"
+        "EQUIP[Colete Ilusión A]5"
       ],
       "aspdPercent": [
-        "EQUIP[Illusion Armor B-type]5"
+        "EQUIP[Colete Ilusión B]5"
       ]
     }
   },
   "22197": {
     "id": 22197,
     "aegisName": "Illusion_Leg_B",
-    "name": "Illusion Leg B-type [1]",
+    "name": "Perna Ilusión B [1]",
     "unidName": "Shoes",
     "resName": "Illusion_Leg_B",
-    "description": "รองเท้านักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMSP + 200\nทุก ๆ การอัปเกรด 2 ขั้น MSP + 20\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nเมื่อสวมใส่ร่วมกับ Illusion Armor A-type\nMSP + 5%\nเมื่อสวมใส่ร่วมกับ Illusion Armor B-type\nMATK + 5%\nประเภท : ^777777Shoes^000000 พลังป้องกัน : ^77777720^000000\nน้ำหนัก : ^77777750^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "รองเท้านักรบไทป์ B ที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMSP + 200\nทุก ๆ การอัปเกรด 2 ขั้น MSP + 20\nเมื่ออัปเกรดถึงขั้น 7 เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nเมื่อสวมใส่ร่วมกับ Colete Ilusión A\nMSP + 5%\nเมื่อสวมใส่ร่วมกับ Colete Ilusión B\nMATK + 5%\nประเภท : ^777777Shoes^000000 พลังป้องกัน : ^77777720^000000\nน้ำหนัก : ^77777750^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 516,
@@ -63392,10 +63392,10 @@
         "7===5"
       ],
       "spPercent": [
-        "EQUIP[Illusion Armor A-type]5"
+        "EQUIP[Colete Ilusión A]5"
       ],
       "matkPercent": [
-        "EQUIP[Illusion Armor B-type]5"
+        "EQUIP[Colete Ilusión B]5"
       ]
     }
   },
@@ -117428,7 +117428,7 @@
   "32207": {
     "id": 32207,
     "aegisName": "Illusion_B_R",
-    "name": "Illusion Booster R [1]",
+    "name": "Turbina Ilusión A [1]",
     "unidName": "Accessory",
     "resName": "Illusion_B_R",
     "description": "อะไหล่เพิ่มความแข็งแกร่งที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nATK + 5%\nประเภท : ^777777Accessory (Right)^000000\nพลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -117452,7 +117452,7 @@
   "32208": {
     "id": 32208,
     "aegisName": "Illusion_B_L",
-    "name": "Illusion Booster L [1]",
+    "name": "Turbina Ilusión B [1]",
     "unidName": "Accessory",
     "resName": "Illusion_B_L",
     "description": "อะไหล่เพิ่มความแข็งแกร่งที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nATK + 5%\nประเภท : ^777777Accessory (Left)^000000\nพลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -117476,7 +117476,7 @@
   "32209": {
     "id": 32209,
     "aegisName": "Illusion_BC_R",
-    "name": "Illusion Battle Chip R [1]",
+    "name": "Soquete Ilusión A [1]",
     "unidName": "Accessory",
     "resName": "Illusion_BC_R",
     "description": "ชิพเพิ่มความแข็งแกร่งที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMATK + 5%\nประเภท : ^777777Accessory (Right)^000000\nพลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -117502,7 +117502,7 @@
   "32210": {
     "id": 32210,
     "aegisName": "Illusion_BC_L",
-    "name": "Illusion Battle Chip L [1]",
+    "name": "Soquete Ilusión B [1]",
     "unidName": "Accessory",
     "resName": "Illusion_BC_L",
     "description": "ชิพเพิ่มความแข็งแกร่งที่สร้างขึ้นจากเทคโนโลยี Illusion\nว่ากันว่าสามารถเพิ่มความสามารถได้ด้วยการติดตั้ง Module ชนิดต่าง ๆ\nMATK + 5%\nประเภท : ^777777Accessory (Left)^000000\nพลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777130^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -217869,7 +217869,7 @@
     "name": "Adventure Clover",
     "unidName": "Ribbon",
     "resName": "입에문네잎클로버",
-    "description": "ใบโคลเวอร์ 4 แฉก มีตำนานกล่าวว่าเป็นใบไม้ซึ่งนำความโชคดีมาแก่ผู้พบเห็น\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ 8%\n\nเมื่อสวมใส่ร่วมกับ Illusion Armor A-type หรือ Illusion Armor B-type,\nเพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อศัตรูทุกเผ่า 8%\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ขึ้นอีก 2%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลของเกราะ : ^7777771^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "ใบโคลเวอร์ 4 แฉก มีตำนานกล่าวว่าเป็นใบไม้ซึ่งนำความโชคดีมาแก่ผู้พบเห็น\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ 8%\n\nเมื่อสวมใส่ร่วมกับ Colete Ilusión A หรือ Colete Ilusión B,\nเพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อศัตรูทุกเผ่า 8%\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ขึ้นอีก 2%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลของเกราะ : ^7777771^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 0,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -217885,10 +217885,10 @@
     ],
     "script": {
       "p_race_all": [
-        "EQUIP[Illusion Armor A-type||Illusion Armor B-type]8"
+        "EQUIP[Colete Ilusión A||Colete Ilusión B]8"
       ],
       "m_race_all": [
-        "EQUIP[Illusion Armor A-type||Illusion Armor B-type]8"
+        "EQUIP[Colete Ilusión A||Colete Ilusión B]8"
       ]
     }
   },
@@ -228213,7 +228213,9 @@
       "all"
     ],
     "script": {
-      "mres": ["7===5"]
+      "mres": ["7===5"],
+      "perfectDodge": ["EQUIP[Soquete Ilusión A]10"],
+      "healEffect": ["EQUIP[Turbina Ilusión A]10"]
     }
   },
   "460005": {
@@ -228378,7 +228380,10 @@
     ],
     "script": {
       "p_class_boss": ["5", "2---2"],
-      "m_class_boss": ["5", "2---2"]
+      "m_class_boss": ["5", "2---2"],
+      "healEffect": ["7===10"],
+      "matk": ["EQUIP[Soquete Ilusión B]30"],
+      "atk": ["EQUIP[Turbina Ilusión B]30"]
     }
   },
   "460017": {
@@ -247354,7 +247359,7 @@
     "name": "[Upgrade] Illusion Ring [1]",
     "unidName": "Ring",
     "resName": "Dragon_Ring",
-    "description": "^ff0000ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nAll Status + 1\nATK, MATK +5%\nลด Global Cooldown 5%\n\nเมื่อสวมใส่กับ Illusion Booster R\nเมื่อโจมตีทางกายภาพ, มีโอกาส 1% ที่จะดูด SP 1% ของ Damage\nเพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ประเภทบอส 10%\n\nเมื่อสวมใส่กับ Illusion Booster L\nMaxHP + 10%, MaxSP + 10%\n\nเมื่อสวมใส่กับ Illusion Battle Chip R\nINT + 5, DEX + 5, \nเพิ่ม Damage ทางเวทย์ที่สร้างต่อมอนสเตอร์ประเภทบอส 10%\n\nเมื่อสวมใส่กับ Illusion Battle Chip L,\nMdef + 15, ลดระยะเวลาร่ายคงตัว 0.3 วินาที\nประเภท : ^777777Accessory^000000  พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "^ff0000ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nAll Status + 1\nATK, MATK +5%\nลด Global Cooldown 5%\n\nเมื่อสวมใส่กับ Turbina Ilusión A\nเมื่อโจมตีทางกายภาพ, มีโอกาส 1% ที่จะดูด SP 1% ของ Damage\nเพิ่ม Damage ทางกายภาพที่สร้างต่อมอนสเตอร์ประเภทบอส 10%\n\nเมื่อสวมใส่กับ Turbina Ilusión B\nMaxHP + 10%, MaxSP + 10%\n\nเมื่อสวมใส่กับ Soquete Ilusión A\nINT + 5, DEX + 5, \nเพิ่ม Damage ทางเวทย์ที่สร้างต่อมอนสเตอร์ประเภทบอส 10%\n\nเมื่อสวมใส่กับ Soquete Ilusión B,\nMdef + 15, ลดระยะเวลาร่ายคงตัว 0.3 วินาที\nประเภท : ^777777Accessory^000000  พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 517,
@@ -247379,28 +247384,28 @@
         "5"
       ],
       "p_class_boss": [
-        "EQUIP[Illusion Booster R]10"
+        "EQUIP[Turbina Ilusión A]10"
       ],
       "hpPercent": [
-        "EQUIP[Illusion Booster L]10"
+        "EQUIP[Turbina Ilusión B]10"
       ],
       "spPercent": [
-        "EQUIP[Illusion Booster L]10"
+        "EQUIP[Turbina Ilusión B]10"
       ],
       "int": [
-        "EQUIP[Illusion Battle Chip R]5"
+        "EQUIP[Soquete Ilusión A]5"
       ],
       "dex": [
-        "EQUIP[Illusion Battle Chip R]5"
+        "EQUIP[Soquete Ilusión A]5"
       ],
       "m_class_boss": [
-        "EQUIP[Illusion Battle Chip R]10"
+        "EQUIP[Soquete Ilusión A]10"
       ],
       "fct": [
-        "EQUIP[Illusion Battle Chip L]0.3"
+        "EQUIP[Soquete Ilusión B]0.3"
       ],
       "mdef": [
-        "EQUIP[Illusion Battle Chip L]0.3"
+        "EQUIP[Soquete Ilusión B]0.3"
       ]
     },
     "usableClass": [
