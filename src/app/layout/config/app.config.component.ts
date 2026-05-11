@@ -17,6 +17,12 @@ export class AppConfigComponent implements OnInit {
   constructor(public layoutService: LayoutService, public menuService: MenuService) {}
 
   ngOnInit(): void {
+    // Migracao v2: limpa o tema antigo salvo (vela-green) e forca o novo padrao.
+    // Roda uma vez por usuario, depois respeita a escolha individual.
+    if (localStorage.getItem('themeVersion') !== '2') {
+      localStorage.removeItem('theme');
+      localStorage.setItem('themeVersion', '2');
+    }
     this.changeTheme(
       localStorage.getItem('theme') || this.layoutService.config.theme,
       localStorage.getItem('colorScheme') || this.layoutService.config.colorScheme,
