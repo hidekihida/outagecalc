@@ -228195,36 +228195,25 @@
   "460004": {
     "id": 460004,
     "aegisName": "Illusion_Shield_A",
-    "name": "Illusion Shield I [1]",
-    "unidName": "Shield",
+    "name": "Escudo Ilusión A [1]",
+    "unidName": "Escudo",
     "resName": "Illusion_Shield_A",
-    "description": "โล่สำหรับต่อสู้ที่สร้างขึ้นโดยรวบรวม Essence ของเทคโนโลยี Illusion\n\nMaxHP + 10%, HaxSP + 10%\nทุก ๆ 3 ขั้นอัพเกรด, DEF + 50, MDEF + 5\n\nเมื่อ Base.Lv 170 ขึ้นไป, \nเพิ่มความต้านทานต่อการโจมตีธาตุ Neutral + 5%\n\nประเภท: ^777777Shield^000000  พลังป้องกัน : ^77777795^000000\nน้ำหนัก: ^777777120^000000\nเลเวลที่ต้องการ: ^777777100^000000\nอาชีพที่ใส่ได้: ^777777ทุกอาชีพ^000000",
+    "description": "Equipamento criado com a tecnologia da Ilusión. Pode ser aprimorado usando moduladores.\n--------------------------\nResistência a dano físico a distância +10%.\nA cada 2 refinos:\nResistência a dano físico a distância +3%.\n--------------------------\nRefino +7 ou mais:\nResistência a danos mágicos +5%.\n--------------------------\nConjunto\n[Soquete Ilusión A]\nEsquiva perfeita +10.\n--------------------------\nConjunto\n[Turbina Ilusión A]\nCura recebida +10%.\n--------------------------\nTipo: Escudo\nDEF: 90 DEFM: 0\nPeso: 100\nNível necessário: 130\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 514,
     "itemLevel": null,
     "attack": null,
-    "defense": 95,
-    "weight": 120,
-    "requiredLevel": 100,
+    "defense": 90,
+    "weight": 100,
+    "requiredLevel": 130,
     "location": null,
     "compositionPos": null,
     "usableClass": [
       "all"
     ],
     "script": {
-      "hpPercent": [
-        "10"
-      ],
-      "spPercent": [
-        "10"
-      ],
-      "def": [
-        "3---50"
-      ],
-      "mdef": [
-        "3---5"
-      ]
+      "mres": ["7===5"]
     }
   },
   "460005": {
@@ -228370,36 +228359,26 @@
   "460014": {
     "id": 460014,
     "aegisName": "Illusion_Shield_B",
-    "name": "Illusion Shield II [1]",
-    "unidName": "Shield",
+    "name": "Escudo Ilusión B [1]",
+    "unidName": "Escudo",
     "resName": "Illusion_Shield_B",
-    "description": "โล่สำหรับต่อสู้ที่สร้างขึ้นโดยรวบรวม Essence ของเทคโนโลยี Illusion\n\nMaxHP + 10%, MaxSP + 10%\nทุก ๆ 3 ขั้นอัพเกรด, ATK + 15, MATK + 15\n\nเมื่อ Base.Lv 170 ขึ้นไป, \nเพิ่มความต้านทานต่อการโจมตีธาตุ Neutral + 5%\n\n\t\nประเภท : ^777777Shield^000000  พลังป้องกัน : ^77777760^000000\nน้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "Equipamento criado com a tecnologia da Ilusión. Pode ser aprimorado usando moduladores.\n--------------------------\nDano físico e mágico contra monstros Chefes +5%.\nA cada 2 refinos:\nDano físico e mágico contra monstros Chefes +2%.\n--------------------------\nRefino +7 ou mais:\nCura recebida +10%.\n--------------------------\nConjunto\n[Soquete Ilusión B]\nATQM +30.\n--------------------------\nConjunto\n[Turbina Ilusión B]\nATQ +30.\n--------------------------\nTipo: Escudo\nDEF: 20 DEFM: 0\nPeso: 50\nNível necessário: 130\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 514,
     "itemLevel": null,
     "attack": null,
-    "defense": 60,
-    "weight": 40,
-    "requiredLevel": 100,
+    "defense": 20,
+    "weight": 50,
+    "requiredLevel": 130,
     "location": null,
     "compositionPos": null,
     "usableClass": [
       "all"
     ],
     "script": {
-      "hpPercent": [
-        "10"
-      ],
-      "spPercent": [
-        "10"
-      ],
-      "atk": [
-        "3---15"
-      ],
-      "matk": [
-        "3---15"
-      ]
+      "p_class_boss": ["5", "2---2"],
+      "m_class_boss": ["5", "2---2"]
     }
   },
   "460017": {
