@@ -906,3 +906,117 @@
 :host ::ng-deep .battle_summary .summary_highlight {
   font-weight: 700 !important;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Resumo de Batalha — ORGANIZACAO (alinhamento e ritmo)
+   Override do bloco anterior. Mantem cores, organiza visual.
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Cada linha .col-12 dentro do resumo vira "label esquerda, valor direita".
+   Funciona pra rows com TEXTO + SPAN. Os rows que ja sao .flex
+   (Res/M.Res, STR/INT etc) sao deixados em paz. */
+:host ::ng-deep .battle_summary > .col-5 .col-12:not(.flex),
+:host ::ng-deep .battle_summary > .col-7 .col-12:not(.flex) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px;
+  padding: 3px 0 !important;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+/* Linhas .col-6 dentro do resumo (a maioria do painel direito) */
+:host ::ng-deep .battle_summary > .col-7 .col-6 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 8px;
+  padding: 3px 6px 3px 0 !important;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+/* Pills (.summary_*) recuperam display normal dentro do flex */
+:host ::ng-deep .battle_summary .summary_monster_value,
+:host ::ng-deep .battle_summary .summary_highlight,
+:host ::ng-deep .battle_summary .summary_damage,
+:host ::ng-deep .battle_summary .summary_value,
+:host ::ng-deep .battle_summary .summary_chance,
+:host ::ng-deep .battle_summary .summary_chance_hilight,
+:host ::ng-deep .battle_summary .summary_compare {
+  text-transform: none;
+  letter-spacing: 0.2px;
+  font-weight: 700 !important;
+  font-size: 0.78rem;
+}
+
+/* Skill Damage: ainda destaque, mas SEM animacao/glow */
+:host ::ng-deep .battle_summary .summary_damage {
+  font-size: 0.92rem !important;
+  background: rgba(251,191,36,0.12) !important;
+  border: 1px solid rgba(251,191,36,0.3);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* Calma os labels Monstro/Habilidade */
+:host ::ng-deep .battle_summary .monster_hilight_label,
+:host ::ng-deep .battle_summary .skill_hilight_label {
+  background: rgba(239,68,68,0.10) !important;
+  border: 1px solid rgba(239,68,68,0.25);
+  color: #fca5a5 !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-size: 0.68rem !important;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+/* Imagem do monstro: frame sobrio */
+:host ::ng-deep .battle_summary .img_monster {
+  border-radius: 8px !important;
+  background: rgba(0,0,0,0.3) !important;
+  padding: 5px !important;
+  box-shadow: 0 0 0 1px rgba(99,110,144,0.25) inset;
+}
+
+/* Elemento — pill normal (sem destaque especial) */
+:host ::ng-deep .battle_summary .property_Holy,
+:host ::ng-deep .battle_summary [class*='property_'] {
+  border-radius: 4px;
+  padding: 1px 8px !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  box-shadow: none;
+}
+
+/* Class/Race/Size pills calmas */
+:host ::ng-deep .battle_summary > .col-5 .col-12 > span.font-bold,
+:host ::ng-deep .battle_summary > .col-5 .col-12 > span.font-semibold {
+  padding: 2px 10px !important;
+  border-radius: 999px !important;
+  font-size: 0.66rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  border: 1px solid rgba(99,110,144,0.25);
+  background: rgba(0,0,0,0.3) !important;
+}
+
+/* Margens dos grupos */
+:host ::ng-deep .battle_summary .divider { margin: 4px 0 !important; }
+:host ::ng-deep .battle_summary .p-divider { margin: 0 !important; opacity: 0.4; }
+
+/* Rows .flex existentes (Res/M.Res, STR/INT etc) */
+:host ::ng-deep .battle_summary .col-12.flex.justify-content-around {
+  padding: 4px 0 !important;
+  gap: 16px;
+}
