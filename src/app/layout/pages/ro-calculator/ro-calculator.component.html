@@ -1905,6 +1905,103 @@
         </div>
       </p-accordionTab>
 
+      <p-accordionTab header="🆚 Comparação Visual de Monstros">
+        <div class="grid grid-nogutter monster-vs-wrapper">
+          <!-- Picker (reaproveita selectedMonsterIds existente) -->
+          <div class="col-12 mb-3">
+            <div class="p-inputgroup">
+              <span class="p-inputgroup-addon" style="width: 160px">Monstros</span>
+              <p-multiSelect
+                [options]="groupMonsterList"
+                [group]="true"
+                [(ngModel)]="selectedMonsterIds"
+                [filter]="true"
+                filterBy="label,searchVal"
+                [showClear]="true"
+                [showToggleAll]="false"
+                scrollHeight="400px"
+                selectedItemsLabel="{0} monstros selecionados"
+                placeholder="Adicione um ou mais monstros para comparar"
+                [maxSelectedLabels]="3"
+                (onChange)="onMonsterListChange()"
+                (onClear)="onMonsterListChange()"
+              >
+                <ng-template let-group pTemplate="group">
+                  <div class="flex align-items-center font-bold dropdown_monster_group_label">
+                    <span>{{ group.label }}</span>
+                  </div>
+                </ng-template>
+              </p-multiSelect>
+            </div>
+          </div>
+
+          <!-- Estado vazio -->
+          <div class="col-12 monster-vs-empty" *ngIf="!calcDamages?.length">
+            <i class="pi pi-eye" style="font-size: 2.5rem; opacity: 0.3;"></i>
+            <div class="mt-2">Adicione monstros acima para ver a comparação de dano</div>
+          </div>
+
+          <!-- Grid de cards -->
+          <div class="col-12 monster-vs-grid" *ngIf="calcDamages?.length">
+            <div
+              *ngFor="let item of calcDamages"
+              class="monster-vs-card {{ 'mvs-class-' + (item.monsterClass | lowercase) }}"
+            >
+              <!-- Header com imagem e nome -->
+              <div class="mvs-head">
+                <img
+                  [src]="'https://static.divine-pride.net/images/mobs/png/' + item.id + '.png'"
+                  class="mvs-img"
+                  alt="-"
+                  onerror="this.style.display='none'"
+                />
+                <div class="mvs-info">
+                  <div class="mvs-name">{{ item.label }}</div>
+                  <div class="mvs-pills">
+                    <span class="mvs-pill mvs-pill-{{ item.monsterClass | lowercase }}">{{ item.monsterClass }}</span>
+                    <span class="mvs-pill mvs-pill-element {{ 'property_' + item.elementName }}">{{ item.elementName }}</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Dano principal: skillMaxDamage em destaque -->
+              <div class="mvs-damage">
+                <div class="mvs-damage-num">{{ item.skillMaxDamage > 0 ? (item.skillMaxDamage | number) : '—' }}</div>
+                <div class="mvs-damage-sub">Dano Máx da Skill</div>
+              </div>
+
+              <!-- Stats -->
+              <div class="mvs-stats">
+                <div class="mvs-stat">
+                  <span class="mvs-stat-k">Dano Mín</span>
+                  <span class="mvs-stat-v">{{ item.skillMinDamage > 0 ? (item.skillMinDamage | number) : '—' }}</span>
+                </div>
+                <div class="mvs-stat">
+                  <span class="mvs-stat-k">DPS</span>
+                  <span class="mvs-stat-v mvs-up">{{ item.skillDps > 0 ? (item.skillDps | number) : '—' }}</span>
+                </div>
+                <div class="mvs-stat" *ngIf="item.skillHitKill">
+                  <span class="mvs-stat-k">Hits p/ matar</span>
+                  <span class="mvs-stat-v">{{ item.skillHitKill | number }}</span>
+                </div>
+                <div class="mvs-stat" *ngIf="item.skillCriRateToMonster">
+                  <span class="mvs-stat-k">Crítico</span>
+                  <span class="mvs-stat-v mvs-crit">{{ item.skillCriRateToMonster }}%</span>
+                </div>
+                <div class="mvs-stat">
+                  <span class="mvs-stat-k">HP do alvo</span>
+                  <span class="mvs-stat-v">{{ item.health | number }}</span>
+                </div>
+                <div class="mvs-stat" *ngIf="item.basicMaxDamage">
+                  <span class="mvs-stat-k">Atk Básico Máx</span>
+                  <span class="mvs-stat-v">{{ item.basicMaxDamage | number }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </p-accordionTab>
+
       <p-accordionTab header="Bônus de Habilidades / Multiplicadores">
         <app-misc-detail
           [elementTable]="elementTable"
