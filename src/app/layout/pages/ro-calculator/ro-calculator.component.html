@@ -2038,10 +2038,12 @@
       <p-accordionTab header="🆚 Comparação Visual de Monstros">
         <div class="grid grid-nogutter monster-vs-wrapper">
           <!-- Picker (reaproveita selectedMonsterIds existente) -->
-          <div class="col-12 mb-3">
+          <div class="col-12 mb-3 monster-vs-picker">
             <div class="p-inputgroup">
-              <span class="p-inputgroup-addon" style="width: 160px">Monstros</span>
+              <span class="p-inputgroup-addon mvs-picker-label">🎯 Adicionar monstros</span>
               <p-multiSelect
+                styleClass="mvs-multiselect"
+                panelStyleClass="mvs-multiselect-panel"
                 [options]="groupMonsterList"
                 [group]="true"
                 [(ngModel)]="selectedMonsterIds"
@@ -2049,10 +2051,13 @@
                 filterBy="label,searchVal"
                 [showClear]="true"
                 [showToggleAll]="false"
-                scrollHeight="400px"
+                scrollHeight="450px"
                 selectedItemsLabel="{0} monstros selecionados"
-                placeholder="Adicione um ou mais monstros para comparar"
-                [maxSelectedLabels]="3"
+                placeholder="Clique para escolher monstros"
+                emptyFilterMessage="Nenhum monstro encontrado"
+                emptyMessage="Nenhum monstro disponível"
+                filterPlaceHolder="Buscar por nome..."
+                [maxSelectedLabels]="2"
                 (onChange)="onMonsterListChange()"
                 (onClear)="onMonsterListChange()"
               >

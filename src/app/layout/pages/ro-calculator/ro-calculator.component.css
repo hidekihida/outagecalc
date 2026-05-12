@@ -1400,3 +1400,176 @@
   min-width: 90px;
   text-align: center;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Comparacao Visual — picker de monstros aprimorado
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Label do addon: emoji + estilo coerente com Hero */
+:host ::ng-deep .monster-vs-picker .mvs-picker-label {
+  background: rgba(59, 130, 246, 0.10) !important;
+  border: 1px solid rgba(59, 130, 246, 0.30);
+  color: #93c5fd !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-size: 0.75rem;
+}
+
+/* Largura do multi-select: ocupa todo espaco disponivel */
+:host ::ng-deep .monster-vs-picker .p-multiselect {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: rgba(15, 21, 37, 0.6) !important;
+  border-color: rgba(99, 110, 144, 0.25) !important;
+}
+
+/* Label dos itens selecionados no input principal: texto legivel,
+   nao corta de forma estranha. */
+:host ::ng-deep .monster-vs-picker .p-multiselect-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px !important;
+  font-size: 0.85rem;
+  color: #e6ecf5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Token (pill com nome do monstro selecionado) */
+:host ::ng-deep .monster-vs-picker .p-multiselect-token {
+  background: rgba(59, 130, 246, 0.18) !important;
+  color: #93c5fd !important;
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  border-radius: 6px;
+  padding: 3px 8px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+:host ::ng-deep .monster-vs-picker .p-multiselect-token .p-multiselect-token-icon {
+  font-size: 0.7rem;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity .15s;
+}
+:host ::ng-deep .monster-vs-picker .p-multiselect-token .p-multiselect-token-icon:hover {
+  opacity: 1;
+  color: #fb7185;
+}
+
+/* Painel do dropdown aberto: glass + sombra forte */
+:host ::ng-deep .mvs-multiselect-panel.p-multiselect-panel {
+  background: rgba(15, 21, 37, 0.96) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(99, 110, 144, 0.35) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(59,130,246,0.05) inset;
+  overflow: hidden;
+  min-width: 360px;
+}
+
+/* Header do dropdown (onde fica o search) */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-header {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(99, 110, 144, 0.2) !important;
+  padding: 12px !important;
+}
+
+/* Input de busca */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-container {
+  width: 100%;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter {
+  background: rgba(0, 0, 0, 0.4) !important;
+  border: 1px solid rgba(99, 110, 144, 0.3) !important;
+  color: #e6ecf5 !important;
+  padding: 8px 36px 8px 12px !important;
+  font-size: 0.88rem;
+  border-radius: 8px !important;
+  transition: all 0.15s ease;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59,130,246,0.18) !important;
+  outline: none !important;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-icon {
+  color: #94a3b8 !important;
+}
+
+/* Botao limpar (X) e fechar */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-close,
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-clear-icon {
+  color: #94a3b8 !important;
+  transition: color .15s;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-close:hover {
+  color: #fb7185 !important;
+}
+
+/* Empty state ("Nenhum monstro encontrado") */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-empty-message {
+  padding: 24px 16px !important;
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+/* Group label (nivel/categoria) */
+:host ::ng-deep .mvs-multiselect-panel .dropdown_monster_group_label {
+  padding: 8px 12px;
+  background: rgba(99, 110, 144, 0.10);
+  color: #cbd5e1;
+  font-size: 0.7rem !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(99, 110, 144, 0.15);
+}
+
+/* Items do dropdown */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-item {
+  padding: 10px 12px !important;
+  color: #cbd5e1 !important;
+  font-size: 0.88rem;
+  border-radius: 0;
+  transition: background .12s;
+  cursor: pointer;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-item:hover {
+  background: rgba(59, 130, 246, 0.12) !important;
+  color: #e6ecf5 !important;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-item.p-highlight {
+  background: rgba(59, 130, 246, 0.20) !important;
+  color: #93c5fd !important;
+}
+
+/* Checkbox dos items */
+:host ::ng-deep .mvs-multiselect-panel .p-checkbox-box {
+  border-color: rgba(99, 110, 144, 0.45) !important;
+  background: rgba(0, 0, 0, 0.3) !important;
+  border-radius: 4px !important;
+  transition: all .15s;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-checkbox-box.p-highlight {
+  background: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 10px rgba(59,130,246,0.4);
+}
+
+/* Wrapper de items: scrollbar discreta */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-items-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(99,110,144,0.4) transparent;
+}
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-items-wrapper::-webkit-scrollbar { width: 8px; }
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-items-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(99,110,144,0.35);
+  border-radius: 999px;
+}
