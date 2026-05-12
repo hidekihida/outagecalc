@@ -201014,7 +201014,7 @@
   "400001": {
     "id": 400001,
     "aegisName": "Victory_Wing_Ear",
-    "name": "Victorious Wing Ears_",
+    "name": "Asas Vitoriosas_",
     "unidName": "Ribbon",
     "resName": "승리의귀장식",
     "description": "เครื่องประดับหูที่กล่าวขานกันว่ามอบให้แก่ผู้ชนะเท่านั้น\nเมื่อสวมใส่แล้ว แสดงถึงความสง่างามออกมา\nATK +10, MATK +10\nลด Delay หลังใช้สกิล 8%\nประเภท : ^777777Headgear^000000พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle ^000000น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -201046,7 +201046,7 @@
   "400002": {
     "id": 400002,
     "aegisName": "Victory_Wing_Ear_",
-    "name": "Victorious Wing Ears [1]",
+    "name": "Asas Vitoriosas [1]",
     "unidName": "Ribbon",
     "resName": "승리의귀장식",
     "description": "เครื่องประดับหูที่กล่าวขานกันว่ามอบให้แก่ผู้ชนะเท่านั้น\nเมื่อสวมใส่แล้ว แสดงถึงความสง่างามออกมา\nATK +5, MATK +5\nลด Delay หลังใช้สกิล 4%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle ^000000น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -215020,7 +215020,7 @@
   "410016": {
     "id": 410016,
     "aegisName": "Battle_Processor",
-    "name": "Battle Processor_",
+    "name": "Chip de Batalha_",
     "unidName": "Hat",
     "resName": "가디언프로세서",
     "description": "เครื่องประมวลผลพิเศษที่ช่วยในการเพิ่มประสิทธิภาพด้านการต่อสู้\nATK +20, MATK +20\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle ^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -215049,10 +215049,10 @@
   "410017": {
     "id": 410017,
     "aegisName": "Battle_Processor_",
-    "name": "Battle Processor [1]",
+    "name": "Chip de Batalha [1]",
     "unidName": "Hat",
     "resName": "가디언프로세서",
-    "description": "เครื่องประมวลผลพิเศษที่ช่วยในการเพิ่มประสิทธิภาพด้านการต่อสู้\nATK +10, MATK +10.\n\nสามารถใช้ Battle Processor Accelerator เพื่อเพิ่มความสามารถไอเท็มชิ้นนี้ได้\nซื้อได้ที่ ^ffffff^4D4DFF[Cat Hand Shop Assistant]^000000^000000 ด้วย Zeny หรือ Silvervine \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle ^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "เครื่องประมวลผลพิเศษที่ช่วยในการเพิ่มประสิทธิภาพด้านการต่อสู้\nATK +10, MATK +10.\n\nสามารถใช้ Chip de Batalha Accelerator เพื่อเพิ่มความสามารถไอเท็มชิ้นนี้ได้\nซื้อได้ที่ ^ffffff^4D4DFF[Cat Hand Shop Assistant]^000000^000000 ด้วย Zeny หรือ Silvervine \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle ^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -215220,7 +215220,7 @@
   "410079": {
     "id": 410079,
     "aegisName": "Deepblue_Sunglasses",
-    "name": "Deep Blue Sunglasses_",
+    "name": "Óculos Neon_",
     "unidName": "Glasses",
     "resName": "퇴마의글래스",
     "description": "แว่นตาดำสุดเท่ที่ถูกเคลือบด้วยสีน้ำเงินเข้ม\nโดดเด่นด้านการป้องกันแสง UV\n\nลดระยะเวลาร่ายแบบแปรผัน 10%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -215246,7 +215246,7 @@
   "410080": {
     "id": 410080,
     "aegisName": "Deepblue_Sunglasses_",
-    "name": "Deep Blue Sunglasses [1]",
+    "name": "Óculos Neon [1]",
     "unidName": "Glasses",
     "resName": "퇴마의글래스",
     "description": "แว่นตาดำสุดเท่ที่ถูกเคลือบด้วยสีน้ำเงินเข้ม\nโดดเด่นด้านการป้องกันแสง UV\n \nลดระยะเวลาร่ายแบบแปรผัน 5%\n \nสามารถใช้ Lens Craft Stone เพื่อเพิ่มความสามารถไอเท็มชิ้นนี้ได้\nซื้อได้ที่ ^ffffff^4D4DFF[Cat Hand Shop Assistant]^000000^000000 ด้วย Zeny หรือ Silvervine \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
@@ -237297,9 +237297,9 @@
       ],
       "atkPercent": [
         "2---1",
-        "EQUIP[Deep Blue Sunglasses]7",
-        "EQUIP[Victorious Wing Ears]7",
-        "EQUIP[Battle Processor]7"
+        "EQUIP[Óculos Neon]7",
+        "EQUIP[Asas Vitoriosas]7",
+        "EQUIP[Chip de Batalha]7"
       ],
       "p_size_all": [
         "3---3"
@@ -237309,17 +237309,17 @@
       ],
       "range": [
         "11===10",
-        "EQUIP[Battle Processor]5"
+        "EQUIP[Chip de Batalha]5"
       ],
       "melee": [
         "11===10",
-        "EQUIP[Battle Processor]5"
+        "EQUIP[Chip de Batalha]5"
       ],
       "vct": [
-        "EQUIP[Deep Blue Sunglasses]15"
+        "EQUIP[Óculos Neon]15"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]15"
+        "EQUIP[Asas Vitoriosas]15"
       ]
     }
   },
@@ -237349,23 +237349,23 @@
       ],
       "matkPercent": [
         "2---1",
-        "EQUIP[Deep Blue Sunglasses]7",
-        "EQUIP[Victorious Wing Ears]7",
-        "EQUIP[Battle Processor]7"
+        "EQUIP[Óculos Neon]7",
+        "EQUIP[Asas Vitoriosas]7",
+        "EQUIP[Chip de Batalha]7"
       ],
       "m_size_all": [
         "3---3"
       ],
       "vct": [
         "7===7",
-        "EQUIP[Deep Blue Sunglasses]15"
+        "EQUIP[Óculos Neon]15"
       ],
       "m_my_element_all": [
         "11===10",
-        "EQUIP[Battle Processor]5"
+        "EQUIP[Chip de Batalha]5"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]15"
+        "EQUIP[Asas Vitoriosas]15"
       ]
     }
   },
@@ -237968,22 +237968,22 @@
       ],
       "range": [
         "11===10",
-        "EQUIP[Battle Processor]5"
+        "EQUIP[Chip de Batalha]5"
       ],
       "melee": [
         "11===10",
-        "EQUIP[Battle Processor]5"
+        "EQUIP[Chip de Batalha]5"
       ],
       "criDmg": [
-        "EQUIP[Deep Blue Sunglasses]7",
-        "EQUIP[Victorious Wing Ears]7",
-        "EQUIP[Battle Processor]7"
+        "EQUIP[Óculos Neon]7",
+        "EQUIP[Asas Vitoriosas]7",
+        "EQUIP[Chip de Batalha]7"
       ],
       "vct": [
-        "EQUIP[Deep Blue Sunglasses]15"
+        "EQUIP[Óculos Neon]15"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]15"
+        "EQUIP[Asas Vitoriosas]15"
       ]
     }
   },
