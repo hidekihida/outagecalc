@@ -227469,23 +227469,20 @@
   "450405": {
     "id": 450405,
     "aegisName": "Cvt_Physical_Armor",
-    "flavorText": null,
-    "name": "Physical Exoskeleton [1]",
-    "unidName": null,
-    "resName": "Imp_Powered_Suit",
-    "unidResName": null,
-    "description": "A multifunctional armor that has been enhanced to increase performance.\n--------------------------\n^0000ffATK +100.^000000\nFor every 2 refines:\n^0000ffATK +10.^000000\nRefine +7 or more:\n^0000ffAttack Speed +15%.^000000\nRefine +9 or more:\n^0000ffRanged Physical Damage +10%.^000000\n^0000ffMelee Physical Damage +10%.^000000\nRefine +11 or more:\n^0000ffSkill delay -10%.^000000\n--------------------------\n^fa4e09Set^000000\n^fa4e09[Physical Jetpack]^000000\n^0000ffAdditional Skill delay -5%.^000000\nSet refine sum 18 or more:\n^0000ffPhysical Damage against all properties +10%.^000000\nSet refine sum 23 or more:\n^0000ffRanged and Melee Physical Damage +1% per refine of the Garment and Armor.^000000\n--------------------------\nType: ^777777Armor^000000\nDEF: ^777777130^000000 MDEF: ^7777770^000000\nWeight: ^777777100^000000\nRequired Level: ^777777150^000000\nClasses: ^777777All^000000",
+    "name": "Exoesqueleto Físico [1]",
+    "unidName": "Armadura",
+    "resName": "Supplement_Part_Str",
+    "description": "Uma armadura multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nATQ +100.\nA cada 2 refinos:\nATQ +10.\nRefino +7 ou mais:\nVelocidade de ataque +15%.\nRefino +9 ou mais:\nDano físico a distância +10%.\nDano físico corpo a corpo +10%.\nRefino +11 ou mais:\nPós-conjuração -10%.\n--------------------------\nConjunto\n[Jetpack Físico]\nPós-conjuração -5% adicional.\nSoma dos refinos 18 ou mais:\nDano físico contra todas as propriedades +10%.\nSoma dos refinos 23 ou mais:\nDano físico a distância e corpo a corpo +1% por refino da capa e da armadura.\n--------------------------\nTipo: Armadura\nDEF: 130 DEFM: 0\nPeso: 100\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 513,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 130,
     "weight": 100,
     "requiredLevel": 150,
     "location": null,
     "compositionPos": null,
-    "canGrade": false,
     "usableClass": [
       "all"
     ],
@@ -227494,46 +227491,41 @@
         "100",
         "2---10"
       ],
-      "range": [
-        "9===10",
-        "EQUIP[Physical Jetpack]REFINE[armor,garment==23]1---1"
-      ],
-      "melee": [
-        "9===10",
-        "EQUIP[Physical Jetpack]REFINE[armor,garment==23]1---1"
-      ],
       "aspdPercent": [
         "7===15"
       ],
+      "range": [
+        "9===10"
+      ],
+      "melee": [
+        "9===10"
+      ],
       "acd": [
         "11===10",
-        "EQUIP[Physical Jetpack]5"
+        "EQUIP[Jetpack Físico]5"
       ],
       "p_element_all": [
-        "EQUIP[Physical Jetpack]REFINE[armor,garment==18]10"
+        "EQUIP[Jetpack Físico]REFINE[armor,garment==18]===10"
       ]
     }
   },
   "450406": {
     "id": 450406,
     "aegisName": "Cvt_Magical_Armor",
-    "flavorText": null,
-    "name": "Magic Exoskeleton [1]",
-    "unidName": null,
-    "resName": "Imp_Powered_Suit",
-    "unidResName": null,
-    "description": "A multifunctional armor that has been enhanced to increase performance.\n--------------------------\n^0000ffMATK +100.^000000\nFor every 2 refines:\n^0000ffMATK +10.^000000\nRefine +7 or more:\n^0000ffVariable Cast Time -15%.^000000\nRefine +9 or more:\n^0000ffMagic Damage of all properties +10%.^000000\nRefine +11 or more:\n^0000ffSkill delay -10%.^000000\n--------------------------\n^fa4e09Set^000000\n^fa4e09[Magic Jetpack]^000000\n^0000ffAdditional Skill delay -5%.^000000\nSet refine sum 18 or more:\n^0000ffMagic Damage against all properties +10%.^000000\nSet refine sum 23 or more:\n^0000ffMagic Damage of all properties +1% per refine of the Garment and Armor.^000000\n--------------------------\nType: ^777777Armor^000000\nDEF: ^777777130^000000 MDEF: ^7777770^000000\nWeight: ^777777100^000000\nRequired Level: ^777777150^000000\nClasses: ^777777All^000000",
+    "name": "Exoesqueleto Mágico [1]",
+    "unidName": "Armadura",
+    "resName": "Supplement_Part_Agi",
+    "description": "Uma armadura multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nATQM +100.\nA cada 2 refinos:\nATQM +10.\nRefino +7 ou mais:\nConjuração variável -15%.\nRefino +9 ou mais:\nDano mágico de todas as propriedades +10%.\nRefino +11 ou mais:\nPós-conjuração -10%.\n--------------------------\nConjunto\n[Jetpack Mágico]\nPós-conjuração -5% adicional.\nSoma dos refinos 18 ou mais:\nDano mágico contra todas as propriedades +10%.\nSoma dos refinos 23 ou mais:\nDano mágico de todas as propriedades +1% por refino da capa e da armadura.\n--------------------------\nTipo: Armadura\nDEF: 130 DEFM: 0\nPeso: 100\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 513,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 130,
     "weight": 100,
     "requiredLevel": 150,
     "location": null,
     "compositionPos": null,
-    "canGrade": false,
     "usableClass": [
       "all"
     ],
@@ -227545,39 +227537,33 @@
       "vct": [
         "7===15"
       ],
-      "acd": [
-        "11===10",
-        "EQUIP[Magic Jetpack]5"
-      ],
       "m_my_element_all": [
         "9===10",
-        "EQUIP[Magic Jetpack]REFINE[armor,garment==18]10"
+        "EQUIP[Jetpack Mágico]REFINE[armor,garment==18]===10"
       ],
-      "m_element_all": [
-        "EQUIP[Magic Jetpack]REFINE[armor,garment==23]1---1"
+      "acd": [
+        "11===10",
+        "EQUIP[Jetpack Mágico]5"
       ]
     }
   },
   "450407": {
     "id": 450407,
     "aegisName": "Cvt_Critical_Armor",
-    "flavorText": null,
-    "name": "Critical Exoskeleton [1]",
-    "unidName": null,
-    "resName": "Imp_Powered_Suit",
-    "unidResName": null,
-    "description": "A multifunctional armor that has been enhanced to increase performance.\n--------------------------\n^0000ffATK +100.^000000\nFor every 2 refines:\n^0000ffATK +7. CRIT +2.^000000\nRefine +7 or more:\n^0000ffAttack Speed +15%.^000000\nRefine +9 or more:\n^0000ffCritical Damage +10%.^000000\nRefine +11 or more:\n^0000ffSkill delay -10%.^000000\n--------------------------\n^fa4e09Set^000000\n^fa4e09[Critical Jetpack]^000000\n^0000ffAdditional Skill delay -5%.^000000\nSet refine sum 18 or more:\n^0000ffPhysical Damage against all properties +10%.^000000\nSet refine sum 23 or more:\n^0000ffCritical Damage +1% per refine of the Garment and Armor.^000000\n--------------------------\nType: ^777777Armor^000000\nDEF: ^777777130^000000 MDEF: ^7777770^000000\nWeight: ^777777100^000000\nRequired Level: ^777777150^000000\nClasses: ^777777All^000000",
+    "name": "Exoesqueleto Crítico [1]",
+    "unidName": "Armadura",
+    "resName": "Supplement_Part_Con",
+    "description": "Uma armadura multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nATQ +100.\nA cada 2 refinos:\nATQ +7. CRIT +2.\nRefino +7 ou mais:\nVelocidade de ataque +15%.\nRefino +9 ou mais:\nDano crítico +10%.\nRefino +11 ou mais:\nPós-conjuração -10%.\n--------------------------\nConjunto\n[Jetpack Crítico]\nPós-conjuração -5% adicional.\nSoma dos refinos 18 ou mais:\nDano físico contra todas as propriedades +10%.\nSoma dos refinos 23 ou mais:\nDano crítico +1% por refino da capa e da armadura.\n--------------------------\nTipo: Armadura\nDEF: 130 DEFM: 0\nPeso: 100\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 513,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 130,
     "weight": 100,
     "requiredLevel": 150,
     "location": null,
     "compositionPos": null,
-    "canGrade": false,
     "usableClass": [
       "all"
     ],
@@ -227593,15 +227579,14 @@
         "7===15"
       ],
       "criDmg": [
-        "9===10",
-        "EQUIP[Critical Jetpack]REFINE[armor,garment==23]1---1"
+        "9===10"
       ],
       "acd": [
         "11===10",
-        "EQUIP[Critical Jetpack]5"
+        "EQUIP[Jetpack Crítico]5"
       ],
       "p_element_all": [
-        "EQUIP[Critical Jetpack]REFINE[armor,garment==18]10"
+        "EQUIP[Jetpack Crítico]REFINE[armor,garment==18]===10"
       ]
     }
   },
@@ -228213,9 +228198,15 @@
       "all"
     ],
     "script": {
-      "mres": ["7===5"],
-      "perfectDodge": ["EQUIP[Soquete Ilusión A]10"],
-      "healEffect": ["EQUIP[Turbina Ilusión A]10"]
+      "mres": [
+        "7===5"
+      ],
+      "perfectDodge": [
+        "EQUIP[Soquete Ilusión A]10"
+      ],
+      "healEffect": [
+        "EQUIP[Turbina Ilusión A]10"
+      ]
     }
   },
   "460005": {
@@ -228379,11 +228370,23 @@
       "all"
     ],
     "script": {
-      "p_class_boss": ["5", "2---2"],
-      "m_class_boss": ["5", "2---2"],
-      "healEffect": ["7===10"],
-      "matk": ["EQUIP[Soquete Ilusión B]30"],
-      "atk": ["EQUIP[Turbina Ilusión B]30"]
+      "p_class_boss": [
+        "5",
+        "2---2"
+      ],
+      "m_class_boss": [
+        "5",
+        "2---2"
+      ],
+      "healEffect": [
+        "7===10"
+      ],
+      "matk": [
+        "EQUIP[Soquete Ilusión B]30"
+      ],
+      "atk": [
+        "EQUIP[Turbina Ilusión B]30"
+      ]
     }
   },
   "460017": {
@@ -237271,14 +237274,14 @@
   "480124": {
     "id": 480124,
     "aegisName": "Cvt_Physical_Wing",
-    "name": "Convertible Physical Wing [1]",
-    "unidName": "Hood",
+    "name": "Jetpack Físico [1]",
+    "unidName": "Capa",
     "resName": "Supplement_Part_Wing",
-    "description": "ปีกจักรกลอเนกประสงค์ที่ได้รับการพัฒนาอีกขั้นหนึ่ง ซึ่งมีเป้าหมายให้จ่ายพลังงานและมีประสิทธิภาพอย่างสูงสุด\nเครื่องประมวลผล Physical ถูกติดตั้งควบคู่ไปด้วย\nสามารถใช้งานร่วมกับไอเท็มต่าง ๆ ได้\n\nทุก ๆ การอัพเกรด 2 ขั้น ATK +5, ATK +1%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 3%\nเมื่ออัพเกรดถึงขั้น 7, ASPD +7%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่มความต้านทานต่อการโจมตีธาตุ Neutral 7%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\n\nเมื่อสวมใส่ร่วมกับ Deep Blue Sunglasses [1], ATK +7%, ลดระยะเวลาร่ายแบบแปรผัน 15%\nเมื่อสวมใส่ร่วมกับ Victorious Wing Ears [1], ATK +7%, ลด Delay หลังใช้สกิล 15%\nเมื่อสวมใส่ร่วมกับ Battle Processor [1], ATK +7%, เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 5%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777738^000000\nน้ำหนัก : ^77777740^000000\nเลเวลของเกราะ : ^7777771^000000\nเลเวลที่ต้องการ : ^777777150^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "Mochila multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nA cada 2 refinos:\nATQ +5.\nATQ da arma +1%.\nA cada 3 refinos:\nDano físico contra todos os tamanhos +3%.\n--------------------------\nRefino +7 ou mais:\nVelocidade de ataque +7%.\nRefino +9 ou mais:\nResistência a propriedade Neutro +7%.\nRefino +11 ou mais:\nDano físico a distância +10%.\nDano físico corpo a corpo +10%.\n--------------------------\nConjunto\n[Óculos Neon] [1]\nATQ da arma +7%.\nConjuração variável -15%.\n--------------------------\nConjunto\n[Asas Vitoriosas] [1]\nATQ da arma +7%.\nPós-conjuração -15%.\n--------------------------\nConjunto\n[Chip de Batalha] [1]\nATQ da arma +7%.\nDano físico a distância +5% adicional.\nDano físico corpo a corpo +5% adicional.\n--------------------------\nTipo: Capa\nDEF: 38 DEFM: 0\nPeso: 40\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 38,
     "weight": 40,
@@ -237294,9 +237297,9 @@
       ],
       "atkPercent": [
         "2---1",
-        "EQUIP[Deep Blue Sunglasses]===7",
-        "EQUIP[Victorious Wing Ears]===7",
-        "EQUIP[Battle Processor]===7"
+        "EQUIP[Deep Blue Sunglasses]7",
+        "EQUIP[Victorious Wing Ears]7",
+        "EQUIP[Battle Processor]7"
       ],
       "p_size_all": [
         "3---3"
@@ -237306,31 +237309,31 @@
       ],
       "range": [
         "11===10",
-        "EQUIP[Battle Processor]===5"
+        "EQUIP[Battle Processor]5"
       ],
       "melee": [
         "11===10",
-        "EQUIP[Battle Processor]===5"
+        "EQUIP[Battle Processor]5"
       ],
       "vct": [
-        "EQUIP[Deep Blue Sunglasses]===15"
+        "EQUIP[Deep Blue Sunglasses]15"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]===15"
+        "EQUIP[Victorious Wing Ears]15"
       ]
     }
   },
   "480125": {
     "id": 480125,
     "aegisName": "Cvt_Magical_Wing",
-    "name": "Convertible Magical Wing [1]",
-    "unidName": "Hood",
+    "name": "Jetpack Mágico [1]",
+    "unidName": "Capa",
     "resName": "Supplement_Part_Wing",
-    "description": "ปีกจักรกลอเนกประสงค์ที่ได้รับการพัฒนาอีกขั้นหนึ่ง ซึ่งมีเป้าหมายให้จ่ายพลังงานและมีประสิทธิภาพอย่างสูงสุด\nเครื่องประมวลผล Magical ถูกติดตั้งควบคู่ไปด้วย\nสามารถใช้งานร่วมกับไอเท็มต่าง ๆ ได้\n\nทุก ๆ การอัพเกรด 2 ขั้น MATK +5, MATK +1%\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางเวทมนตร์ต่อศัตรูทุกขนาด 3%\nเมื่ออัพเกรดถึงขั้น 7 ลดระยะเวลาร่ายแบบแปรผัน 7%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่มความต้านทานต่อการโจมตีธาตุ Neutral 7%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\n\nเมื่อสวมใส่ร่วมกับ Deep Blue Sunglasses [1], MATK +7%, ลดระยะเวลาร่ายแบบแปรผัน 15%\nเมื่อสวมใส่ร่วมกับ Victorious Wing Ears [1], MATK +7%, ลด Delay หลังใช้สกิล 15%\nเมื่อสวมใส่ร่วมกับ Battle Processor [1], MATK +7%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777738^000000\nน้ำหนัก : ^77777740^000000\nเลเวลของเกราะ : ^7777771^000000\nเลเวลที่ต้องการ : ^777777150^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "Mochila multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nA cada 2 refinos:\nATQM +5.\nDano mágico +1%.\nA cada 3 refinos:\nDano mágico contra todos os tamanhos +3%.\n--------------------------\nRefino +7 ou mais:\nConjuração variável -7%.\nRefino +9 ou mais:\nResistência a propriedade Neutro +7%.\nRefino +11 ou mais:\nDano mágico de todas as propriedades +10%.\n--------------------------\nConjunto\n[Óculos Neon] [1]\nDano mágico +7%.\nConjuração variável -15%.\n--------------------------\nConjunto\n[Asas Vitoriosas] [1]\nDano mágico +7%.\nPós-conjuração -15%.\n--------------------------\nConjunto\n[Chip de Batalha] [1]\nDano mágico +7%.\nDano mágico de todas as propriedades +5% adicional.\n--------------------------\nTipo: Capa\nDEF: 38 DEFM: 0\nPeso: 40\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 38,
     "weight": 40,
@@ -237346,23 +237349,23 @@
       ],
       "matkPercent": [
         "2---1",
-        "EQUIP[Deep Blue Sunglasses]===7",
-        "EQUIP[Victorious Wing Ears]===7",
-        "EQUIP[Battle Processor]===7"
+        "EQUIP[Deep Blue Sunglasses]7",
+        "EQUIP[Victorious Wing Ears]7",
+        "EQUIP[Battle Processor]7"
       ],
       "m_size_all": [
         "3---3"
       ],
       "vct": [
         "7===7",
-        "EQUIP[Deep Blue Sunglasses]===15"
+        "EQUIP[Deep Blue Sunglasses]15"
       ],
       "m_my_element_all": [
         "11===10",
-        "EQUIP[Battle Processor]===5"
+        "EQUIP[Battle Processor]5"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]===15"
+        "EQUIP[Victorious Wing Ears]15"
       ]
     }
   },
@@ -237932,15 +237935,15 @@
   },
   "480197": {
     "id": 480197,
-    "aegisName": null,
-    "name": "Convertible Critical Wing [1]",
-    "unidName": "Hood",
+    "aegisName": "Cvt_Critical_Wing",
+    "name": "Jetpack Crítico [1]",
+    "unidName": "Capa",
     "resName": "Supplement_Part_Wing",
-    "description": "ปีกจักรกลอเนกประสงค์ที่ได้รับการพัฒนาอีกขั้นหนึ่ง ซึ่งมีเป้าหมายให้จ่ายพลังงานและมีประสิทธิภาพอย่างสูงสุด\nเครื่องประมวลผล Critical ถูกติดตั้งควบคู่ไปด้วย\nสามารถใช้งานร่วมกับไอเท็มต่าง ๆ ได้\n\nทุก ๆ การอัพเกรด 2 ขั้น ATK +5, CRI +2\nทุก ๆ การอัพเกรด 3 ขั้น เพิ่ม Damage ทางกายภาพต่อศัตรูทุกขนาด 3%\nเมื่ออัพเกรดถึงขั้น 7, ASPD +7%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่มความต้านทานต่อการโจมตีธาตุ Neutral 7%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 10%\n\nเมื่อสวมใส่ร่วมกับ Deep Blue Sunglasses [1], Critical Damage +7%, ลดระยะเวลาร่ายแบบแปรผัน 15%\nเมื่อสวมใส่ร่วมกับ Victorious Wing Ears [1], Critical Damage +7%, ลด Delay หลังใช้สกิล 15%\nเมื่อสวมใส่ร่วมกับ Battle Processor [1], Critical Damage +7%, เพิ่ม Damage ทางกายภาพระยะใกล้และระยะไกล 5%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777738^000000\nน้ำหนัก : ^77777740^000000\nเลเวลของเกราะ : ^7777771^000000\nเลเวลที่ต้องการ : ^777777150^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "Mochila multifuncional que foi aprimorada com o objetivo aumentar o rendimento.\n--------------------------\nA cada 2 refinos:\nATQ +5. CRIT +2.\nA cada 3 refinos:\nDano físico contra todos os Tamanhos +3%.\n--------------------------\nRefino +7 ou mais:\nVelocidade de ataque +7%.\nRefino +9 ou mais:\nResistência a propriedade Neutro +7%.\nRefino +11 ou mais:\nDano físico a distância +10%.\nDano físico corpo a corpo +10%.\n--------------------------\nConjunto\n[Óculos Neon] [1]\nDano crítico +7%.\nConjuração variável -15%.\n--------------------------\nConjunto\n[Asas Vitoriosas] [1]\nDano crítico +7%.\nPós-conjuração -15%.\n--------------------------\nConjunto\n[Chip de Batalha] [1]\nDano crítico +7%.\nDano físico a distância +5%.\nDano físico corpo a corpo +5%.\n--------------------------\nTipo: Capa\nDEF: 38 DEFM: 0\nPeso: 40\nNível necessário: 150\nClasses: Todas",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 515,
-    "itemLevel": null,
+    "itemLevel": 1,
     "attack": null,
     "defense": 38,
     "weight": 40,
@@ -237965,22 +237968,22 @@
       ],
       "range": [
         "11===10",
-        "EQUIP[Battle Processor]===5"
+        "EQUIP[Battle Processor]5"
       ],
       "melee": [
         "11===10",
-        "EQUIP[Battle Processor]===5"
+        "EQUIP[Battle Processor]5"
       ],
       "criDmg": [
-        "EQUIP[Deep Blue Sunglasses]===7",
-        "EQUIP[Victorious Wing Ears]===7",
-        "EQUIP[Battle Processor]===7"
+        "EQUIP[Deep Blue Sunglasses]7",
+        "EQUIP[Victorious Wing Ears]7",
+        "EQUIP[Battle Processor]7"
       ],
       "vct": [
-        "EQUIP[Deep Blue Sunglasses]===15"
+        "EQUIP[Deep Blue Sunglasses]15"
       ],
       "acd": [
-        "EQUIP[Victorious Wing Ears]===15"
+        "EQUIP[Victorious Wing Ears]15"
       ]
     }
   },
