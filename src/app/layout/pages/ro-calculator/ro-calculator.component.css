@@ -1646,3 +1646,56 @@
 :host ::ng-deep .mvs-multiselect-panel .p-multiselect-header > .p-checkbox {
   display: none !important;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   FIX 2: alinhamento da lupa + label menor pra nao cortar texto
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Label do addon: largura automatica baseada no conteudo (era width:160px fixo) */
+:host ::ng-deep .monster-vs-picker .p-inputgroup-addon.mvs-picker-label {
+  width: auto !important;
+  min-width: auto !important;
+  padding: 8px 14px !important;
+  white-space: nowrap;
+}
+
+/* Container do filtro: flex pra ALINHAR icone verticalmente */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-container {
+  flex: 1 1 auto !important;
+  position: relative !important;
+  display: flex !important;
+  align-items: center !important;
+  width: auto !important;
+}
+
+/* Input toma 100% do container flex */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  flex: 1 1 auto;
+}
+
+/* Lupa: ao inves de absolute (que estava desalinhando),
+   usa o filter-container como flex e posiciona com inset-inline-end */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-icon {
+  position: absolute !important;
+  right: 12px !important;
+  top: 50% !important;
+  margin-top: -8px !important;  /* metade do font-size (16px) compensa */
+  line-height: 1 !important;
+  height: 16px !important;
+  width: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #94a3b8 !important;
+  pointer-events: none;
+  transform: none !important;
+}
+
+/* Caso a lupa venha como wrapper com SVG dentro */
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-icon svg,
+:host ::ng-deep .mvs-multiselect-panel .p-multiselect-filter-icon::before {
+  display: block;
+  line-height: 1;
+}
