@@ -1362,3 +1362,41 @@
   font-weight: 700;
   font-variant-numeric: tabular-nums;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Resumo de Batalha — fix legibilidade dos labels
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Texto das linhas (HP, Def, Mdef, etc) — vermelho escuro estava
+   pouco legivel. Troca pra cinza-claro como nos cards Hero. */
+:host ::ng-deep .battle_summary > .col-5,
+:host ::ng-deep .battle_summary > .col-7 {
+  color: #cbd5e1;
+}
+
+:host ::ng-deep .battle_summary > .col-5 .col-12,
+:host ::ng-deep .battle_summary > .col-7 .col-12,
+:host ::ng-deep .battle_summary > .col-7 .col-6 {
+  color: #94a3b8;
+  font-size: 0.78rem;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+
+/* Botoes MONSTRO / HABILIDADE: contraste ruim de vermelho-em-vermelho.
+   Trocar pra fundo neutro escuro com border accent. */
+:host ::ng-deep .battle_summary .monster_hilight_label,
+:host ::ng-deep .battle_summary .skill_hilight_label {
+  background: rgba(15, 23, 42, 0.65) !important;
+  border: 1px solid rgba(248, 113, 113, 0.35);
+  color: #fecaca !important;
+  font-weight: 800 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.7rem !important;
+  border-radius: 6px;
+  padding: 6px 10px !important;
+  box-shadow: none;
+  min-width: 90px;
+  text-align: center;
+}
