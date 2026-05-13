@@ -58954,8 +58954,8 @@
   "19549": {
     "id": 19549,
     "aegisName": "C_Magestic_Goat",
-    "name": "Visual Chifres Enormes",
-    "unidName": "Visual Chifres Enormes",
+    "name": "[Visual] Chifres Enormes",
+    "unidName": "[Visual] Chifres Enormes",
     "resName": "C_Magestic_Goat",
     "description": "Equipamento visual. Pode ser encaixado com pedras para receber atributos adicionais.",
     "slots": 0,
@@ -58976,8 +58976,8 @@
   "20407": {
     "id": 20407,
     "aegisName": "C_Subject_Aura_Red",
-    "name": "Visual Aura Biológica Vermelha",
-    "unidName": "Visual Aura Biológica Vermelha",
+    "name": "[Visual] Aura Biológica Vermelha",
+    "unidName": "[Visual] Aura Biológica Vermelha",
     "resName": "C_Subject_Aura_Red",
     "description": "Equipamento visual. Pode ser encaixado com pedras para receber atributos adicionais.",
     "slots": 0,
@@ -58998,8 +58998,8 @@
   "20514": {
     "id": 20514,
     "aegisName": "C_Thanatos_Sword",
-    "name": "Visual Espada de Thanatos",
-    "unidName": "Visual Espada de Thanatos",
+    "name": "[Visual] Espada de Thanatos",
+    "unidName": "[Visual] Espada de Thanatos",
     "resName": "C_Thanatos_Sword",
     "description": "Equipamento visual. Pode ser encaixado com pedras para receber atributos adicionais.",
     "slots": 0,
@@ -215823,8 +215823,8 @@
   "410320": {
     "id": 410320,
     "aegisName": "C_Blink_Eyes_D_Freyja",
-    "name": "Visual Piscadela de Freya",
-    "unidName": "Visual Piscadela de Freya",
+    "name": "[Visual] Piscadela de Freya",
+    "unidName": "[Visual] Piscadela de Freya",
     "resName": "C_Blink_Eyes_D_Freyja",
     "description": "Equipamento visual. Pode ser encaixado com pedras para receber atributos adicionais.",
     "slots": 0,
