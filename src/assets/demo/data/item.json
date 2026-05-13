@@ -210544,35 +210544,6 @@
       ]
     }
   },
-  "400664": {
-    "id": 400664,
-    "aegisName": "C_CLB_SS_DF",
-    "name": "Costume Drooping Fei-Chai",
-    "unidName": "Accessory",
-    "resName": "C_CLB_SS_DF",
-    "description": "หมวกที่มีรูปร่างเหมือนกับ Fei-Chai\nว่ากันว่า Fei-Chai ขี้กลัวและมักตกใจกับอะไรเล็ก ๆ น้อย ๆ\nATK + 100, MATK + 100.\nASPD + 2, เพิ่มความเร็วในการเคลื่อนที่\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 31 ธันวาคม 2567)\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Upper",
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "100"
-      ],
-      "matk": [
-        "100"
-      ],
-      "aspd": [
-        "2"
-      ]
-    }
-  },
   "400673": {
     "id": 400673,
     "aegisName": "FuriousCirclet_TR",
@@ -211561,102 +211532,6 @@
       ]
     }
   },
-  "400745": {
-    "id": 400745,
-    "aegisName": "C_CLB_KP_DC",
-    "name": "Costume The Dragon Warrior Hat",
-    "unidName": "Cap",
-    "resName": "C_CLB_KP_DC",
-    "description": "เมื่อสวมหมวกของนักรบมังกร จะสามารถปลดปล่อยออร่ารูปมังกรที่ Po และเหล่านักรบมังกรใช้ไม้เท้าควบคุมได้\nแต่ไม่สามารถใช้พลังของนักรบมังกรได้จริง ๆ นะ\n \n^CC3D3D[ความสามารถช่วงระยะเวลากิจกรรม]^000000\nATK, MATK + 100\nCritical Damage + 30%\nCRI Rate + 30\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบออกหลังสิ้นสุดระยะเวลากิจกรรม)^000000\n \nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Upper",
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "100"
-      ],
-      "matk": [
-        "100"
-      ],
-      "criDmg": [
-        "30"
-      ],
-      "cri": [
-        "30"
-      ]
-    }
-  },
-  "400746": {
-    "id": 400746,
-    "aegisName": "C_CLB_KP_Ta",
-    "name": "Costume Tigress Doll",
-    "unidName": "Cap",
-    "resName": "C_CLB_KP_Ta",
-    "description": "ตุ๊กตาที่ทำขึ้นมาเลียนแบบเสือจากหนึ่งในห้าผู้พิชิตในตำนาน ผู้เป็นศิษย์ของ Shifu\n \n^CC3D3D[ความสามารถช่วงระยะเวลากิจกรรม]^000000\nATK, MATK + 100\nMaxHP, MaxSP + 30%\nลดระยะเวลาร่ายแบบแปรผัน 30%\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบออกหลังสิ้นสุดระยะเวลากิจกรรม)^000000\n \nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Upper",
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "100"
-      ],
-      "matk": [
-        "100"
-      ],
-      "hpPercent": [
-        "30"
-      ],
-      "spPercent": [
-        "30"
-      ],
-      "vct": [
-        "30"
-      ]
-    }
-  },
-  "400747": {
-    "id": 400747,
-    "aegisName": "C_CLB_KP_SF",
-    "name": "Costume Shifu Doll",
-    "unidName": "Cap",
-    "resName": "C_CLB_KP_SF",
-    "description": "ตุ๊กตาที่ทำขึ้นมาเลียนแบบอาจารย์ Shifu ขนของมันนุ่มฟูน่าหลงใหล\n \n^CC3D3D[ความสามารถช่วงระยะเวลากิจกรรม]^000000\nATK, MATK + 100\nลดปริมาณ SP ที่ใช้เมื่อใช้สกิล 30%\nลด Delay หลังใช้สกิล 30%\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบออกหลังสิ้นสุดระยะเวลากิจกรรม)^000000\n \nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Upper",
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "100"
-      ],
-      "matk": [
-        "100"
-      ],
-      "acd": [
-        "30"
-      ]
-    }
-  },
   "400758": {
     "id": 400758,
     "aegisName": "Cat_FF_Hat",
@@ -211801,38 +211676,6 @@
       ],
       "fct": [
         "GRADE[me==B]12===0.5"
-      ]
-    }
-  },
-  "400801": {
-    "id": 400801,
-    "aegisName": "C_FumiHausu_Doll",
-    "name": "Costume Fumi Hausu Doll",
-    "unidName": "Cap",
-    "resName": "C_FumiHausu_Doll",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nP.ATK, S.MATK + 5\nลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nลดระยะเวลาร่ายแบบแปรผัน 30%\n\nเมื่อใช้งานร่วมกับ Fumi Hausu Egg,\nเพิ่มอัตราดรอปไอเท็ม 10%\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังสิ้นสุดระยะเวลากิจกรรม)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Upper",
-    "compositionPos": null,
-    "script": {
-      "pAtk": [
-        "5"
-      ],
-      "sMatk": [
-        "5"
-      ],
-      "fct": [
-        "0.5"
-      ],
-      "vct": [
-        "30"
       ]
     }
   },
@@ -216457,41 +216300,6 @@
       ]
     }
   },
-  "410397": {
-    "id": 410397,
-    "aegisName": "C_Doughkun",
-    "name": "Costume DoughKun",
-    "unidName": "Costume DoughKun",
-    "resName": "C_Doughkun",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nP.ATK, S.MATK + 5\nMaxHP, MaxSP + 15%\nASPD + 30%\nเมื่อใช้งานร่วมกับ Doughkun Egg,\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ 10%\n\nเมื่อใช้งานร่วมกับ Fumi Hausu Egg,\nเพิ่มอัตราดรอปไอเท็ม 10%\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังสิ้นสุดระยะเวลากิจกรรม)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 520,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Middle",
-    "compositionPos": null,
-    "script": {
-      "pAtk": [
-        "5"
-      ],
-      "sMatk": [
-        "5"
-      ],
-      "hpPercent": [
-        "15"
-      ],
-      "spPercent": [
-        "15"
-      ],
-      "aspd": [
-        "30"
-      ]
-    }
-  },
   "410431": {
     "id": 410431,
     "aegisName": "5th_Mask_Melee",
@@ -216703,102 +216511,6 @@
       ],
       "Noon Blast": [
         "EQUIP[Kiel-D-01 Egg]===20"
-      ]
-    }
-  },
-  "410541": {
-    "id": 410541,
-    "aegisName": null,
-    "name": "Sunglasses Champion ROS 2025 Thailand",
-    "unidName": "Sunglasses",
-    "resName": "선글래스",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nแว่นตาเกียรติยศสำหรับผู้คว้าชัยชนะสุดยิ่งใหญ่จาก Ragnarok Stars 2025 Thailand Championship มาได้\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.5 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 20%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 20%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ได้เฉพาะในพื้นที่ War of Emperium Herosria เท่านั้น\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)^000000\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 520,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 10,
-    "requiredLevel": 1,
-    "location": "Middle",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "20"
-      ],
-      "range": [
-        "20"
-      ],
-      "m_my_element_all": [
-        "20"
-      ]
-    }
-  },
-  "410542": {
-    "id": 410542,
-    "aegisName": null,
-    "name": "Sunglasses 1st Runner Up ROS 2025",
-    "unidName": "Sunglasses",
-    "resName": "선글래스",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nแว่นตาเกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับหนึ่งจาก Ragnarok Stars 2025 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.4 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 15%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 15%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ได้เฉพาะในพื้นที่ War of Emperium Herosria เท่านั้น\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)^000000\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 520,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 10,
-    "requiredLevel": 1,
-    "location": "Middle",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "15"
-      ],
-      "range": [
-        "15"
-      ],
-      "m_my_element_all": [
-        "15"
-      ]
-    }
-  },
-  "410543": {
-    "id": 410543,
-    "aegisName": null,
-    "name": "Sunglasses 2nd Runner Up ROS 2025",
-    "unidName": "Sunglasses",
-    "resName": "선글래스",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nแว่นตาเกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับสองจาก Ragnarok Stars 2025 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.3 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ได้เฉพาะในพื้นที่ War of Emperium Herosria เท่านั้น\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)^000000\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 2,
-    "itemSubTypeId": 520,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 10,
-    "requiredLevel": 1,
-    "location": "Middle",
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "10"
-      ],
-      "range": [
-        "10"
-      ],
-      "m_my_element_all": [
-        "10"
       ]
     }
   },
@@ -217891,35 +217603,6 @@
       ]
     }
   },
-  "420219": {
-    "id": 420219,
-    "aegisName": "C_Come_On_Melon",
-    "name": "Costume Come On Melon",
-    "unidName": "Cap",
-    "resName": "C_Come_On_Melon",
-    "description": "เมล่อนหนึ่งชิ้นที่เป็นที่ชื่นชอบของครอบครัวที่รออยู่ที่บ้าน\n\nเพิ่ม Damage ทางกายภาพระยะใกล้ 3%, เพิ่ม Damage ทางกายภาพระยะไกล 3%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 3% ต่อ Base Lv 50 ตลอดระยะเวลากิจกรรม\nเพิ่มปริมาณฟื้นฟูของ Bread 2000%, เพิ่มปริมาณฟื้นฟูของ Sweet Melon 300%\n^ffffff_^000000\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังสิ้นสุดระยะเวลากิจกรรม)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-    "script": {
-      "melee": [
-        "SUM[level==50]---3"
-      ],
-      "range": [
-        "SUM[level==50]---3"
-      ],
-      "m_my_element_all": [
-        "SUM[level==50]---3"
-      ]
-    }
-  },
   "420220": {
     "id": 420220,
     "aegisName": "Diamond_Ace_Range",
@@ -218044,47 +217727,6 @@
       ],
       "m_race_all": [
         "EQUIP[Automatic Armor A-Type||Automatic Armor B-Type]===8"
-      ]
-    }
-  },
-  "420351": {
-    "id": 420351,
-    "aegisName": "C_Auspicloud",
-    "name": "Costume Farmhouse Clouds",
-    "unidName": "Costume Farmhouse Clouds",
-    "resName": "C_Auspicloud",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nAll State + 10\nPOW, SPL, CON, WIS, STA, CRT + 10\nเมื่อใช้งานร่วมกับ Costume Fumi Hausu Doll,\nเพิ่มอัตราดรอปไอเท็ม 10%\n\nเมื่อใช้งานร่วมกับ Costume DoughKun,\nเพิ่ม EXP ที่ได้รับจากมอนสเตอร์ 10%\n\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังสิ้นสุดระยะเวลากิจกรรม)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-    "script": {
-      "allStatus": [
-        "10"
-      ],
-      "pow": [
-        "10"
-      ],
-      "spl": [
-        "10"
-      ],
-      "con": [
-        "10"
-      ],
-      "wis": [
-        "10"
-      ],
-      "sta": [
-        "10"
-      ],
-      "crt": [
-        "10"
       ]
     }
   },
@@ -218308,32 +217950,6 @@
       ]
     }
   },
-  "420384": {
-    "id": 420384,
-    "aegisName": "C_Commentary_Booth",
-    "name": "Costume DJ Booth",
-    "unidName": "Ribbon",
-    "resName": "C_Commentary_Booth",
-    "description": "บูธพากย์เสียงแฟชั่นที่ปรากฏขึ้นอย่างกะทันหันเมื่อนั่งพักหรือถูกโจมตีล้มลง\nWorld of Ragnarok เริ่มต้นขึ้นแล้ว~!!\nATK +155, MATK +155\nเมื่อกำจัดมอนสเตอร์ด้วยการโจมตีทางกายภาพหรือเวทมนตร์ จะฟื้นฟู HP 555, SP 55\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 9 กรกฎาคม 2025)\n\n^ffffff^4D4DFF[Designer Heidam]^000000^000000\n^b4b4b4สามารถแลกเปลี่ยนเป็น Costume Enchant Stone Box 26 ได้^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Garment",
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "155"
-      ],
-      "matk": [
-        "155"
-      ]
-    }
-  },
   "420389": {
     "id": 420389,
     "aegisName": "aegis_Kankrai",
@@ -218484,35 +218100,6 @@
       ],
       "m_class_all": [
         "6"
-      ]
-    }
-  },
-  "420423": {
-    "id": 420423,
-    "aegisName": "C_InkPainting_Day",
-    "name": "Costume Ink Painting (Day)",
-    "unidName": "Ribbon",
-    "resName": "C_InkPainting_Day",
-    "description": "ภาพวาดหมึกจีนที่ถ่ายทอดแสงกลางวันอย่างละเมียดละไม\nเพียงจ้องมอง ก็รู้สึกถึงความสงบร่มเย็นในใจ\n\nเพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อศัตรูทุกขนาด 15%\nPOW, SPL, CON, WIS, STA, CRT + 10\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังสิ้นสุดระยะเวลากิจกรรม)\n\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-    "script": {
-      "p_size_all": [
-        "15"
-      ],
-      "m_size_all": [
-        "15"
-      ],
-      "allTrait": [
-        "10"
       ]
     }
   },
@@ -218741,32 +218328,6 @@
       ],
       "m_pene_race_all": [
         "EQUIP[Gray Wolf Robe&&Gray Wolf Manteau||Gray Wolf Muffler]REFINE[armor,garment==21]===30"
-      ]
-    }
-  },
-  "420516": {
-    "id": 420516,
-    "aegisName": null,
-    "name": "Costume Forest Friends",
-    "unidName": "Ribbon",
-    "resName": "C_Forest_Friends",
-    "description": "เหล่าเพื่อนพ้องในพงไพรที่จู่ ๆ ก็ปรากฎตัวขณะที่นั่งหรือนอนพักอยู่ในป่า\nพวกมันจะทำคุณจะไม่มีทางรู้สึกเหงาอีกต่อไป\nเพิ่ม Damage ทางกายภาพและเวทมนตร์ต่อศัตรูประเภทบอส 20%\nสามารถใช้งานสกิล Competentia Lv.5 ได้\n(ความสามารถดังกล่าวจะถูกลบออกหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 7 สิงหาคม 2568)\n^ffffff^4D4DFF[Designer Heidam]^000000^000000\n^b4b4b4สามารถแลกเปลี่ยนเป็น Costume Enchant Stone Box 26 ได้^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Garment",
-    "compositionPos": null,
-    "script": {
-      "p_class_boss": [
-        "20"
-      ],
-      "m_class_boss": [
-        "20"
       ]
     }
   },
@@ -219250,146 +218811,6 @@
     ],
     "script": {
       "hpPercent": [
-        "5"
-      ]
-    }
-  },
-  "440013": {
-    "id": 440013,
-    "aegisName": "C_2024ROS_Hat_1st",
-    "name": "Costume The Winner of ROS 2024",
-    "unidName": "Cap",
-    "resName": "C_2024ROS_Hat_1st",
-    "description": "คอสตูมเกียรติยศสำหรับผู้คว้าชัยชนะสุดยิ่งใหญ่จาก Ragnarok Stars 2024 Thailand Championship มาได้\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n \nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 20%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 20%\nMax Hp +20%, Max SP +20%\nเมื่อกำจัดมอนสเตอร์ จะมีโอกาส 4% ที่ได้รับ WoE White Potion, WoE Blue Potion, WoE Violet Potion อย่างละ 1 ea\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบในวันที่ 19 มิถุนายน 2568 หลังปิดปรับปรุงเซิร์ฟเวอร์)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper/Middle/Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "melee": [
-        "20"
-      ],
-      "range": [
-        "20"
-      ],
-      "m_my_element_all": [
-        "20"
-      ],
-      "hpPercent": [
-        "20"
-      ],
-      "spPercent": [
-        "20"
-      ]
-    }
-  },
-  "440014": {
-    "id": 440014,
-    "aegisName": "C_2024ROS_Hat_2nd",
-    "name": "Costume 1st Runner Up of ROS 2024",
-    "unidName": "Cap",
-    "resName": "C_2024ROS_Hat_2nd",
-    "description": "คอสตูมเกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับหนึ่งจาก Ragnarok Stars 2024 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n \nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 15%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 15%\nMax Hp +15%, Max SP +15%\nเมื่อกำจัดมอนสเตอร์ จะมีโอกาส 3% ที่ได้รับ WoE White Potion, WoE Blue Potion, WoE Violet Potion อย่างละ 1 ea\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบในวันที่ 19 มิถุนายน 2568 หลังปิดปรับปรุงเซิร์ฟเวอร์)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper/Middle/Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "melee": [
-        "15"
-      ],
-      "range": [
-        "15"
-      ],
-      "m_my_element_all": [
-        "15"
-      ],
-      "hpPercent": [
-        "15"
-      ],
-      "spPercent": [
-        "15"
-      ]
-    }
-  },
-  "440015": {
-    "id": 440015,
-    "aegisName": "C_2024ROS_Hat_3rd",
-    "name": "Costume 2nd Runner Up of ROS 2024",
-    "unidName": "Cap",
-    "resName": "C_2024ROS_Hat_3rd",
-    "description": "คอสตูมเกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับสองจาก Ragnarok Stars 2024 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n \nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\nMax Hp +10%, Max SP +10%\nเมื่อกำจัดมอนสเตอร์ จะมีโอกาส 2% ที่ได้รับ WoE White Potion, WoE Blue Potion, WoE Violet Potion อย่างละ 1 ea\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบในวันที่ 19 มิถุนายน 2568 หลังปิดปรับปรุงเซิร์ฟเวอร์)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper/Middle/Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "melee": [
-        "10"
-      ],
-      "range": [
-        "10"
-      ],
-      "m_my_element_all": [
-        "10"
-      ],
-      "hpPercent": [
-        "10"
-      ],
-      "spPercent": [
-        "10"
-      ]
-    }
-  },
-  "440016": {
-    "id": 440016,
-    "aegisName": "C_2024ROS_Hat_4th",
-    "name": "Costume 3rd Runner Up of ROS 2024",
-    "unidName": "Cap",
-    "resName": "C_2024ROS_Hat_4th",
-    "description": "คอสตูมเกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับสามจาก Ragnarok Stars 2024 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n \nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 5%, เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 5%\nMax Hp +5%, Max SP +5%\nเมื่อกำจัดมอนสเตอร์ จะมีโอกาส 1% ที่ได้รับ WoE White Potion, WoE Blue Potion, WoE Violet Potion อย่างละ 1 ea\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบในวันที่ 19 มิถุนายน 2568 หลังปิดปรับปรุงเซิร์ฟเวอร์)^000000\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Upper/Middle/Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 519,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "melee": [
-        "5"
-      ],
-      "range": [
-        "5"
-      ],
-      "m_my_element_all": [
-        "5"
-      ],
-      "hpPercent": [
-        "5"
-      ],
-      "spPercent": [
         "5"
       ]
     }
@@ -238528,38 +237949,6 @@
       ]
     }
   },
-  "480287": {
-    "id": 480287,
-    "aegisName": "C_Skia_Doll",
-    "name": "Costume Skia Doll",
-    "unidName": "Hood",
-    "resName": "C_Skia_Doll",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nตุ๊กตาผ้านุ่มสุดน่ารักที่จำลองจาก Skia เมื่อสวมใส่จะเพิ่มความโดดเด่นให้กับผู้สวมใส่\nมาพร้อมกลิ่นอายของความพยายามและความน่ารักของ Skia\n\nสามารถใช้งานสกิล Greed Lv.1 ได้\nP.ATK, S.MATK + 10\nเพิกเฉยต่อพลังป้องกันทางกายภาพและเวทมนตร์ของศัตรูทุกเผ่า (ยกเว้น Player) 20%\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 21 สิงหาคม 2025)\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "pAtk": [
-        "10"
-      ],
-      "sMatk": [
-        "10"
-      ],
-      "p_pene_race_all": [
-        "20"
-      ],
-      "m_pene_race_all": [
-        "20"
-      ]
-    }
-  },
   "480303": {
     "id": 480303,
     "aegisName": null,
@@ -240209,44 +239598,6 @@
       ]
     }
   },
-  "480445": {
-    "id": 480445,
-    "aegisName": "C_CLB_SS_LT",
-    "name": "Costume Good Luck Tai-Zi",
-    "unidName": "Hood",
-    "resName": "C_CLB_SS_LT",
-    "description": "กระเป๋าเป้ที่ดูคล้ายกับ Tai-Zi\nไม่รู้ทำไมเวลาสะพายกระเป๋าใบนี้ จะรู้สึกว่าจะมีโชคลอยมาหา\nATK + 100, MATK + 100.\nMaxSP + 12%, Global Cooldown -10%\n\nเมื่อสวมใส่ร่วมกับ Costume Drooping Fei-Chai, เพิ่มอัตราการดรอปไอเท็ม 5%\nเมื่อสวมใส่ร่วมกับ Costume Walking Enjoy A-Ji, MHP + 1500, MSP + 500\nเมื่อสวมใส่ร่วมกับ Costume Lazy Cat Luke, เพิ่มค่าประสบการณ์ที่ได้รับเมื่อกำจัดมอนสเตอร์ 10%.\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 31 ธันวาคม 2567)\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "atk": [
-        "100"
-      ],
-      "matk": [
-        "100"
-      ],
-      "spPercent": [
-        "12"
-      ],
-      "acd": [
-        "10"
-      ],
-      "hp": [
-        "EQUIP[Costume Walking Enjoy A-Ji]===1500"
-      ],
-      "sp": [
-        "EQUIP[Costume Walking Enjoy A-Ji]===500"
-      ]
-    }
-  },
   "480446": {
     "id": 480446,
     "aegisName": null,
@@ -240398,41 +239749,6 @@
       ],
       "ignore_size_penalty": [
         "13===1"
-      ]
-    }
-  },
-  "480469": {
-    "id": 480469,
-    "aegisName": "C_Con_of_Singapura_MSP",
-    "name": "Costume Cons of White and Red",
-    "unidName": "Costume Cons of White and Red",
-    "resName": "C_Con_of_Singapura_MSP",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nคอสตูมที่มีพลังขัดแย้งกันอย่างแสงสีขาวและแดงกำลังพัดโหมกระหน่ำ\nเพียงแค่พัดโอบล้อมร่างกาย ก็รู้สึกได้ถึงความแข็งแกร่ง\nเพราะงั้นเอาไปใช้อวดชาวบ้านได้นะ\nMHP +10000\nMSP +2000\nลดระยะเวลาร่ายแบบแปรผัน 20%\nเพิ่ม Damage ทางกายภาพ/เวทมนตร์ 20%\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบในวันที่ 20 กุมภาพันธ์ 2568\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 521,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Lower",
-    "compositionPos": null,
-    "script": {
-      "hp": [
-        "10000"
-      ],
-      "sp": [
-        "2000"
-      ],
-      "vct": [
-        "20"
-      ],
-      "p_class_all": [
-        "20"
-      ],
-      "m_class_all": [
-        "20"
       ]
     }
   },
@@ -240882,38 +240198,6 @@
       ],
       "acd": [
         "EQUIP[Royal Hunting Boots B-type]===10"
-      ]
-    }
-  },
-  "480517": {
-    "id": 480517,
-    "aegisName": "C_CLB_KP_DMS",
-    "name": "Costume The Dragon Warrior's Manteua & Staff",
-    "unidName": "Hood",
-    "resName": "C_CLB_KP_DMS",
-    "description": "ผ้าคลุมสีแดงที่เป็นผ้าที่ Po สวมใส่เมื่อครั้งเดินทางไปทั่วโลก\nสัมผัสได้ถึงความสง่างามและน่าเกรงขามของนักรบมังกร\n \n^CC3D3D[ความสามารถช่วงระยะเวลากิจกรรม]^000000\nP.ATK, S.MATK + 20\nRES, MRES + 100\n\nเมื่อสวมใส่ Costume The Dragon Warrior Hat หรือ Costume Tigress Doll หรือ Costume Shifu Doll,\nEXP + 20%\nDROP + 20%\n^ff0000(ความสามารถของไอเท็มชิ้นนี้จะถูกลบออกหลังสิ้นสุดระยะเวลากิจกรรม)^000000\n \nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": "Garment",
-    "compositionPos": null,
-    "script": {
-      "pAtk": [
-        "20"
-      ],
-      "sMatk": [
-        "20"
-      ],
-      "res": [
-        "100"
-      ],
-      "mres": [
-        "100"
       ]
     }
   },
@@ -241547,46 +240831,6 @@
       ]
     }
   },
-  "480603": {
-    "id": 480603,
-    "aegisName": "C_Starrysky_Fountainpen",
-    "flavorText": null,
-    "name": "Costume Starry Sky Pen",
-    "unidName": "Hood",
-    "resName": "C_Starrysky_Fountainpen",
-    "unidResName": "후드",
-    "description": "A giant fountain pen that looks like it could draw a Milky Way with flowing stars.\n------------------------\nClass : ^777777Costume^000000\nDefense : ^7777770^000000\nPosition : ^777777Garment^000000\nWeight : ^7777770^000000\nRequired Level : ^7777771^000000\nUsable by : ^777777All Jobs^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "script": {
-      "hp": [
-        "15000"
-      ],
-      "sp": [
-        "2000"
-      ],
-      "pene_res": [
-        "20"
-      ],
-      "pene_mres": [
-        "20"
-      ],
-      "p_element_all": [
-        "20"
-      ],
-      "m_element_all": [
-        "20"
-      ]
-    }
-  },
   "480614": {
     "id": 480614,
     "aegisName": null,
@@ -241643,102 +240887,6 @@
       ],
       "m_size_all": [
         "EQUIP[Dragon Warrior Hat]REFINE[headUpper,garment==20]===10"
-      ]
-    }
-  },
-  "480616": {
-    "id": 480616,
-    "aegisName": null,
-    "name": "Costume Champion ROS 2025 Thailand",
-    "unidName": "Hood",
-    "resName": "C_Qualifier_1st",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nCostume เกียรติยศสำหรับผู้คว้าชัยชนะสุดยิ่งใหญ่จาก Ragnarok Stars 2025 Thailand Championship มาได้\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.5 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 20%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 20%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ในพื้นที่ War of Emperium Herosria ได้\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)\n\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "20"
-      ],
-      "range": [
-        "20"
-      ],
-      "m_my_element_all": [
-        "20"
-      ]
-    }
-  },
-  "480617": {
-    "id": 480617,
-    "aegisName": null,
-    "name": "Costume 1st Runner Up ROS 2025",
-    "unidName": "Hood",
-    "resName": "C_Qualifier_2nd",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nCostume เกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับหนึ่งจาก Ragnarok Stars 2025 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.4 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 15%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 15%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ในพื้นที่ War of Emperium Herosria ได้\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "15"
-      ],
-      "range": [
-        "15"
-      ],
-      "m_my_element_all": [
-        "15"
-      ]
-    }
-  },
-  "480618": {
-    "id": 480618,
-    "aegisName": null,
-    "name": "Costume 2nd Runner Up ROS 2025",
-    "unidName": "Hood",
-    "resName": "C_Qualifier_3rd",
-    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nCostume เกียรติยศสำหรับผู้กล้าของรองชนะเลิศอันดับสองจาก Ragnarok Stars 2025 Thailand Championship\nสวมใส่ชิ้นนี้เพื่อเพิ่มความแข็งแกร่งให้อย่างไม่มีที่สิ้นสุด\n\nสามารถใช้สกิล Cloaking Exceed Lv.3 ได้\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล 10%\nเพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 10%\nเมื่อฟื้นคืนชีพ จะฟื้นฟู HP, SP ทั้งหมด\n\nไอเท็มชิ้นนี้สามารถใช้ในพื้นที่ War of Emperium Herosria ได้\n\n(ความสามารถของไอเท็มชิ้นนี้จะถูกลบหลังปิดปรับปรุงเซิร์ฟเวอร์วันที่ 1 กรกฎาคม 2569)\nประเภท : ^777777Costume^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Garment^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 0,
-    "itemTypeId": 9,
-    "itemSubTypeId": 522,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 0,
-    "weight": 0,
-    "requiredLevel": 1,
-    "location": null,
-    "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
-    "script": {
-      "melee": [
-        "10"
-      ],
-      "range": [
-        "10"
-      ],
-      "m_my_element_all": [
-        "10"
       ]
     }
   },
